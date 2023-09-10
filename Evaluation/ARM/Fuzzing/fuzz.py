@@ -70,7 +70,7 @@ def read_config(cfg_f):
         log_f       = os.path.abspath(parser.get("model", "log_file")),
         me_bin      = os.path.abspath(parser.get("model", "bin")),
         redzones    = os.path.abspath(parser.get("qemu", "redzones")),
-        addrs_file  = os.path.abspath(parser.get("qemu", "addrs_file")),
+        #addrs_file  = os.path.abspath(parser.get("qemu", "addrs_file")),
         len_seeds   = parser.get("qemu", "len_seeds"),
         len_round   = parser.get("qemu", "len_round"),
         hang_mode   = parser.get("qemu", "hang_mode"),
@@ -150,7 +150,7 @@ if __name__ == "__main__":
         f.write("len_seeds   = %s\n" % cfg.len_seeds)
         f.write("len_round   = %s\n" % cfg.len_round)
         f.write("hang_mode   = %s\n" % cfg.hang_mode)
-        f.write("addrs_file  = %s\n" % cfg.addrs_file)
+        #f.write("addrs_file  = %s\n" % cfg.addrs_file)
         f.write("log         = unimp,guest_errors,int\n\n")
         f.write("[program]\n")
         f.write("board       = %s\n" % cfg_board[cfg.mcu])
@@ -279,8 +279,8 @@ if __name__ == "__main__":
         ]
 
        
-    if 'none' not in cfg.addrs_file:
-       cmd_afl += ["-address-file", cfg.addrs_file]
+    #if 'none' not in cfg.addrs_file:
+    #   cmd_afl += ["-address-file", cfg.addrs_file]
 
     print("cmd_afl: %s\n" % ' '.join(cmd_afl))
 
