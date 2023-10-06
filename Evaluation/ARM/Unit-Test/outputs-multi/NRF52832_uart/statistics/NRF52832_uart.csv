@@ -1,2 +1,0 @@
-Base address,Reg address,Reg name,Reg cat,Model Cat,Read,Write,Correct cat,Comments GT
-0x40002000,0x40002000,,,SR,0,1,NO,

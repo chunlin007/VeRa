@@ -1,8 +1,0 @@
-Base address,Reg address,Reg name,Reg cat,Model Cat,Read,Write,Correct cat,Comments GT
-0x40000400,0x40000418,TIMx capture/compare mode register 1 (TIMx_CCMR1),CR,SR,1,0,NO,
-0x40002000,0x40002000,,,SR,0,1,NO,
-0x40002000,0x4000200c,,,SR,0,1,NO,
-0x40010000,0x40010000,Event control register (AFIO_EVCR)  ,CR,SR,0,1,NO,
-0x40011000,0x40011000,Port configuration register low (GPIOx_CRL) (x=A..G)  ,CR,SR,0,1,NO,
-0x40011000,0x40011004,9.2.1Port configuration register high (GPIOx_CRH) (x=A..G)  ,CR,SR,0,1,NO,
-0x40011000,0x40011008,9.2.3Port input data register (GPIOx_IDR) (x=A..G)  ,DR,SR,0,1,NO,
