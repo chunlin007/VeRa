@@ -1,0 +1,82 @@
+{
+    "TRA": 31,
+    "CP": 18,
+    "ACC": 58.06451612903226,
+    "TRR": 20,
+    "TRRC": 16,
+    "TRRW": 4,
+    "ACCRR": 80.0,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40000400",
+            "0x40000404",
+            "TIM1 and TIM8 control register 2 (TIMx_CR2)   ",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40000400",
+            "0x40000418",
+            "TIMx capture/compare mode register 1 (TIMx_CCMR1)",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40000400",
+            "0x4000041c",
+            "TIMx capture/compare mode register 2 (TIMx_CCMR2)",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40011000",
+            "0x40011014",
+            "9.2.6Port bit reset register (GPIOx_BRR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 8,
+    "NUMSRSITES": 5,
+    "SRSITES": [
+        "0x800040a",
+        "0x800081a",
+        "0x8000730",
+        "0x800032c",
+        "0x80003e0"
+    ],
+    "INTERRUPTS": [
+        53,
+        15
+    ],
+    "NUMINTERRUPTS": 2
+}

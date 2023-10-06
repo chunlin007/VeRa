@@ -1,0 +1,137 @@
+{
+    "TRA": 61,
+    "CP": 20,
+    "ACC": 32.78688524590164,
+    "TRR": 22,
+    "TRRC": 15,
+    "TRRW": 7,
+    "ACCRR": 68.18181818181817,
+    "MISSREGS": [],
+    "MISSCATS": [
+        "0x4002001c",
+        "0x40020030",
+        "0x40020044",
+        "0x40020058"
+    ],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40000000",
+            "0x4000000c",
+            "14.4.4TIM1 and TIM8 DMA/interrupt enable register (TIMx_DIER)   ",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40000000",
+            "0x40000010",
+            "TIM1 and TIM8 status register (TIMx_SR)   ",
+            "SR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40004800",
+            "0x40004800",
+            "Status register (USART_SR)  ",
+            "SR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40004800",
+            "0x4000480c",
+            "Control register 1 (USART_CR1) ",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40010400",
+            "0x40010400",
+            "Interrupt mask register (EXTI_IMR) ",
+            "CR",
+            "SR",
+            1,
+            0,
+            "NO",
+            ""
+        ],
+        [
+            "0x40011000",
+            "0x4001100c",
+            "Port output data register (GPIOx_ODR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40012400",
+            "0x40012408",
+            "11.12.3 ADC control register 2 (ADC_CR2)  ",
+            "CR",
+            "C&SR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 13,
+    "NUMSRSITES": 14,
+    "SRSITES": [
+        "0x800303e",
+        "0x8002fae",
+        "0x800315c",
+        "0x8002ae2",
+        "0x800218c",
+        "0x80030bc",
+        "0x80031fc",
+        "0x80031ac",
+        "0x8000f36",
+        "0x8002b20",
+        "0x8002b3e",
+        "0x8002b08",
+        "0x800310c",
+        "0x800217a"
+    ],
+    "INTERRUPTS": [
+        56,
+        39,
+        44,
+        55,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+    ],
+    "NUMINTERRUPTS": 10
+}

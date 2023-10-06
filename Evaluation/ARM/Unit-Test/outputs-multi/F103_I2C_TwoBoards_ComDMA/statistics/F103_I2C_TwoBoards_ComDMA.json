@@ -1,0 +1,56 @@
+{
+    "TRA": 27,
+    "CP": 17,
+    "ACC": 62.96296296296296,
+    "TRR": 17,
+    "TRRC": 16,
+    "TRRW": 1,
+    "ACCRR": 94.11764705882352,
+    "MISSREGS": [],
+    "MISSCATS": [
+        "0x40020084",
+        "0x40020088",
+        "0x4002008c"
+    ],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40021000",
+            "0x40021004",
+            "Clock configuration register (RCC_CFGR)   ",
+            "C&SR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 6,
+    "NUMSRSITES": 5,
+    "SRSITES": [
+        "0x80004e0",
+        "0x80017ac",
+        "0x8000c86",
+        "0x80009fe",
+        "0x8001350"
+    ],
+    "INTERRUPTS": [
+        32,
+        33,
+        47,
+        48,
+        15
+    ],
+    "NUMINTERRUPTS": 5
+}

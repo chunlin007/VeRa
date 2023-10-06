@@ -1,0 +1,786 @@
+
+(process:1124457): GLib-WARNING **: 01:21:05.584: ../../../../glib/gmem.c:489: custom memory allocation vtable not supported
+
+GNU ARM Eclipse 64-bits QEMU v2.3.50 (qemu-system-gnuarmeclipse).
+Board: 'NUCLEO-F103RB' (ST Nucleo Development Board for STM32 F1 series).
+Device: 'STM32F103RB' (Cortex-M3 r0p1, MPU), Flash: 128 kB, RAM: 20 kB.
+Image: '/projects/VeRa/Evaluation/ARM/Unit-Test/Firmware/Binaries-DICE/F103_ChibiOS_ADC_slider.elf'.
+Command line: (none).
+[0, 0]   1-th(total   1-th) 	unassigned mem_r *0x0
+[0, 0]   2-th(total   2-th) 	unassigned mem_r *0x4
+Load  14276 bytes at 0x08000000-0x080037C3.
+Load      0 bytes at 0x080037C4-0x080037C3.
+Load      0 bytes at 0x20000000-0x1FFFFFFF.
+Cortex-M3 r0p1 core initialised.
+QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) Cortex-M3 r0p1 core reset.
+[8002ad0, 8002ae2]   1-th(total   3-th) 	pm_r *0x40021000 gets 0x0, remains CR+SR
+[8002ad0, 8002ae2]   1-th(total   1-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[8002ad0, 8002ae2]   2-th(total   4-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR
+[8002adc, 8002ae2]   3-th(total   5-th) 	pm_r *0x40021000 gets 0x2, remains CR+SR
+[8002ae2, 8002af8]   4-th(total   6-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR
+[8002ae2, 8002af8]   2-th(total   2-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[8002ae2, 8002af8]   3-th(total   3-th) 	pm_w *0x40021004 = 0x0, remains CR+SR
+[8002ae2, 8002af8]   5-th(total   7-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR
+[8002af8, 8002b08]   6-th(total   8-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR
+[8002af8, 8002b08]   4-th(total   4-th) 	pm_w *0x40021000 = 0x10001, remains CR+SR
+[8002af8, 8002b08]   7-th(total   9-th) 	pm_r *0x40021000 gets 0x10001, remains CR+SR
+[8002b02, 8002b08]   8-th(total  10-th) 	pm_r *0x40021000 gets 0x20000, remains CR+SR
+[8002b08, 8002b20]   9-th(total  11-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR
+[8002b08, 8002b20]   5-th(total   5-th) 	pm_w *0x40021004 = 0x1d0000, remains CR+SR
+[8002b08, 8002b20]  10-th(total  12-th) 	pm_r *0x40021000 gets 0x10001, remains CR+SR
+[8002b08, 8002b20]   6-th(total   6-th) 	pm_w *0x40021000 = 0x1010001, remains CR+SR
+[8002b08, 8002b20]  11-th(total  13-th) 	pm_r *0x40021000 gets 0x1010001, remains CR+SR
+[8002b1a, 8002b20]  12-th(total  14-th) 	pm_r *0x40021000 gets 0x2000000, remains CR+SR
+[8002b20, 8002b3e]   7-th(total   7-th) 	pm_w *0x40021004 = 0x1d6400, remains CR+SR
+[8002b20, 8002b3e]   8-th(total   8-th) 	pm_w *0x40022000 = 0x12, remains DR
+[8002b20, 8002b3e]  13-th(total  15-th) 	pm_r *0x40021004 gets 0x1d6400, remains CR+SR
+[8002b20, 8002b3e]   9-th(total   9-th) 	pm_w *0x40021004 = 0x1d6402, remains CR+SR
+[8002b20, 8002b3e]  14-th(total  16-th) 	pm_r *0x40021004 gets 0x1d6402, remains CR+SR
+[8002b34, 8002b3e]  15-th(total  17-th) 	pm_r *0x40021004 gets 0x8, remains CR+SR
+[8001fc0, 8002000]  16-th(total  18-th) 	pm_r *0x40021010 gets 0x0, remains CR
+[8001fc0, 8002000]  10-th(total  10-th) 	pm_w *0x40021010 = 0xffffffff, remains CR
+[8001fc0, 8002000]  17-th(total  19-th) 	pm_r *0x40021010 gets 0xffffffff, remains CR
+[8001fc0, 8002000]  11-th(total  11-th) 	pm_w *0x40021010 = 0x0, remains CR
+[8001fc0, 8002000]  18-th(total  20-th) 	pm_r *0x40021010 gets 0x0, remains CR
+[8001fc0, 8002000]  19-th(total  21-th) 	pm_r *0x4002100c gets 0x0, remains CR
+[8001fc0, 8002000]  12-th(total  12-th) 	pm_w *0x4002100c = 0xffffffff, remains CR
+[8001fc0, 8002000]  20-th(total  22-th) 	pm_r *0x4002100c gets 0xffffffff, remains CR
+[8001fc0, 8002000]  13-th(total  13-th) 	pm_w *0x4002100c = 0x0, remains CR
+[8001fc0, 8002000]  21-th(total  23-th) 	pm_r *0x4002100c gets 0x0, remains CR
+[8001fc0, 8002000]  22-th(total  24-th) 	pm_r *0x4002101c gets 0x0, remains CR
+[8001fc0, 8002000]  14-th(total  14-th) 	pm_w *0x4002101c = 0x10000000, remains CR
+[8001fc0, 8002000]  23-th(total  25-th) 	pm_r *0x4002101c gets 0x10000000, remains CR
+[8001fc0, 8002000]  24-th(total  26-th) 	pm_r *0x4002101c gets 0x10000000, remains CR
+[8001fc0, 8002000]  15-th(total  15-th) 	pm_w *0x4002101c = 0x18000000, remains CR
+[8001fc0, 8002000]  25-th(total  27-th) 	pm_r *0x4002101c gets 0x18000000, remains CR
+[8001fc0, 8002000]  26-th(total  28-th) 	pm_r *0x40007000 gets 0x0, remains CR
+[8001fc0, 8002000]  16-th(total  16-th) 	pm_w *0x40007000 = 0x100, remains CR
+[800202a, 8002036]  17-th(total  17-th) 	pm_w *0x40020008 = 0x0, remains CR
+[8002024, 8002036]  18-th(total  18-th) 	pm_w *0x4002001c = 0x0, remains DR
+[8002024, 8002036]  19-th(total  19-th) 	pm_w *0x40020030 = 0x0, remains DR
+[8002024, 8002036]  20-th(total  20-th) 	pm_w *0x40020044 = 0x0, remains DR
+[8002024, 8002036]  21-th(total  21-th) 	pm_w *0x40020058 = 0x0, remains DR
+[8002024, 8002036]  22-th(total  22-th) 	pm_w *0x4002006c = 0x0, remains DR
+[8002024, 8002036]  23-th(total  23-th) 	pm_w *0x40020080 = 0x0, remains DR
+[8002036, 80020b2]  24-th(total  24-th) 	pm_w *0x40020004 = 0xffffffff, remains DR
+[80020b2, 800217a]  27-th(total  29-th) 	pm_r *0x40021018 gets 0x0, remains CR
+[80020b2, 800217a]  25-th(total  25-th) 	pm_w *0x40021018 = 0x7d, remains CR
+[80020b2, 800217a]  28-th(total  30-th) 	pm_r *0x40021018 gets 0x7d, remains CR
+[80020b2, 800217a]  26-th(total  26-th) 	pm_w *0x4001080c = 0xffffffff, remains DR
+[80020b2, 800217a]  27-th(total  27-th) 	pm_w *0x40010804 = 0x88844888, remains CR
+[80020b2, 800217a]  28-th(total  28-th) 	pm_w *0x40010800 = 0x88884b84, remains CR
+[80020b2, 800217a]  29-th(total  29-th) 	pm_w *0x40010c0c = 0xffffffff, remains DR
+[80020b2, 800217a]  30-th(total  30-th) 	pm_w *0x40010c04 = 0xb4b88888, remains DR
+[80020b2, 800217a]  31-th(total  31-th) 	pm_w *0x40010c00 = 0x88888888, remains DR
+[80020b2, 800217a]  32-th(total  32-th) 	pm_w *0x4001100c = 0xffffffff, remains CR
+[80020b2, 800217a]  33-th(total  33-th) 	pm_w *0x40011004 = 0x88833388, remains DR
+[80020b2, 800217a]  34-th(total  34-th) 	pm_w *0x40011000 = 0x44848888, remains DR
+[80020b2, 800217a]  35-th(total  35-th) 	pm_w *0x4001140c = 0xffffffff, remains DR
+[80020b2, 800217a]  36-th(total  36-th) 	pm_w *0x40011404 = 0x88888888, remains DR
+[80020b2, 800217a]  37-th(total  37-th) 	pm_w *0x40011400 = 0x88888844, remains DR
+[80020b2, 800217a]  38-th(total  38-th) 	pm_w *0x4001180c = 0xffffffff, remains DR
+[80020b2, 800217a]  39-th(total  39-th) 	pm_w *0x40011804 = 0x88888888, remains DR
+[80020b2, 800217a]  40-th(total  40-th) 	pm_w *0x40011800 = 0x88888888, remains DR
+[80020b2, 800217a]  29-th(total  31-th) 	pm_r *0x40021018 gets 0x7d, remains CR
+[80020b2, 800217a]  41-th(total  41-th) 	pm_w *0x40021018 = 0x27d, remains CR
+[80020b2, 800217a]  30-th(total  32-th) 	pm_r *0x40021018 gets 0x27d, remains CR
+[80020b2, 800217a]  42-th(total  42-th) 	pm_w *0x40012404 = 0x0, remains DR
+[80020b2, 800217a]  43-th(total  43-th) 	pm_w *0x40012408 = 0x1, remains CR+SR
+[80020b2, 800217a]  44-th(total  44-th) 	pm_w *0x40012408 = 0x9, remains CR+SR
+[80020b2, 800217a]  31-th(total  33-th) 	pm_r *0x40012408 gets 0x0, remains CR+SR
+[800217a, 800218c]  45-th(total  45-th) 	pm_w *0x40012408 = 0x5, remains CR+SR
+[800217a, 800218c]  32-th(total  34-th) 	pm_r *0x40012408 gets 0x0, remains CR+SR
+[800218c, 800227c]  46-th(total  46-th) 	pm_w *0x40012408 = 0x0, remains CR+SR
+[800218c, 800227c]  33-th(total  35-th) 	pm_r *0x40021018 gets 0x27d, remains CR
+[800218c, 800227c]  47-th(total  47-th) 	pm_w *0x40021018 = 0x7d, remains CR
+[800218c, 800227c]  34-th(total  36-th) 	pm_r *0x40021018 gets 0x7d, remains CR
+[800218c, 800227c]  35-th(total  37-th) 	pm_r *0x4002101c gets 0x18000000, remains CR
+[800218c, 800227c]  48-th(total  48-th) 	pm_w *0x4002101c = 0x18000001, remains CR
+[800218c, 800227c]  36-th(total  38-th) 	pm_r *0x4002101c gets 0x18000001, remains CR
+[800218c, 800227c]   3-th(total  39-th) 	unassigned mem_r *0xe0042004
+[800218c, 800227c]   1-th(total  49-th) 	unassigned mem_w *0xe0042004 = 0x800
+[800218c, 800227c]  49-th(total  50-th) 	pm_w *0x40000028 = 0x1c1f, remains DR
+[800218c, 800227c]  50-th(total  51-th) 	pm_w *0x4000002c = 0xffff, remains DR
+[800218c, 800227c]  51-th(total  52-th) 	pm_w *0x40000018 = 0x0, remains DR
+[800218c, 800227c]  52-th(total  53-th) 	pm_w *0x40000034 = 0x0, remains DR
+[800218c, 800227c]  53-th(total  54-th) 	pm_w *0x4000000c = 0x0, remains DR
+[800218c, 800227c]  54-th(total  55-th) 	pm_w *0x40000004 = 0x0, remains DR
+[800218c, 800227c]  55-th(total  56-th) 	pm_w *0x40000014 = 0x1, remains DR
+[800218c, 800227c]  56-th(total  57-th) 	pm_w *0x40000000 = 0x1, remains DR
+[80009e0, 80009e8]   4-th(total  40-th) 	unassigned mem_r *0xe0001004
+[8000a60, 8000a9c]   5-th(total  41-th) 	unassigned mem_r *0xe0001004
+PRIGROUP unimplemented
+NVIC: debug register 00000DFC unimplemented
+NVIC: debug register 00000DFC unimplemented
+[80023f8, 8002400]   6-th(total  42-th) 	unassigned mem_r *0xe0001000
+[8002400, 800242e]   2-th(total  58-th) 	unassigned mem_w *0xe0001000 = 0x1
+[80009ca, 80009da]  37-th(total  43-th) 	pm_r *0x40010804 gets 0x88844888, remains CR
+[80009ca, 80009da]  57-th(total  59-th) 	pm_w *0x40010804 = 0x88844888, remains CR
+[80009ca, 80009da]  38-th(total  44-th) 	pm_r *0x40010800 gets 0x88884b84, remains CR
+[80009ca, 80009da]  58-th(total  60-th) 	pm_w *0x40010800 = 0x88884b80, remains CR
+[80009ca, 80009da]  39-th(total  45-th) 	pm_r *0x40010804 gets 0x88844888, remains CR
+[80009ca, 80009da]  59-th(total  61-th) 	pm_w *0x40010804 = 0x88844888, remains CR
+[80009ca, 80009da]  40-th(total  46-th) 	pm_r *0x40010800 gets 0x88884b80, remains CR
+[80009ca, 80009da]  60-th(total  62-th) 	pm_w *0x40010800 = 0x88804b80, remains CR
+[80024e0, 800252e]  41-th(total  47-th) 	pm_r *0x4002101c gets 0x18000001, remains CR
+[80024e0, 800252e]  61-th(total  63-th) 	pm_w *0x4002101c = 0x18040001, remains CR
+[80024e0, 800252e]  42-th(total  48-th) 	pm_r *0x4002101c gets 0x18040001, remains CR
+[80024e0, 800252e]  62-th(total  64-th) 	pm_w *0x40004808 = 0x3a9, remains DR
+[80024e0, 800252e]  63-th(total  65-th) 	pm_w *0x40004810 = 0x40, remains DR
+[80024e0, 800252e]  64-th(total  66-th) 	pm_w *0x40004814 = 0x1, remains DR
+[80024e0, 800252e]  65-th(total  67-th) 	pm_w *0x4000480c = 0x212c, remains DR
+[80024e0, 800252e]  66-th(total  68-th) 	pm_w *0x40004800 = 0x0, remains DR
+[80024e0, 800252e]  43-th(total  49-th) 	pm_r *0x40004800 gets 0x0, remains DR
+[80024e0, 800252e]  44-th(total  50-th) 	pm_r *0x40004804 gets 0x0, remains DR
+[8000ab0, 8000ae0]  45-th(total  51-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]   7-th(total  52-th) 	unassigned mem_r *0xe0001004
+[8001a70, 8001a8a]  46-th(total  53-th) 	pm_r *0x4001100c gets 0xffffffff, remains CR
+[8001a70, 8001a8a]  67-th(total  69-th) 	pm_w *0x4001100c = 0xffffefff, remains CR
+[800112a, 8001150]  47-th(total  54-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[800123c, 8001254]  48-th(total  55-th) 	pm_r *0x4000000c gets 0x0, remains DR
+[8001254, 800126c]  68-th(total  70-th) 	pm_w *0x40000034 = 0xa, remains DR
+[8001254, 800126c]  69-th(total  71-th) 	pm_w *0x40000010 = 0x0, remains DR
+[8001254, 800126c]  70-th(total  72-th) 	pm_w *0x4000000c = 0x2, remains DR
+[8000ab0, 8000ae0]  49-th(total  56-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]   8-th(total  57-th) 	unassigned mem_r *0xe0001004
+[8000ab0, 8000ae0]  50-th(total  58-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]   9-th(total  59-th) 	unassigned mem_r *0xe0001004
+[8001998, 80019b6]  51-th(total  60-th) 	pm_r *0x40021014 gets 0x0, remains CR
+[8001998, 80019b6]  71-th(total  73-th) 	pm_w *0x40021014 = 0x1, remains CR
+[8001998, 80019b6]  52-th(total  61-th) 	pm_r *0x40021014 gets 0x1, remains CR
+[80019b6, 80019f2]  53-th(total  62-th) 	pm_r *0x40020008 gets 0x0, remains CR
+[80019b6, 80019f2]  72-th(total  74-th) 	pm_w *0x40020008 = 0x0, remains CR
+[80019b6, 80019f2]  73-th(total  75-th) 	pm_w *0x40020004 = 0xe, remains DR
+[80019b6, 80019f2]  74-th(total  76-th) 	pm_w *0x40020008 = 0x0, remains CR
+[80019b6, 80019f2]  75-th(total  77-th) 	pm_w *0x40020010 = 0x4001244c, remains DR
+[80019b6, 80019f2]  54-th(total  63-th) 	pm_r *0x40021018 gets 0x7d, remains CR
+[80019b6, 80019f2]  76-th(total  78-th) 	pm_w *0x40021018 = 0x27d, remains CR
+[80019b6, 80019f2]  55-th(total  64-th) 	pm_r *0x40021018 gets 0x27d, remains CR
+[80019b6, 80019f2]  77-th(total  79-th) 	pm_w *0x40012404 = 0x0, remains DR
+[80019b6, 80019f2]  78-th(total  80-th) 	pm_w *0x40012408 = 0x0, remains CR+SR
+Potential DMA Descriptor V1: base *0x40020000 p_A:*0x40020014->*0x20001348 
+DMA Descriptor pair V2: *0x40020000 p_A:*0x40020010->*0x4001244c p_B:*0x40020014->*0x20001348 
+[80018c8, 800192e]  79-th(total  81-th) 	pm_w *0x40020014 = 0x20001348, remains DR
+[80018c8, 800192e]  80-th(total  82-th) 	pm_w *0x4002000c = 0x14, remains DR
+[80018c8, 800192e]  81-th(total  83-th) 	pm_w *0x40020008 = 0x258a, remains CR
+[80018c8, 800192e]  56-th(total  65-th) 	pm_r *0x40020008 gets 0x258a, remains CR
+[80018c8, 800192e]  82-th(total  84-th) 	pm_w *0x40020008 = 0x258b, remains CR
+[80018c8, 800192e]  83-th(total  85-th) 	pm_w *0x40012404 = 0x100, remains DR
+[80018c8, 800192e]  84-th(total  86-th) 	pm_w *0x40012408 = 0x400103, remains CR+SR
+[80018c8, 800192e]  85-th(total  87-th) 	pm_w *0x4001240c = 0x0, remains DR
+[80018c8, 800192e]  86-th(total  88-th) 	pm_w *0x40012410 = 0x0, remains DR
+[80018c8, 800192e]  87-th(total  89-th) 	pm_w *0x4001242c = 0x100000, remains DR
+[80018c8, 800192e]  88-th(total  90-th) 	pm_w *0x40012430 = 0x0, remains DR
+[80018c8, 800192e]  89-th(total  91-th) 	pm_w *0x40012434 = 0x80, remains DR
+[80018c8, 800192e]  90-th(total  92-th) 	pm_w *0x40012408 = 0x400103, remains CR+SR
+[8000ab0, 8000ae0]  57-th(total  66-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  10-th(total  67-th) 	unassigned mem_r *0xe0001004
+[800112a, 8001150]  58-th(total  68-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  59-th(total  69-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  11-th(total  70-th) 	unassigned mem_r *0xe0001004
+Taking exception 5 [IRQ]
+	bbl_cnt 30000: Acknowledged IRQ 6
+[8000ab0, 8000ae0]  60-th(total  71-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  12-th(total  72-th) 	unassigned mem_r *0xe0001004
+[80031ec, 80031fc]  61-th(total  73-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[80031ec, 80031fc]  62-th(total  74-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[80031ec, 80031fc]  91-th(total  93-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0]  63-th(total  75-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  13-th(total  76-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 30032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 30032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 30035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 60000: Acknowledged IRQ 7
+[8000ab0, 8000ae0]  64-th(total  77-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  14-th(total  78-th) 	unassigned mem_r *0xe0001004
+[800319c, 80031ac]  65-th(total  79-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[800319c, 80031ac]  66-th(total  80-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[800319c, 80031ac]  92-th(total  94-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0]  67-th(total  81-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  15-th(total  82-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 60032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 60032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 60035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 90000: Acknowledged IRQ 8
+[8000ab0, 8000ae0]  68-th(total  83-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  16-th(total  84-th) 	unassigned mem_r *0xe0001004
+[800314c, 800315c]  69-th(total  85-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[800314c, 800315c]  70-th(total  86-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[800314c, 800315c]  93-th(total  95-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0]  71-th(total  87-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  17-th(total  88-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 90032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 90032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 90035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 120000: Acknowledged IRQ 9
+[8000ab0, 8000ae0]  72-th(total  89-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  18-th(total  90-th) 	unassigned mem_r *0xe0001004
+[80030fc, 800310c]  73-th(total  91-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[80030fc, 800310c]  74-th(total  92-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[80030fc, 800310c]  94-th(total  96-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0]  75-th(total  93-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  19-th(total  94-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 120032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 120032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 120035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 150000: Acknowledged IRQ 10
+[8000ab0, 8000ae0]  76-th(total  95-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  20-th(total  96-th) 	unassigned mem_r *0xe0001004
+[80030ac, 80030bc]  77-th(total  97-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[80030ac, 80030bc]  78-th(total  98-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[80030ac, 80030bc]  95-th(total  97-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0]  79-th(total  99-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  21-th(total 100-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 150032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 150032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 150035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 180000: Acknowledged IRQ 23
+[8000ab0, 8000ae0]  80-th(total 101-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  22-th(total 102-th) 	unassigned mem_r *0xe0001004
+[800302c, 800303e]  81-th(total 103-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[800302c, 800303e]  82-th(total 104-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[800302c, 800303e]  96-th(total  98-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0]  83-th(total 105-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  23-th(total 106-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 180036: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 180036: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 180039: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 210000: Acknowledged IRQ 40
+[8000ab0, 8000ae0]  84-th(total 107-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  24-th(total 108-th) 	unassigned mem_r *0xe0001004
+[8002f9c, 8002fae]  85-th(total 109-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[8002f9c, 8002fae]  86-th(total 110-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[8002f9c, 8002fae]  97-th(total  99-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0]  87-th(total 111-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  25-th(total 112-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 210037: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 210037: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 210040: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 240000: Acknowledged IRQ 28
+[8000ab0, 8000ae0]  88-th(total 113-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  26-th(total 114-th) 	unassigned mem_r *0xe0001004
+[8002d32, 8002d38]  89-th(total 115-th) 	pm_r *0x40000010 gets 0x0, remains DR
+[8000ab0, 8000ae0]  90-th(total 116-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  27-th(total 117-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 240032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 240032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 240035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 270000: Acknowledged IRQ 39
+[8000ab0, 8000ae0]  91-th(total 118-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  28-th(total 119-th) 	unassigned mem_r *0xe0001004
+[8002b60, 8002b6c]  92-th(total 120-th) 	pm_r *0x4000480c gets 0x0, remains DR
+[8002b60, 8002b6c]  93-th(total 121-th) 	pm_r *0x40004800 gets 0x0, remains DR
+[8000ab0, 8000ae0]  94-th(total 122-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  29-th(total 123-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 270045: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 270045: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 270048: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 300000: Acknowledged IRQ 11
+[8000ab0, 8000ae0]  95-th(total 124-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  30-th(total 125-th) 	unassigned mem_r *0xe0001004
+[8000f20, 8000f36]  96-th(total 126-th) 	pm_r *0x40020000 gets 0x2, remains SR
+[8000f20, 8000f36]  97-th(total 127-th) 	pm_r *0x40020008 gets 0x258b, remains CR
+[8000f36, 8000f48]  98-th(total 100-th) 	pm_w *0x40020004 = 0x2, remains DR
+[8000e22, 8000e42]  98-th(total 128-th) 	pm_r *0x40020008 gets 0x258b, remains CR
+[8000e22, 8000e42]  99-th(total 101-th) 	pm_w *0x40020008 = 0x2580, remains CR
+[8000e22, 8000e42] 100-th(total 102-th) 	pm_w *0x40020004 = 0xe, remains DR
+[8000e22, 8000e42] 101-th(total 103-th) 	pm_w *0x40012408 = 0x0, remains CR+SR
+[8000ab0, 8000ae0]  99-th(total 129-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  31-th(total 130-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+M profile return from interrupt with misaligned PC is UNPREDICTABLE
+	bbl_cnt 300064: EXCP/ISR exits
+[8000ab0, 8000ae0] 100-th(total 131-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  32-th(total 132-th) 	unassigned mem_r *0xe0001004
+
+Access to DMA buffer base address: 0x20001348 beatsize: 2 number beats: 1 address: 0x20001348 
+
+Accessing and serving DMA buffer. address: 0x20001348
+
+Access to nearby area of DMA peri: 0x4001244c mem: 0x20001348 address: 0x2000134a beatsize: 2 number beats: 1 
+
+New size of DMA buffer identified!! beats: 2 
+
+Accessing and serving DMA buffer. address: 0x2000134a
+
+Access to DMA buffer base address: 0x2000134c beatsize: 2 number beats: 2 address: 0x2000134c 
+
+New size of DMA buffer identified!! beats: 3 
+
+Accessing and serving DMA buffer. address: 0x2000134c
+
+Access to DMA buffer base address: 0x2000134e beatsize: 2 number beats: 3 address: 0x2000134e 
+
+New size of DMA buffer identified!! beats: 4 
+
+Accessing and serving DMA buffer. address: 0x2000134e
+
+Access to DMA buffer base address: 0x20001350 beatsize: 2 number beats: 4 address: 0x20001350 
+
+New size of DMA buffer identified!! beats: 5 
+
+Accessing and serving DMA buffer. address: 0x20001350
+
+Access to DMA buffer base address: 0x20001352 beatsize: 2 number beats: 5 address: 0x20001352 
+
+New size of DMA buffer identified!! beats: 6 
+
+Accessing and serving DMA buffer. address: 0x20001352
+
+Access to DMA buffer base address: 0x20001354 beatsize: 2 number beats: 6 address: 0x20001354 
+
+New size of DMA buffer identified!! beats: 7 
+
+Accessing and serving DMA buffer. address: 0x20001354
+
+Access to DMA buffer base address: 0x20001356 beatsize: 2 number beats: 7 address: 0x20001356 
+
+New size of DMA buffer identified!! beats: 8 
+
+Accessing and serving DMA buffer. address: 0x20001356
+
+Access to DMA buffer base address: 0x20001358 beatsize: 2 number beats: 8 address: 0x20001358 
+
+New size of DMA buffer identified!! beats: 9 
+
+Accessing and serving DMA buffer. address: 0x20001358
+
+Access to DMA buffer base address: 0x2000135a beatsize: 2 number beats: 9 address: 0x2000135a 
+
+New size of DMA buffer identified!! beats: 10 
+
+Accessing and serving DMA buffer. address: 0x2000135a
+
+Access to DMA buffer base address: 0x2000135c beatsize: 2 number beats: 10 address: 0x2000135c 
+
+New size of DMA buffer identified!! beats: 11 
+
+Accessing and serving DMA buffer. address: 0x2000135c
+
+Access to DMA buffer base address: 0x2000135e beatsize: 2 number beats: 11 address: 0x2000135e 
+
+New size of DMA buffer identified!! beats: 12 
+
+Accessing and serving DMA buffer. address: 0x2000135e
+
+Access to DMA buffer base address: 0x20001360 beatsize: 2 number beats: 12 address: 0x20001360 
+
+New size of DMA buffer identified!! beats: 13 
+
+Accessing and serving DMA buffer. address: 0x20001360
+
+Access to DMA buffer base address: 0x20001362 beatsize: 2 number beats: 13 address: 0x20001362 
+
+New size of DMA buffer identified!! beats: 14 
+
+Accessing and serving DMA buffer. address: 0x20001362
+
+Access to DMA buffer base address: 0x20001364 beatsize: 2 number beats: 14 address: 0x20001364 
+
+New size of DMA buffer identified!! beats: 15 
+
+Accessing and serving DMA buffer. address: 0x20001364
+
+Access to DMA buffer base address: 0x20001366 beatsize: 2 number beats: 15 address: 0x20001366 
+
+New size of DMA buffer identified!! beats: 16 
+
+Accessing and serving DMA buffer. address: 0x20001366
+
+Access to DMA buffer base address: 0x20001368 beatsize: 2 number beats: 16 address: 0x20001368 
+
+New size of DMA buffer identified!! beats: 17 
+
+Accessing and serving DMA buffer. address: 0x20001368
+
+Access to DMA buffer base address: 0x2000136a beatsize: 2 number beats: 17 address: 0x2000136a 
+
+New size of DMA buffer identified!! beats: 18 
+
+Accessing and serving DMA buffer. address: 0x2000136a
+
+Access to DMA buffer base address: 0x2000136c beatsize: 2 number beats: 18 address: 0x2000136c 
+
+New size of DMA buffer identified!! beats: 19 
+
+Accessing and serving DMA buffer. address: 0x2000136c
+
+Access to DMA buffer base address: 0x2000136e beatsize: 2 number beats: 19 address: 0x2000136e 
+
+New size of DMA buffer identified!! beats: 20 
+
+Accessing and serving DMA buffer. address: 0x2000136e
+Potential DMA Descriptor V1: base *0x40020000 p_A:*0x40020014->*0x20001348 
+Pointer on 0x40020014 already used for Descriptor ID: 0, invalidating descriptor...
+Removed asociation of Pointers  0x20001348  and 0x4001244c
+DMA Descriptor pair V2: *0x40020000 p_A:*0x40020010->*0x4001244c p_B:*0x40020014->*0x20001348 
+[80018c8, 800192e] 102-th(total 104-th) 	pm_w *0x40020014 = 0x20001348, remains DR
+[80018c8, 800192e] 103-th(total 105-th) 	pm_w *0x4002000c = 0x14, remains DR
+[80018c8, 800192e] 104-th(total 106-th) 	pm_w *0x40020008 = 0x258a, remains CR
+[80018c8, 800192e] 101-th(total 133-th) 	pm_r *0x40020008 gets 0x258a, remains CR
+[80018c8, 800192e] 105-th(total 107-th) 	pm_w *0x40020008 = 0x258b, remains CR
+[80018c8, 800192e] 106-th(total 108-th) 	pm_w *0x40012404 = 0x100, remains DR
+[80018c8, 800192e] 107-th(total 109-th) 	pm_w *0x40012408 = 0x400103, remains CR+SR
+[80018c8, 800192e] 108-th(total 110-th) 	pm_w *0x4001240c = 0x0, remains DR
+[80018c8, 800192e] 109-th(total 111-th) 	pm_w *0x40012410 = 0x0, remains DR
+[80018c8, 800192e] 110-th(total 112-th) 	pm_w *0x4001242c = 0x100000, remains DR
+[80018c8, 800192e] 111-th(total 113-th) 	pm_w *0x40012430 = 0x0, remains DR
+[80018c8, 800192e] 112-th(total 114-th) 	pm_w *0x40012434 = 0x80, remains DR
+[80018c8, 800192e] 113-th(total 115-th) 	pm_w *0x40012408 = 0x400103, remains CR+SR
+[8000ab0, 8000ae0] 102-th(total 134-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  33-th(total 135-th) 	unassigned mem_r *0xe0001004
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 300160: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 300163: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 330000: Acknowledged IRQ 6
+[8000ab0, 8000ae0] 103-th(total 136-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  34-th(total 137-th) 	unassigned mem_r *0xe0001004
+[80031ec, 80031fc] 104-th(total 138-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[80031ec, 80031fc] 105-th(total 139-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[80031ec, 80031fc] 114-th(total 116-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0] 106-th(total 140-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  35-th(total 141-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 330032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 330032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 330035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 360000: Acknowledged IRQ 7
+[8000ab0, 8000ae0] 107-th(total 142-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  36-th(total 143-th) 	unassigned mem_r *0xe0001004
+[800319c, 80031ac] 108-th(total 144-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[800319c, 80031ac] 109-th(total 145-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[800319c, 80031ac] 115-th(total 117-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0] 110-th(total 146-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  37-th(total 147-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 360032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 360032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 360035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 390000: Acknowledged IRQ 8
+[8000ab0, 8000ae0] 111-th(total 148-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  38-th(total 149-th) 	unassigned mem_r *0xe0001004
+[800314c, 800315c] 112-th(total 150-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[800314c, 800315c] 113-th(total 151-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[800314c, 800315c] 116-th(total 118-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0] 114-th(total 152-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  39-th(total 153-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 390032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 390032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 390035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 420000: Acknowledged IRQ 9
+[8000ab0, 8000ae0] 115-th(total 154-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  40-th(total 155-th) 	unassigned mem_r *0xe0001004
+[80030fc, 800310c] 116-th(total 156-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[80030fc, 800310c] 117-th(total 157-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[80030fc, 800310c] 117-th(total 119-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0] 118-th(total 158-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  41-th(total 159-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 420032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 420032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 420035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 450000: Acknowledged IRQ 10
+[8000ab0, 8000ae0] 119-th(total 160-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  42-th(total 161-th) 	unassigned mem_r *0xe0001004
+[80030ac, 80030bc] 120-th(total 162-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[80030ac, 80030bc] 121-th(total 163-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[80030ac, 80030bc] 118-th(total 120-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0] 122-th(total 164-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  43-th(total 165-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 450032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 450032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 450035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 480000: Acknowledged IRQ 23
+[8000ab0, 8000ae0] 123-th(total 166-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  44-th(total 167-th) 	unassigned mem_r *0xe0001004
+[800302c, 800303e] 124-th(total 168-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[800302c, 800303e] 125-th(total 169-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[800302c, 800303e] 119-th(total 121-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0] 126-th(total 170-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  45-th(total 171-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 480036: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 480036: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 480039: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 510000: Acknowledged IRQ 40
+[8000ab0, 8000ae0] 127-th(total 172-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  46-th(total 173-th) 	unassigned mem_r *0xe0001004
+[8002f9c, 8002fae] 128-th(total 174-th) 	pm_r *0x40010414 gets 0x0, remains SR
+[8002f9c, 8002fae] 129-th(total 175-th) 	pm_r *0x40010400 gets 0x0, remains SR
+[8002f9c, 8002fae] 120-th(total 122-th) 	pm_w *0x40010414 = 0x0, remains SR
+[8000ab0, 8000ae0] 130-th(total 176-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  47-th(total 177-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 510037: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 510037: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 510040: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 540000: Acknowledged IRQ 28
+[8000ab0, 8000ae0] 131-th(total 178-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  48-th(total 179-th) 	unassigned mem_r *0xe0001004
+[8002d32, 8002d38] 132-th(total 180-th) 	pm_r *0x40000010 gets 0x0, remains DR
+[8000ab0, 8000ae0] 133-th(total 181-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  49-th(total 182-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 540032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 540032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 540035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 570000: Acknowledged IRQ 39
+[8000ab0, 8000ae0] 134-th(total 183-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  50-th(total 184-th) 	unassigned mem_r *0xe0001004
+[8002b60, 8002b6c] 135-th(total 185-th) 	pm_r *0x4000480c gets 0x0, remains DR
+[8002b60, 8002b6c] 136-th(total 186-th) 	pm_r *0x40004800 gets 0x0, remains DR
+[8000ab0, 8000ae0] 137-th(total 187-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  51-th(total 188-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 570045: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 570045: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 570048: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 600000: Acknowledged IRQ 11
+[8000ab0, 8000ae0] 138-th(total 189-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  52-th(total 190-th) 	unassigned mem_r *0xe0001004
+[8000f20, 8000f36] 139-th(total 191-th) 	pm_r *0x40020000 gets 0x8, remains SR
+[8000f20, 8000f36] 140-th(total 192-th) 	pm_r *0x40020008 gets 0x258b, remains CR
+[8000f36, 8000f48] 121-th(total 123-th) 	pm_w *0x40020004 = 0x8, remains DR
+[8000dba, 8000dde] 141-th(total 193-th) 	pm_r *0x40020008 gets 0x258b, remains CR
+[8000dba, 8000dde] 122-th(total 124-th) 	pm_w *0x40020008 = 0x2580, remains CR
+[8000dba, 8000dde] 123-th(total 125-th) 	pm_w *0x40020004 = 0xe, remains DR
+[8000dba, 8000dde] 124-th(total 126-th) 	pm_w *0x40012408 = 0x0, remains CR+SR
+[8000ab0, 8000ae0] 142-th(total 194-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  53-th(total 195-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+M profile return from interrupt with misaligned PC is UNPREDICTABLE
+	bbl_cnt 600062: EXCP/ISR exits
+[8000ab0, 8000ae0] 143-th(total 196-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  54-th(total 197-th) 	unassigned mem_r *0xe0001004
+
+Access to DMA buffer base address: 0x20001348 beatsize: 2 number beats: 1 address: 0x20001348 
+
+Accessing and serving DMA buffer. address: 0x20001348
+
+Access to nearby area of DMA peri: 0x4001244c mem: 0x20001348 address: 0x2000134a beatsize: 2 number beats: 1 
+
+New size of DMA buffer identified!! beats: 2 
+
+Accessing and serving DMA buffer. address: 0x2000134a
+
+Access to DMA buffer base address: 0x2000134c beatsize: 2 number beats: 2 address: 0x2000134c 
+
+New size of DMA buffer identified!! beats: 3 
+
+Accessing and serving DMA buffer. address: 0x2000134c
+
+Access to DMA buffer base address: 0x2000134e beatsize: 2 number beats: 3 address: 0x2000134e 
+
+New size of DMA buffer identified!! beats: 4 
+
+Accessing and serving DMA buffer. address: 0x2000134e
+
+Access to DMA buffer base address: 0x20001350 beatsize: 2 number beats: 4 address: 0x20001350 
+
+New size of DMA buffer identified!! beats: 5 
+
+Accessing and serving DMA buffer. address: 0x20001350
+
+Access to DMA buffer base address: 0x20001352 beatsize: 2 number beats: 5 address: 0x20001352 
+
+New size of DMA buffer identified!! beats: 6 
+
+Accessing and serving DMA buffer. address: 0x20001352
+
+Access to DMA buffer base address: 0x20001354 beatsize: 2 number beats: 6 address: 0x20001354 
+
+New size of DMA buffer identified!! beats: 7 
+
+Accessing and serving DMA buffer. address: 0x20001354
+
+Access to DMA buffer base address: 0x20001356 beatsize: 2 number beats: 7 address: 0x20001356 
+
+New size of DMA buffer identified!! beats: 8 
+
+Accessing and serving DMA buffer. address: 0x20001356
+
+Access to DMA buffer base address: 0x20001358 beatsize: 2 number beats: 8 address: 0x20001358 
+
+New size of DMA buffer identified!! beats: 9 
+
+Accessing and serving DMA buffer. address: 0x20001358
+
+Access to DMA buffer base address: 0x2000135a beatsize: 2 number beats: 9 address: 0x2000135a 
+
+New size of DMA buffer identified!! beats: 10 
+
+Accessing and serving DMA buffer. address: 0x2000135a
+
+Access to DMA buffer base address: 0x2000135c beatsize: 2 number beats: 10 address: 0x2000135c 
+
+New size of DMA buffer identified!! beats: 11 
+
+Accessing and serving DMA buffer. address: 0x2000135c
+
+Access to DMA buffer base address: 0x2000135e beatsize: 2 number beats: 11 address: 0x2000135e 
+
+New size of DMA buffer identified!! beats: 12 
+
+Accessing and serving DMA buffer. address: 0x2000135e
+
+Access to DMA buffer base address: 0x20001360 beatsize: 2 number beats: 12 address: 0x20001360 
+
+New size of DMA buffer identified!! beats: 13 
+
+Accessing and serving DMA buffer. address: 0x20001360
+
+Access to DMA buffer base address: 0x20001362 beatsize: 2 number beats: 13 address: 0x20001362 
+
+New size of DMA buffer identified!! beats: 14 
+
+Accessing and serving DMA buffer. address: 0x20001362
+
+Access to DMA buffer base address: 0x20001364 beatsize: 2 number beats: 14 address: 0x20001364 
+
+New size of DMA buffer identified!! beats: 15 
+
+Accessing and serving DMA buffer. address: 0x20001364
+
+Access to DMA buffer base address: 0x20001366 beatsize: 2 number beats: 15 address: 0x20001366 
+
+New size of DMA buffer identified!! beats: 16 
+
+Accessing and serving DMA buffer. address: 0x20001366
+
+Access to DMA buffer base address: 0x20001368 beatsize: 2 number beats: 16 address: 0x20001368 
+
+New size of DMA buffer identified!! beats: 17 
+
+Accessing and serving DMA buffer. address: 0x20001368
+
+Access to DMA buffer base address: 0x2000136a beatsize: 2 number beats: 17 address: 0x2000136a 
+
+New size of DMA buffer identified!! beats: 18 
+
+Accessing and serving DMA buffer. address: 0x2000136a
+
+Access to DMA buffer base address: 0x2000136c beatsize: 2 number beats: 18 address: 0x2000136c 
+
+New size of DMA buffer identified!! beats: 19 
+
+Accessing and serving DMA buffer. address: 0x2000136c
+
+Access to DMA buffer base address: 0x2000136e beatsize: 2 number beats: 19 address: 0x2000136e 
+
+New size of DMA buffer identified!! beats: 20 
+
+Accessing and serving DMA buffer. address: 0x2000136e
+Potential DMA Descriptor V1: base *0x40020000 p_A:*0x40020014->*0x20001348 
+Pointer on 0x40020014 already used for Descriptor ID: 0, invalidating descriptor...
+Removed asociation of Pointers  0x20001348  and 0x4001244c
+DMA Descriptor pair V2: *0x40020000 p_A:*0x40020010->*0x4001244c p_B:*0x40020014->*0x20001348 
+[80018c8, 800192e] 125-th(total 127-th) 	pm_w *0x40020014 = 0x20001348, remains DR
+[80018c8, 800192e] 126-th(total 128-th) 	pm_w *0x4002000c = 0x14, remains DR
+[80018c8, 800192e] 127-th(total 129-th) 	pm_w *0x40020008 = 0x258a, remains CR
+[80018c8, 800192e] 144-th(total 198-th) 	pm_r *0x40020008 gets 0x258a, remains CR
+[80018c8, 800192e] 128-th(total 130-th) 	pm_w *0x40020008 = 0x258b, remains CR
+[80018c8, 800192e] 129-th(total 131-th) 	pm_w *0x40012404 = 0x100, remains DR
+[80018c8, 800192e] 130-th(total 132-th) 	pm_w *0x40012408 = 0x400103, remains CR+SR
+[80018c8, 800192e] 131-th(total 133-th) 	pm_w *0x4001240c = 0x0, remains DR
+[80018c8, 800192e] 132-th(total 134-th) 	pm_w *0x40012410 = 0x0, remains DR
+[80018c8, 800192e] 133-th(total 135-th) 	pm_w *0x4001242c = 0x100000, remains DR
+[80018c8, 800192e] 134-th(total 136-th) 	pm_w *0x40012430 = 0x0, remains DR
+[80018c8, 800192e] 135-th(total 137-th) 	pm_w *0x40012434 = 0x80, remains DR
+[80018c8, 800192e] 136-th(total 138-th) 	pm_w *0x40012408 = 0x400103, remains CR+SR
+[8000ab0, 8000ae0] 145-th(total 199-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000ab0, 8000ae0]  55-th(total 200-th) 	unassigned mem_r *0xe0001004
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 600158: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 600161: EXCP/ISR exits
+stage_termination
+

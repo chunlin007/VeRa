@@ -20,8 +20,8 @@ from os import getcwd
 from os.path import isfile, join
 import subprocess
 
-#firmpath="./Firmware/Binaries-DICE/"
-firmpath="./Firmware/Binaries-P2IM/"
+#firmpath="./Firmware/Binaries-P2IM/"
+firmpath="./Firmware/Binaries-DICE/"
 runpath = getcwd()+"/run.py"
 out_path = "./outputs"
 
@@ -34,7 +34,7 @@ mcus={"F103":"f103", "F429": "f429", "L1521": "l1521", "LPC1837":"lpc18", \
 
 
 for f in files:
-    print(files)
+    #print(files)
     for key,mcu in mcus.items():
         if key in f:
             print("Processing: {}".format(f) )

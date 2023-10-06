@@ -1,0 +1,2953 @@
+{
+    "interrupts": [
+        {
+            "enabled": 0,
+            "excp_num": 18,
+            "result_hang": 0
+        },
+        {
+            "enabled": 1,
+            "excp_num": 19,
+            "result_hang": 0
+        }
+    ],
+    "model": {
+        "0x40002000": {
+            "DR_bytes_num": 2,
+            "events": {
+                "": {
+                    "0x1074": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    -1
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            73
+                        ],
+                        "sr_num": 1
+                    },
+                    "0x10b0": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    -1
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            81
+                        ],
+                        "sr_num": 1
+                    },
+                    "0x10d8": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    -1
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            72
+                        ],
+                        "sr_num": 1
+                    },
+                    "0x1102": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    -1
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            68
+                        ],
+                        "sr_num": 1
+                    },
+                    "0xfd0": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    -1
+                                ],
+                                0,
+                                [
+                                    -1
+                                ],
+                                0
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            72,
+                            86
+                        ],
+                        "sr_num": 2
+                    }
+                }
+            },
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40002400": {
+            "DR_bytes_num": 2,
+            "events": {
+                "67:0x6,69:0xffffffff": {
+                    "0x10a8": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1,
+                                [
+                                    0
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            32,
+                            79
+                        ],
+                        "sr_num": 2
+                    },
+                    "0x1118": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    8
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            79
+                        ],
+                        "sr_num": 1
+                    },
+                    "0xefa": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    -1
+                                ],
+                                0,
+                                [
+                                    -1
+                                ],
+                                0
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            66,
+                            68
+                        ],
+                        "sr_num": 2
+                    }
+                }
+            },
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40003000": {
+            "DR_bytes_num": 2,
+            "events": {
+                "": {
+                    "0xbde": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    -1
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            70
+                        ],
+                        "sr_num": 1
+                    }
+                }
+            },
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40003400": {
+            "DR_bytes_num": 2,
+            "events": {},
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                }
+            ]
+        },
+        "0x50000400": {
+            "DR_bytes_num": 2,
+            "events": {},
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 0,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 2,
+                    "write": 1
+                }
+            ]
+        }
+    },
+    "statistics": {
+        "peri_list": [
+            "0x40002000",
+            "0x40002400",
+            "0x40003000",
+            "0x40003400",
+            "0x50000400"
+        ],
+        "peri_num": 5,
+        "peri_with_event_list": [
+            "0x40002000",
+            "0x40002400",
+            "0x40003000"
+        ],
+        "peri_with_event_num": 3
+    }
+}

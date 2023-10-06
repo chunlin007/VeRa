@@ -1,0 +1,50 @@
+{
+    "TRA": 35,
+    "CP": 7,
+    "ACC": 20.0,
+    "TRR": 7,
+    "TRRC": 6,
+    "TRRW": 1,
+    "ACCRR": 85.71428571428571,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x400e1000",
+            "0x400e104c",
+            "PIO Controller Interrupt Status Register",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 5,
+    "NUMSRSITES": 6,
+    "SRSITES": [
+        "0x8087a",
+        "0x80908",
+        "0x80866",
+        "0x80884",
+        "0x8088e",
+        "0x80870"
+    ],
+    "INTERRUPTS": [
+        16,
+        28
+    ],
+    "NUMINTERRUPTS": 2
+}

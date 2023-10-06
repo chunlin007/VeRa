@@ -1,0 +1,305 @@
+
+(process:1288563): GLib-WARNING **: 02:24:51.799: ../../../../glib/gmem.c:489: custom memory allocation vtable not supported
+
+GNU ARM Eclipse 64-bits QEMU v2.3.50 (qemu-system-gnuarmeclipse).
+Board: 'STM32F429I-Discovery' (ST Discovery kit for STM32F429/439 lines).
+Device: 'STM32F429ZI' (Cortex-M4 r0p0, MPU), Flash: 2048 kB, RAM: 192 kB.
+Image: '/projects/VeRa/Evaluation/ARM/Unit-Test/Firmware/Binaries-DICE/F429_ChibiOS_ADC_slider.elf'.
+Command line: (none).
+[0, 0]   1-th(total   1-th) 	unassigned mem_r *0x0
+[0, 0]   2-th(total   2-th) 	unassigned mem_r *0x4
+Load  15828 bytes at 0x08000000-0x08003DD3.
+Load      0 bytes at 0x08003DD4-0x08003DD3.
+Load      0 bytes at 0x20000000-0x1FFFFFFF.
+Cortex-M4 r0p0 core initialised.
+QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) Cortex-M4 r0p0 core reset.
+[8002b70, 8002c02]   1-th(total   3-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8002b70, 8002c02]   1-th(total   1-th) 	pm_w *0x40023810 = 0x1ff, remains CR
+[8002b70, 8002c02]   2-th(total   4-th) 	pm_r *0x40023810 gets 0x1ff, remains CR
+[8002b70, 8002c02]   2-th(total   2-th) 	pm_w *0x40023810 = 0x0, remains CR
+[8002b70, 8002c02]   3-th(total   5-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8002b70, 8002c02]   4-th(total   6-th) 	pm_r *0x40023830 gets 0x0, remains CR
+[8002b70, 8002c02]   3-th(total   3-th) 	pm_w *0x40023830 = 0x1ff, remains CR
+[8002b70, 8002c02]   5-th(total   7-th) 	pm_r *0x40023850 gets 0x0, remains CR
+[8002b70, 8002c02]   4-th(total   4-th) 	pm_w *0x40023850 = 0x1ff, remains CR
+[8002b70, 8002c02]   6-th(total   8-th) 	pm_r *0x40023850 gets 0x1ff, remains CR
+[8002b70, 8002c02]   5-th(total   5-th) 	pm_w *0x40020004 = 0x0, remains CR
+[8002b70, 8002c02]   6-th(total   6-th) 	pm_w *0x40020008 = 0xffffabff, remains CR
+[8002b70, 8002c02]   7-th(total   7-th) 	pm_w *0x4002000c = 0x40010054, remains CR
+[8002b70, 8002c02]   8-th(total   8-th) 	pm_w *0x40020014 = 0xffff, remains CR
+[8002b70, 8002c02]   9-th(total   9-th) 	pm_w *0x40020020 = 0x55560000, remains CR
+[8002b70, 8002c02]  10-th(total  10-th) 	pm_w *0x40020024 = 0xaaa00, remains DR
+[8002b70, 8002c02]  11-th(total  11-th) 	pm_w *0x40020000 = 0x2aa0aa00, remains CR
+[8002b70, 8002c02]  12-th(total  12-th) 	pm_w *0x40020404 = 0x240, remains DR
+[8002b70, 8002c02]  13-th(total  13-th) 	pm_w *0x40020408 = 0xffffffff, remains DR
+[8002b70, 8002c02]  14-th(total  14-th) 	pm_w *0x4002040c = 0x55514515, remains DR
+[8002b70, 8002c02]  15-th(total  15-th) 	pm_w *0x40020414 = 0xffff, remains DR
+[8002b70, 8002c02]  16-th(total  16-th) 	pm_w *0x40020420 = 0x4000000, remains DR
+[8002b70, 8002c02]  17-th(total  17-th) 	pm_w *0x40020424 = 0x40, remains DR
+[8002b70, 8002c02]  18-th(total  18-th) 	pm_w *0x40020400 = 0x82080, remains DR
+[8002c02, 8002cb4]  19-th(total  19-th) 	pm_w *0x40020804 = 0x0, remains DR
+[8002c02, 8002cb4]  20-th(total  20-th) 	pm_w *0x40020808 = 0xffffffff, remains DR
+[8002c02, 8002cb4]  21-th(total  21-th) 	pm_w *0x4002080c = 0x54451554, remains DR
+[8002c02, 8002cb4]  22-th(total  22-th) 	pm_w *0x40020814 = 0xffff, remains DR
+[8002c02, 8002cb4]  23-th(total  23-th) 	pm_w *0x40020820 = 0x60000000, remains DR
+[8002c02, 8002cb4]  24-th(total  24-th) 	pm_w *0x40020824 = 0x60600, remains DR
+[8002c02, 8002cb4]  25-th(total  25-th) 	pm_w *0x40020800 = 0x2208001, remains DR
+[8002c02, 8002cb4]  26-th(total  26-th) 	pm_w *0x40020c04 = 0x0, remains DR
+[8002c02, 8002cb4]  27-th(total  27-th) 	pm_w *0x40020c08 = 0xffffffff, remains DR
+[8002c02, 8002cb4]  28-th(total  28-th) 	pm_w *0x40020c0c = 0x555055, remains DR
+[8002c02, 8002cb4]  29-th(total  29-th) 	pm_w *0x40020c14 = 0xfff, remains DR
+[8002c02, 8002cb4]  30-th(total  30-th) 	pm_w *0x40020c20 = 0x0, remains DR
+[8002c02, 8002cb4]  31-th(total  31-th) 	pm_w *0x40020c24 = 0x0, remains DR
+[8002c02, 8002cb4]  32-th(total  32-th) 	pm_w *0x40020c00 = 0x55000100, remains DR
+[8002c02, 8002cb4]  33-th(total  33-th) 	pm_w *0x40021004 = 0x0, remains DR
+[8002c02, 8002cb4]  34-th(total  34-th) 	pm_w *0x40021008 = 0xffffffff, remains DR
+[8002c02, 8002cb4]  35-th(total  35-th) 	pm_w *0x4002100c = 0x0, remains DR
+[8002c02, 8002cb4]  36-th(total  36-th) 	pm_w *0x40021014 = 0xffff, remains DR
+[8002c02, 8002cb4]  37-th(total  37-th) 	pm_w *0x40021020 = 0x0, remains DR
+[8002c02, 8002cb4]  38-th(total  38-th) 	pm_w *0x40021024 = 0x0, remains DR
+[8002c02, 8002cb4]  39-th(total  39-th) 	pm_w *0x40021000 = 0x40, remains DR
+[8002c02, 8002cb4]  40-th(total  40-th) 	pm_w *0x40021404 = 0x0, remains DR
+[8002c02, 8002cb4]  41-th(total  41-th) 	pm_w *0x40021408 = 0xffffffff, remains DR
+[8002c02, 8002cb4]  42-th(total  42-th) 	pm_w *0x4002140c = 0x0, remains DR
+[8002c02, 8002cb4]  43-th(total  43-th) 	pm_w *0x40021414 = 0xffff, remains DR
+[8002c02, 8002cb4]  44-th(total  44-th) 	pm_w *0x40021420 = 0x0, remains DR
+[8002c02, 8002cb4]  45-th(total  45-th) 	pm_w *0x40021424 = 0x0, remains DR
+[8002c02, 8002cb4]  46-th(total  46-th) 	pm_w *0x40021400 = 0x0, remains DR
+[8002c02, 8002cb4]  47-th(total  47-th) 	pm_w *0x40021804 = 0x0, remains DR
+[8002c02, 8002cb4]  48-th(total  48-th) 	pm_w *0x40021808 = 0xffffffff, remains DR
+[8002c02, 8002cb4]  49-th(total  49-th) 	pm_w *0x4002180c = 0x0, remains DR
+[8002c02, 8002cb4]  50-th(total  50-th) 	pm_w *0x40021814 = 0xffff, remains DR
+[8002c02, 8002cb4]  51-th(total  51-th) 	pm_w *0x40021820 = 0x0, remains DR
+[8002c02, 8002cb4]  52-th(total  52-th) 	pm_w *0x40021824 = 0x0, remains DR
+[8002c02, 8002cb4]  53-th(total  53-th) 	pm_w *0x40021800 = 0x0, remains DR
+[8002c02, 8002cb4]  54-th(total  54-th) 	pm_w *0x40021c04 = 0x0, remains DR
+[8002c02, 8002cb4]  55-th(total  55-th) 	pm_w *0x40021c08 = 0xffffffff, remains DR
+[8002c02, 8002cb4]  56-th(total  56-th) 	pm_w *0x40021c0c = 0x0, remains DR
+[8002c02, 8002cb4]  57-th(total  57-th) 	pm_w *0x40021c14 = 0xffff, remains DR
+[8002c02, 8002cb4]  58-th(total  58-th) 	pm_w *0x40021c20 = 0x0, remains DR
+[8002c02, 8002cb4]  59-th(total  59-th) 	pm_w *0x40021c24 = 0x0, remains DR
+[8002c02, 8002cb4]  60-th(total  60-th) 	pm_w *0x40021c00 = 0x0, remains DR
+[8002c02, 8002cb4]  61-th(total  61-th) 	pm_w *0x40022004 = 0x0, remains DR
+[8002c02, 8002cb4]  62-th(total  62-th) 	pm_w *0x40022008 = 0xffffffff, remains DR
+[8002c02, 8002cb4]  63-th(total  63-th) 	pm_w *0x4002200c = 0x0, remains DR
+[8002c02, 8002cb4]  64-th(total  64-th) 	pm_w *0x40022014 = 0xffff, remains DR
+[8002c02, 8002cb4]  65-th(total  65-th) 	pm_w *0x40022020 = 0x0, remains DR
+[8002c02, 8002cb4]  66-th(total  66-th) 	pm_w *0x40022024 = 0x0, remains DR
+[8002c02, 8002cb4]  67-th(total  67-th) 	pm_w *0x40022000 = 0x0, remains DR
+Potential DMA Descriptor V1: base *0x40023800 p_A:*0x40023840->*0x10000000 
+[8002c02, 8002cb4]  68-th(total  68-th) 	pm_w *0x40023840 = 0x10000000, remains CR
+[8002c02, 8002cb4]  69-th(total  69-th) 	pm_w *0x40007000 = 0xc000, remains CR
+[8002c02, 8002cb4]   7-th(total   9-th) 	pm_r *0x40023800 gets 0x0, remains CR+SR
+[8002c02, 8002cb4]  70-th(total  70-th) 	pm_w *0x40023800 = 0x1, remains CR+SR
+[8002c02, 8002cb4]   8-th(total  10-th) 	pm_r *0x40023800 gets 0x1, remains CR+SR
+[8002cae, 8002cb4]   9-th(total  11-th) 	pm_r *0x40023800 gets 0x2, remains CR+SR
+[8002cb4, 8002cc6]  10-th(total  12-th) 	pm_r *0x40023808 gets 0x0, remains CR+SR
+[8002cb4, 8002cc6]  71-th(total  71-th) 	pm_w *0x40023808 = 0x0, remains CR+SR
+[8002cb4, 8002cc6]  11-th(total  13-th) 	pm_r *0x40023808 gets 0x0, remains CR+SR
+[8002cc6, 8002ce0]  12-th(total  14-th) 	pm_r *0x40023800 gets 0x1, remains CR+SR
+[8002cc6, 8002ce0]  72-th(total  72-th) 	pm_w *0x40023800 = 0x1, remains CR+SR
+[8002cc6, 8002ce0]  73-th(total  73-th) 	pm_w *0x40023808 = 0x0, remains CR+SR
+[8002cc6, 8002ce0]  13-th(total  15-th) 	pm_r *0x40023800 gets 0x1, remains CR+SR
+[8002cc6, 8002ce0]  74-th(total  74-th) 	pm_w *0x40023800 = 0x10001, remains CR+SR
+[8002cc6, 8002ce0]  14-th(total  16-th) 	pm_r *0x40023800 gets 0x10001, remains CR+SR
+[8002cda, 8002ce0]  15-th(total  17-th) 	pm_r *0x40023800 gets 0x20000, remains CR+SR
+[8002ce0, 8002cf0]  16-th(total  18-th) 	pm_r *0x40023874 gets 0x2, remains SR
+[8002ce0, 8002cf0]  75-th(total  75-th) 	pm_w *0x40023874 = 0x3, remains SR
+[8002ce0, 8002cf0]  17-th(total  19-th) 	pm_r *0x40023874 gets 0x2, remains SR
+[8002cf0, 8002d04]  76-th(total  76-th) 	pm_w *0x40023804 = 0x7405408, remains DR
+[8002cf0, 8002d04]  18-th(total  20-th) 	pm_r *0x40023800 gets 0x10001, remains CR+SR
+[8002cf0, 8002d04]  77-th(total  77-th) 	pm_w *0x40023800 = 0x1010001, remains CR+SR
+[8002cf0, 8002d04]  19-th(total  21-th) 	pm_r *0x40007004 gets 0x4000, remains CR+SR
+[8002d04, 8002d0c]  20-th(total  22-th) 	pm_r *0x40023800 gets 0x2000000, remains CR+SR
+[8002d0c, 8002d1a]  78-th(total  78-th) 	pm_w *0x40023808 = 0x38889400, remains CR+SR
+[8002d0c, 8002d1a]   3-th(total  23-th) 	unassigned mem_r *0xe0042000
+[8002d1a, 8002d36]  79-th(total  79-th) 	pm_w *0x40023c00 = 0x705, remains DR
+[8002d1a, 8002d36]  21-th(total  24-th) 	pm_r *0x40023808 gets 0x38889400, remains CR+SR
+[8002d1a, 8002d36]  80-th(total  80-th) 	pm_w *0x40023808 = 0x38889402, remains CR+SR
+[8002d1a, 8002d36]  22-th(total  25-th) 	pm_r *0x40023808 gets 0x38889402, remains CR+SR
+[8002d2c, 8002d36]  23-th(total  26-th) 	pm_r *0x40023808 gets 0x8, remains CR+SR
+[8002d36, 8002d4c]  24-th(total  27-th) 	pm_r *0x40023844 gets 0x0, remains CR
+[8002d36, 8002d4c]  81-th(total  81-th) 	pm_w *0x40023844 = 0x4000, remains CR
+[8002d36, 8002d4c]  25-th(total  28-th) 	pm_r *0x40023864 gets 0x0, remains CR
+[8002d36, 8002d4c]  82-th(total  82-th) 	pm_w *0x40023864 = 0x4000, remains CR
+[8002d36, 8002d4c]  26-th(total  29-th) 	pm_r *0x40023864 gets 0x4000, remains CR
+[8002090, 8002100]  27-th(total  30-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8002090, 8002100]  83-th(total  83-th) 	pm_w *0x40023810 = 0xfffffe00, remains CR
+[8002090, 8002100]  28-th(total  31-th) 	pm_r *0x40023810 gets 0xfffffe00, remains CR
+[8002090, 8002100]  84-th(total  84-th) 	pm_w *0x40023810 = 0x0, remains CR
+[8002090, 8002100]  29-th(total  32-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8002090, 8002100]  30-th(total  33-th) 	pm_r *0x40023814 gets 0x0, remains CR
+[8002090, 8002100]  85-th(total  85-th) 	pm_w *0x40023814 = 0xffffffff, remains CR
+[8002090, 8002100]  31-th(total  34-th) 	pm_r *0x40023814 gets 0xffffffff, remains CR
+[8002090, 8002100]  86-th(total  86-th) 	pm_w *0x40023814 = 0x0, remains CR
+[8002090, 8002100]  32-th(total  35-th) 	pm_r *0x40023814 gets 0x0, remains CR
+[8002090, 8002100]  33-th(total  36-th) 	pm_r *0x40023820 gets 0x0, remains CR
+[8002090, 8002100]  87-th(total  87-th) 	pm_w *0x40023820 = 0xefffffff, remains CR
+[8002090, 8002100]  34-th(total  37-th) 	pm_r *0x40023820 gets 0xefffffff, remains CR
+[8002090, 8002100]  88-th(total  88-th) 	pm_w *0x40023820 = 0x0, remains CR
+[8002090, 8002100]  35-th(total  38-th) 	pm_r *0x40023820 gets 0x0, remains CR
+[8002090, 8002100]  36-th(total  39-th) 	pm_r *0x40023824 gets 0x0, remains CR
+[8002090, 8002100]  89-th(total  89-th) 	pm_w *0x40023824 = 0xffffffff, remains CR
+[8002090, 8002100]  37-th(total  40-th) 	pm_r *0x40023824 gets 0xffffffff, remains CR
+[8002090, 8002100]  90-th(total  90-th) 	pm_w *0x40023824 = 0x0, remains CR
+[8002090, 8002100]  38-th(total  41-th) 	pm_r *0x40023824 gets 0x0, remains CR
+[8002090, 8002100]  39-th(total  42-th) 	pm_r *0x40023840 gets 0x10000000, remains CR
+Potential DMA Descriptor V1: base *0x40023800 p_A:*0x40023840->*0x10000000 
+Pointer updated: address: 0x40023840 preval: 0x10000000 val: 0x10000000 
+[8002090, 8002100]  91-th(total  91-th) 	pm_w *0x40023840 = 0x10000000, remains CR
+[8002090, 8002100]  40-th(total  43-th) 	pm_r *0x40023860 gets 0x0, remains CR
+Potential DMA Descriptor V1: base *0x40023800 p_A:*0x40023860->*0x10000000 
+[8002090, 8002100]  92-th(total  92-th) 	pm_w *0x40023860 = 0x10000000, remains CR
+[8002090, 8002100]  41-th(total  44-th) 	pm_r *0x40023860 gets 0x10000000, remains CR
+[8002090, 8002100]  42-th(total  45-th) 	pm_r *0x40007000 gets 0xc000, remains CR
+[8002090, 8002100]  93-th(total  93-th) 	pm_w *0x40007000 = 0xc100, remains CR
+[8002090, 8002100]  43-th(total  46-th) 	pm_r *0x40023870 gets 0x0, remains CR
+[8002100, 8002124]  94-th(total  94-th) 	pm_w *0x40023870 = 0x10000, remains CR
+[8002100, 8002124]  95-th(total  95-th) 	pm_w *0x40023870 = 0x0, remains CR
+[8002100, 8002124]  44-th(total  47-th) 	pm_r *0x40007004 gets 0x0, remains CR+SR
+[8002100, 8002124]  96-th(total  96-th) 	pm_w *0x40007004 = 0x0, remains CR+SR
+[800213c, 800214a]  97-th(total  97-th) 	pm_w *0x40026010 = 0x0, remains DR
+[8002138, 800214a]  98-th(total  98-th) 	pm_w *0x40026028 = 0x0, remains DR
+[8002138, 800214a]  99-th(total  99-th) 	pm_w *0x40026040 = 0x0, remains DR
+[8002138, 800214a] 100-th(total 100-th) 	pm_w *0x40026058 = 0x0, remains DR
+[8002138, 800214a] 101-th(total 101-th) 	pm_w *0x40026070 = 0x0, remains DR
+[8002138, 800214a] 102-th(total 102-th) 	pm_w *0x40026088 = 0x0, remains DR
+[8002138, 800214a] 103-th(total 103-th) 	pm_w *0x400260a0 = 0x0, remains DR
+[8002138, 800214a] 104-th(total 104-th) 	pm_w *0x400260b8 = 0x0, remains DR
+[8002138, 800214a] 105-th(total 105-th) 	pm_w *0x40026410 = 0x0, remains DR
+[8002138, 800214a] 106-th(total 106-th) 	pm_w *0x40026428 = 0x0, remains DR
+[8002138, 800214a] 107-th(total 107-th) 	pm_w *0x40026440 = 0x0, remains DR
+[8002138, 800214a] 108-th(total 108-th) 	pm_w *0x40026458 = 0x0, remains DR
+[8002138, 800214a] 109-th(total 109-th) 	pm_w *0x40026470 = 0x0, remains CR
+[8002138, 800214a] 110-th(total 110-th) 	pm_w *0x40026488 = 0x0, remains DR
+[8002138, 800214a] 111-th(total 111-th) 	pm_w *0x400264a0 = 0x0, remains DR
+[8002138, 800214a] 112-th(total 112-th) 	pm_w *0x400264b8 = 0x0, remains DR
+[800214a, 8002248] 113-th(total 113-th) 	pm_w *0x40026008 = 0xffffffff, remains DR
+[800214a, 8002248] 114-th(total 114-th) 	pm_w *0x4002600c = 0xffffffff, remains DR
+[800214a, 8002248] 115-th(total 115-th) 	pm_w *0x40026408 = 0xffffffff, remains DR
+[800214a, 8002248] 116-th(total 116-th) 	pm_w *0x4002640c = 0xffffffff, remains DR
+[8002248, 800230e]  45-th(total  48-th) 	pm_r *0x40023840 gets 0x10000000, remains CR
+Potential DMA Descriptor V1: base *0x40023800 p_A:*0x40023840->*0x10000001 
+Pointer updated: address: 0x40023840 preval: 0x10000000 val: 0x10000001 
+[8002248, 800230e] 117-th(total 117-th) 	pm_w *0x40023840 = 0x10000001, remains CR
+[8002248, 800230e]  46-th(total  49-th) 	pm_r *0x40023860 gets 0x10000000, remains CR
+Potential DMA Descriptor V1: base *0x40023800 p_A:*0x40023860->*0x10000001 
+Pointer updated: address: 0x40023860 preval: 0x10000000 val: 0x10000001 
+[8002248, 800230e] 118-th(total 118-th) 	pm_w *0x40023860 = 0x10000001, remains CR
+[8002248, 800230e]  47-th(total  50-th) 	pm_r *0x40023860 gets 0x10000001, remains CR
+[8002248, 800230e]   4-th(total  51-th) 	unassigned mem_r *0xe0042008
+[8002248, 800230e]   1-th(total 119-th) 	unassigned mem_w *0xe0042008 = 0x1
+[8002248, 800230e] 119-th(total 120-th) 	pm_w *0x40000028 = 0x20cf, remains DR
+[8002248, 800230e] 120-th(total 121-th) 	pm_w *0x4000002c = 0xffffffff, remains DR
+[8002248, 800230e] 121-th(total 122-th) 	pm_w *0x40000018 = 0x0, remains DR
+[8002248, 800230e] 122-th(total 123-th) 	pm_w *0x40000034 = 0x0, remains DR
+[8002248, 800230e] 123-th(total 124-th) 	pm_w *0x4000000c = 0x0, remains DR
+[8002248, 800230e] 124-th(total 125-th) 	pm_w *0x40000004 = 0x0, remains DR
+[8002248, 800230e] 125-th(total 126-th) 	pm_w *0x40000014 = 0x1, remains DR
+[8002248, 800230e] 126-th(total 127-th) 	pm_w *0x40000000 = 0x1, remains DR
+[8000ae0, 8000ae8]   5-th(total  52-th) 	unassigned mem_r *0xe0001004
+[8000b60, 8000b9c]   6-th(total  53-th) 	unassigned mem_r *0xe0001004
+PRIGROUP unimplemented
+NVIC: debug register 00000DFC unimplemented
+NVIC: debug register 00000DFC unimplemented
+[8002402, 800243e]   7-th(total  54-th) 	unassigned mem_r *0xe0001000
+[8002402, 800243e]   2-th(total 128-th) 	unassigned mem_w *0xe0001000 = 0x1
+[8000a9e, 8000ac4]  48-th(total  55-th) 	pm_r *0x40020004 gets 0x0, remains CR
+[8000a9e, 8000ac4] 127-th(total 129-th) 	pm_w *0x40020004 = 0x0, remains CR
+[8000a9e, 8000ac4]  49-th(total  56-th) 	pm_r *0x40020008 gets 0xffffabff, remains CR
+[8000a9e, 8000ac4] 128-th(total 130-th) 	pm_w *0x40020008 = 0xffffabfc, remains CR
+[8000a9e, 8000ac4]  50-th(total  57-th) 	pm_r *0x4002000c gets 0x40010054, remains CR
+Pointer updated: address: 0x4002000c preval: 0x40010054 val: 0x40010054 
+[8000a9e, 8000ac4] 129-th(total 131-th) 	pm_w *0x4002000c = 0x40010054, remains CR
+[8000a9e, 8000ac4]  51-th(total  58-th) 	pm_r *0x40020000 gets 0x2aa0aa00, remains CR
+[8000a9e, 8000ac4] 130-th(total 132-th) 	pm_w *0x40020000 = 0x2aa0aa03, remains CR
+[8000a74, 8000a80]  52-th(total  59-th) 	pm_r *0x40020020 gets 0x55560000, remains CR
+Pointer updated: address: 0x40020020 preval: 0x55560000 val: 0x55560000 
+[8000a74, 8000a80] 131-th(total 133-th) 	pm_w *0x40020020 = 0x55560000, remains CR
+[8000a9e, 8000ac4]  53-th(total  60-th) 	pm_r *0x40020004 gets 0x0, remains CR
+[8000a9e, 8000ac4] 132-th(total 134-th) 	pm_w *0x40020004 = 0x0, remains CR
+[8000a9e, 8000ac4]  54-th(total  61-th) 	pm_r *0x40020008 gets 0xffffabfc, remains CR
+[8000a9e, 8000ac4] 133-th(total 135-th) 	pm_w *0x40020008 = 0xffffa8fc, remains CR
+[8000a9e, 8000ac4]  55-th(total  62-th) 	pm_r *0x4002000c gets 0x40010054, remains CR
+Pointer updated: address: 0x4002000c preval: 0x40010054 val: 0x40010054 
+[8000a9e, 8000ac4] 134-th(total 136-th) 	pm_w *0x4002000c = 0x40010054, remains CR
+[8000a9e, 8000ac4]  56-th(total  63-th) 	pm_r *0x40020000 gets 0x2aa0aa03, remains CR
+[8000a9e, 8000ac4] 135-th(total 137-th) 	pm_w *0x40020000 = 0x2aa0ab03, remains CR
+[8000a74, 8000a80]  57-th(total  64-th) 	pm_r *0x40020020 gets 0x55560000, remains CR
+Pointer updated: address: 0x40020020 preval: 0x55560000 val: 0x55500000 
+[8000a74, 8000a80] 136-th(total 138-th) 	pm_w *0x40020020 = 0x55500000, remains CR
+[8002582, 80025b0]  58-th(total  65-th) 	pm_r *0x40023840 gets 0x10000001, remains CR
+[8002582, 80025b0] 137-th(total 139-th) 	pm_w *0x40023840 = 0x10040001, remains CR
+[8002582, 80025b0]  59-th(total  66-th) 	pm_r *0x40023860 gets 0x10000001, remains CR
+[8002582, 80025b0] 138-th(total 140-th) 	pm_w *0x40023860 = 0x10040001, remains CR
+[8002582, 80025b0]  60-th(total  67-th) 	pm_r *0x40023860 gets 0x10040001, remains CR
+[80025b0, 80025e6] 139-th(total 141-th) 	pm_w *0x40004808 = 0x445, remains DR
+[80025b0, 80025e6] 140-th(total 142-th) 	pm_w *0x40004810 = 0x40, remains DR
+[80025b0, 80025e6] 141-th(total 143-th) 	pm_w *0x40004814 = 0x1, remains DR
+[80025b0, 80025e6] 142-th(total 144-th) 	pm_w *0x4000480c = 0x212c, remains DR
+[80025b0, 80025e6] 143-th(total 145-th) 	pm_w *0x40004800 = 0x0, remains DR
+[80025b0, 80025e6]  61-th(total  68-th) 	pm_r *0x40004800 gets 0x0, remains DR
+[80025b0, 80025e6]  62-th(total  69-th) 	pm_r *0x40004804 gets 0x0, remains DR
+[8000bb0, 8000bde]  63-th(total  70-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000bb0, 8000bde]   8-th(total  71-th) 	unassigned mem_r *0xe0001004
+[8001b50, 8001b6a]  64-th(total  72-th) 	pm_r *0x40020014 gets 0xffff, remains CR
+[8001b50, 8001b6a] 144-th(total 146-th) 	pm_w *0x40020014 = 0xdfff, remains CR
+[80011fa, 800121a]  65-th(total  73-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[80012ee, 8001306]  66-th(total  74-th) 	pm_r *0x4000000c gets 0x0, remains DR
+[8001306, 8001312] 145-th(total 147-th) 	pm_w *0x40000034 = 0x9c4, remains DR
+[8001306, 8001312] 146-th(total 148-th) 	pm_w *0x40000010 = 0x0, remains DR
+[8001306, 8001312] 147-th(total 149-th) 	pm_w *0x4000000c = 0x2, remains DR
+[8000bb0, 8000bde]  67-th(total  75-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000bb0, 8000bde]   9-th(total  76-th) 	unassigned mem_r *0xe0001004
+[8000bb0, 8000bde]  68-th(total  77-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000bb0, 8000bde]  10-th(total  78-th) 	unassigned mem_r *0xe0001004
+[8001a4a, 8001a7c]  69-th(total  79-th) 	pm_r *0x40023830 gets 0x1ff, remains CR
+[8001a4a, 8001a7c] 148-th(total 150-th) 	pm_w *0x40023830 = 0x4001ff, remains CR
+[8001a4a, 8001a7c]  70-th(total  80-th) 	pm_r *0x40023850 gets 0x1ff, remains CR
+[8001a4a, 8001a7c] 149-th(total 151-th) 	pm_w *0x40023850 = 0x4001ff, remains CR
+[8001a4a, 8001a7c]  71-th(total  81-th) 	pm_r *0x40023850 gets 0x4001ff, remains CR
+[8001a4a, 8001a7c]  72-th(total  82-th) 	pm_r *0x40026470 gets 0x0, remains CR
+[8001a4a, 8001a7c] 150-th(total 152-th) 	pm_w *0x40026470 = 0x0, remains CR
+[8001a4a, 8001a7c]  73-th(total  83-th) 	pm_r *0x40026470 gets 0x0, remains CR
+[8001a7c, 8001ad2] 151-th(total 153-th) 	pm_w *0x4002640c = 0x3d, remains DR
+[8001a7c, 8001ad2] 152-th(total 154-th) 	pm_w *0x40026470 = 0x0, remains CR
+[8001a7c, 8001ad2] 153-th(total 155-th) 	pm_w *0x40026484 = 0x21, remains DR
+[8001a7c, 8001ad2] 154-th(total 156-th) 	pm_w *0x40026478 = 0x4001204c, remains DR
+[8001a7c, 8001ad2]  74-th(total  84-th) 	pm_r *0x40023844 gets 0x4000, remains CR
+[8001a7c, 8001ad2] 155-th(total 157-th) 	pm_w *0x40023844 = 0x4100, remains CR
+[8001a7c, 8001ad2]  75-th(total  85-th) 	pm_r *0x40023864 gets 0x4000, remains CR
+[8001a7c, 8001ad2] 156-th(total 158-th) 	pm_w *0x40023864 = 0x4100, remains CR
+[8001a7c, 8001ad2]  76-th(total  86-th) 	pm_r *0x40023864 gets 0x4100, remains CR
+[8001a7c, 8001ad2]  77-th(total  87-th) 	pm_r *0x40012304 gets 0x0, remains CR
+[8001a7c, 8001ad2] 157-th(total 159-th) 	pm_w *0x40012304 = 0x10000, remains CR
+[8001a7c, 8001ad2] 158-th(total 160-th) 	pm_w *0x40012004 = 0x0, remains DR
+[8001a7c, 8001ad2] 159-th(total 161-th) 	pm_w *0x40012008 = 0x0, remains DR
+[8001a7c, 8001ad2] 160-th(total 162-th) 	pm_w *0x40012008 = 0x1, remains DR
+Potential DMA Descriptor V1: base *0x40026400 p_A:*0x4002647c->*0x20001374 
+DMA Descriptor pair V2: *0x40026400 p_A:*0x40026478->*0x4001204c p_B:*0x4002647c->*0x20001374 
+[8001978, 80019e2] 161-th(total 163-th) 	pm_w *0x4002647c = 0x20001374, remains DR
+[8001978, 80019e2] 162-th(total 164-th) 	pm_w *0x40026474 = 0x14, remains DR
+[8001978, 80019e2] 163-th(total 165-th) 	pm_w *0x40026470 = 0x22c16, remains CR
+[8001978, 80019e2]  78-th(total  88-th) 	pm_r *0x40026470 gets 0x22c16, remains CR
+[8001978, 80019e2] 164-th(total 166-th) 	pm_w *0x40026470 = 0x22c17, remains CR
+[8001978, 80019e2] 165-th(total 167-th) 	pm_w *0x40012000 = 0x0, remains DR
+[8001978, 80019e2] 166-th(total 168-th) 	pm_w *0x4001200c = 0x0, remains DR
+[8001978, 80019e2] 167-th(total 169-th) 	pm_w *0x40012010 = 0x1001, remains DR
+[8001978, 80019e2] 168-th(total 170-th) 	pm_w *0x40012024 = 0x0, remains DR
+[8001978, 80019e2] 169-th(total 171-th) 	pm_w *0x40012028 = 0x0, remains DR
+[8001978, 80019e2] 170-th(total 172-th) 	pm_w *0x4001202c = 0x100080, remains DR
+[8001978, 80019e2] 171-th(total 173-th) 	pm_w *0x40012030 = 0x0, remains DR
+[8001978, 80019e2] 172-th(total 174-th) 	pm_w *0x40012034 = 0x0, remains DR
+[8001978, 80019e2] 173-th(total 175-th) 	pm_w *0x40012004 = 0x4000100, remains DR
+[8001978, 80019e2] 174-th(total 176-th) 	pm_w *0x40012008 = 0x303, remains DR
+[8001978, 80019e2] 175-th(total 177-th) 	pm_w *0x40012008 = 0x40000303, remains DR
+[8000bb0, 8000bde]  79-th(total  89-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000bb0, 8000bde]  11-th(total  90-th) 	unassigned mem_r *0xe0001004
+[80011fa, 800121a]  80-th(total  91-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8001050, 800105c]  81-th(total  92-th) 	pm_r *0x4000000c gets 0x0, remains DR
+[8000bb0, 8000bde]  82-th(total  93-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000bb0, 8000bde]  12-th(total  94-th) 	unassigned mem_r *0xe0001004
+stage_termination
+

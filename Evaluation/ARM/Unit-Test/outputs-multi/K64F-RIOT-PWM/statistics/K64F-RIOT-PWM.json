@@ -1,0 +1,74 @@
+{
+    "TRA": 41,
+    "CP": 21,
+    "ACC": 51.21951219512195,
+    "TRR": 21,
+    "TRRC": 18,
+    "TRRW": 3,
+    "ACCRR": 85.71428571428571,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40038000",
+            "0x40038000",
+            "Status And Control (FTM0_SC)32R/W0000_0000",
+            "SR",
+            "CR",
+            1,
+            1,
+            "NO",
+            "Hybrid"
+        ],
+        [
+            "0x40064000",
+            "0x40064008",
+            "MCG Status and Control Register (MCG_SC)8R/W02",
+            "SR",
+            "CR",
+            1,
+            1,
+            "NO",
+            "Hybrid"
+        ],
+        [
+            "0x400ff000",
+            "0x400ff114",
+            "Port Data Direction Register (GPIOE_PDDR)32R/W0000_0000",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 12,
+    "NUMSRSITES": 9,
+    "SRSITES": [
+        "0xeac",
+        "0xe34",
+        "0xcda",
+        "0xe9c",
+        "0xcc4",
+        "0xeb2",
+        "0xf40",
+        "0xf48",
+        "0xe78"
+    ],
+    "INTERRUPTS": [
+        47
+    ],
+    "NUMINTERRUPTS": 1
+}

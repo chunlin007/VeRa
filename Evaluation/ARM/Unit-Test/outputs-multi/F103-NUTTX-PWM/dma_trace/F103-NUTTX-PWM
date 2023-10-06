@@ -1,0 +1,289 @@
+
+(process:990235): GLib-WARNING **: 13:05:57.575: ../../../../glib/gmem.c:489: custom memory allocation vtable not supported
+
+GNU ARM Eclipse 64-bits QEMU v2.3.50 (qemu-system-gnuarmeclipse).
+Board: 'NUCLEO-F103RB' (ST Nucleo Development Board for STM32 F1 series).
+Device: 'STM32F103RB' (Cortex-M3 r0p1, MPU), Flash: 128 kB, RAM: 20 kB.
+Image: '/projects/VeRa/Evaluation/ARM/Unit-Test/Firmware/Binaries-P2IM/F103-NUTTX-PWM.elf'.
+Command line: (none).
+[0, 0]   1-th(total   1-th) 	unassigned mem_r *0x0
+[0, 0]   2-th(total   2-th) 	unassigned mem_r *0x4
+Load  46440 bytes at 0x08000000-0x0800B567.
+Load    136 bytes at 0x0800B568-0x0800B5EF.
+Cortex-M3 r0p1 core initialised.
+QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) Cortex-M3 r0p1 core reset.
+[80001c8, 8000264]   1-th(total   1-th) 	pm_w *0x4002100c = 0x0, remains DR
+[80001c8, 8000264]   2-th(total   2-th) 	pm_w *0x40021010 = 0x0, remains CR
+[80001c8, 8000264]   3-th(total   3-th) 	pm_w *0x40021014 = 0x14, remains DR
+[80001c8, 8000264]   4-th(total   4-th) 	pm_w *0x40021018 = 0x0, remains CR
+[80001c8, 8000264]   5-th(total   5-th) 	pm_w *0x4002101c = 0x0, remains CR
+[80001c8, 8000264]   1-th(total   3-th) 	pm_r *0x40021000 gets 0x0, remains CR+SR use_oth=0
+[80001c8, 8000264]   6-th(total   6-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[80001c8, 8000264]   2-th(total   4-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR use_oth=0
+[80001c8, 8000264]   7-th(total   7-th) 	pm_w *0x40021004 = 0x0, remains CR+SR
+[80001c8, 8000264]   3-th(total   5-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR use_oth=0
+[80001c8, 8000264]   8-th(total   8-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[80001c8, 8000264]   4-th(total   6-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR use_oth=0
+[80001c8, 8000264]   9-th(total   9-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[80001c8, 8000264]   5-th(total   7-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR use_oth=0
+[80001c8, 8000264]  10-th(total  10-th) 	pm_w *0x40021004 = 0x0, remains CR+SR
+[80001c8, 8000264]  11-th(total  11-th) 	pm_w *0x40021008 = 0x0, remains DR
+[80002f8, 8000320]   6-th(total   8-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR use_oth=0
+[80002f8, 8000320]  12-th(total  12-th) 	pm_w *0x40021000 = 0x10001, remains CR+SR
+[8000320, 800032c]   7-th(total   9-th) 	pm_r *0x40021000 gets 0x20000, remains CR+SR use_oth=0
+[8000342, 80003e0]   8-th(total  10-th) 	pm_r *0x40022000 gets 0x0, remains CR use_oth=0
+[8000342, 80003e0]  13-th(total  13-th) 	pm_w *0x40022000 = 0x12, remains CR
+[8000342, 80003e0]   9-th(total  11-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR use_oth=0
+[8000342, 80003e0]  14-th(total  14-th) 	pm_w *0x40021004 = 0x0, remains CR+SR
+[8000342, 80003e0]  10-th(total  12-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR use_oth=0
+[8000342, 80003e0]  15-th(total  15-th) 	pm_w *0x40021004 = 0x0, remains CR+SR
+[8000342, 80003e0]  11-th(total  13-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR use_oth=0
+[8000342, 80003e0]  16-th(total  16-th) 	pm_w *0x40021004 = 0x400, remains CR+SR
+[8000342, 80003e0]  12-th(total  14-th) 	pm_r *0x40021004 gets 0x400, remains CR+SR use_oth=0
+[8000342, 80003e0]  17-th(total  17-th) 	pm_w *0x40021004 = 0x1d0400, remains CR+SR
+[8000342, 80003e0]  13-th(total  15-th) 	pm_r *0x40021000 gets 0x10001, remains CR+SR use_oth=0
+[8000342, 80003e0]  18-th(total  18-th) 	pm_w *0x40021000 = 0x1010001, remains CR+SR
+[8000342, 80003e0]  14-th(total  16-th) 	pm_r *0x40021000 gets 0x1010001, remains CR+SR use_oth=0
+[80003d4, 80003e0]  15-th(total  17-th) 	pm_r *0x40021000 gets 0x2000000, remains CR+SR use_oth=0
+[80003e0, 8000400]  16-th(total  18-th) 	pm_r *0x40021004 gets 0x1d0400, remains CR+SR use_oth=0
+[80003e0, 8000400]  19-th(total  19-th) 	pm_w *0x40021004 = 0x1d0402, remains CR+SR
+[8000400, 800040a]  17-th(total  19-th) 	pm_r *0x40021004 gets 0x8, remains CR+SR use_oth=0
+[8000288, 80002a2]  20-th(total  20-th) 	pm_w *0x40021014 = 0x14, remains DR
+[80002c8, 80002f4]  18-th(total  20-th) 	pm_r *0x40021018 gets 0x0, remains CR use_oth=0
+[80002c8, 80002f4]  21-th(total  21-th) 	pm_w *0x40021018 = 0x401d, remains CR
+[80002a8, 80002c4]  19-th(total  21-th) 	pm_r *0x4002101c gets 0x0, remains CR use_oth=0
+[80002a8, 80002c4]  22-th(total  22-th) 	pm_w *0x4002101c = 0x0, remains CR
+[8000748, 8000772]  20-th(total  22-th) 	pm_r *0x40010004 gets 0x0, remains CR use_oth=0
+[8000748, 8000772]  23-th(total  23-th) 	pm_w *0x40010004 = 0x0, remains CR
+[80004e2, 80004f6]  21-th(total  23-th) 	pm_r *0x40010804 gets 0x0, remains CR use_oth=0
+[80004fc, 8000548]  24-th(total  24-th) 	pm_w *0x40010804 = 0xb0, remains CR
+[80004e2, 80004f6]  22-th(total  24-th) 	pm_r *0x40010804 gets 0xb0, remains CR use_oth=0
+[8000506, 8000548]  25-th(total  25-th) 	pm_w *0x40010804 = 0x4b0, remains CR
+[800077a, 80007e6]  23-th(total  25-th) 	pm_r *0x40013810 gets 0x0, remains CR use_oth=0
+[800077a, 80007e6]  26-th(total  26-th) 	pm_w *0x40013810 = 0x0, remains CR
+[800077a, 80007e6]  24-th(total  26-th) 	pm_r *0x4001380c gets 0x0, remains CR use_oth=0
+[800077a, 80007e6]  27-th(total  27-th) 	pm_w *0x4001380c = 0x0, remains CR
+[800077a, 80007e6]  25-th(total  27-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800077a, 80007e6]  28-th(total  28-th) 	pm_w *0x40013814 = 0x0, remains CR
+[800077a, 80007e6]  29-th(total  29-th) 	pm_w *0x40013808 = 0x271, remains DR
+[800077a, 80007e6]  26-th(total  28-th) 	pm_r *0x4001380c gets 0x0, remains CR use_oth=0
+[800077a, 80007e6]  30-th(total  30-th) 	pm_w *0x4001380c = 0x200c, remains CR
+[8000450, 800046a]  31-th(total  31-th) 	pm_w *0x40010004 = 0x0, remains CR
+[8000718, 8000730]  27-th(total  29-th) 	pm_r *0x40013800 gets 0x40, remains SR use_oth=0
+[8000730, 8000740]  32-th(total  32-th) 	pm_w *0x40013804 = 0x41, remains DR
+[8000718, 8000730]  28-th(total  30-th) 	pm_r *0x40013800 gets 0x40, remains SR use_oth=0
+[8000730, 8000740]  33-th(total  33-th) 	pm_w *0x40013804 = 0x42, remains DR
+[8000718, 8000730]  29-th(total  31-th) 	pm_r *0x40013800 gets 0x40, remains SR use_oth=0
+[8000730, 8000740]  34-th(total  34-th) 	pm_w *0x40013804 = 0x43, remains DR
+[8000800, 800081a]  30-th(total  32-th) 	pm_r *0x4001380c gets 0x200c, remains CR use_oth=0
+[800081a, 800083e]  35-th(total  35-th) 	pm_w *0x4001380c = 0x200c, remains CR
+[8000800, 800081a]  31-th(total  33-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  36-th(total  36-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8001152, 8001182]  32-th(total  34-th) 	pm_r *0x40021018 gets 0x401d, remains CR use_oth=0
+[8001152, 8001182]  37-th(total  37-th) 	pm_w *0x40021018 = 0x401d, remains CR
+[80004e2, 80004f6]  33-th(total  35-th) 	pm_r *0x40010804 gets 0x4b0, remains CR use_oth=0
+[80004fc, 8000548]  38-th(total  38-th) 	pm_w *0x40010804 = 0x4b0, remains CR
+[80004e2, 80004f6]  34-th(total  36-th) 	pm_r *0x40010804 gets 0x4b0, remains CR use_oth=0
+[8000506, 8000548]  39-th(total  39-th) 	pm_w *0x40010804 = 0x4b0, remains CR
+[8000800, 800081a]  35-th(total  37-th) 	pm_r *0x40013810 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  40-th(total  40-th) 	pm_w *0x40013810 = 0x0, remains CR
+[8000800, 800081a]  36-th(total  38-th) 	pm_r *0x4001380c gets 0x200c, remains CR use_oth=0
+[800081a, 800083e]  41-th(total  41-th) 	pm_w *0x4001380c = 0x2000, remains CR
+[8000800, 800081a]  37-th(total  39-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  42-th(total  42-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  38-th(total  40-th) 	pm_r *0x4001380c gets 0x2000, remains CR use_oth=0
+[800081a, 800083e]  43-th(total  43-th) 	pm_w *0x4001380c = 0x2000, remains CR
+[800081a, 800083e]  44-th(total  44-th) 	pm_w *0x40013808 = 0x271, remains DR
+[800081a, 800083e]  45-th(total  45-th) 	pm_w *0x4001380c = 0x2000, remains CR
+[8000800, 800081a]  39-th(total  41-th) 	pm_r *0x40013810 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  46-th(total  46-th) 	pm_w *0x40013810 = 0x0, remains CR
+[8000800, 800081a]  40-th(total  42-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  47-th(total  47-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  41-th(total  43-th) 	pm_r *0x4001380c gets 0x2000, remains CR use_oth=0
+[800081a, 800083e]  48-th(total  48-th) 	pm_w *0x4001380c = 0x200c, remains CR
+[8000718, 8000730]  42-th(total  44-th) 	pm_r *0x40013800 gets 0x40, remains SR use_oth=0
+[8000730, 8000740]  49-th(total  49-th) 	pm_w *0x40013804 = 0x44, remains DR
+[80004e2, 80004f6]  43-th(total  45-th) 	pm_r *0x40011004 gets 0x0, remains CR use_oth=0
+[80004fc, 8000548]  50-th(total  50-th) 	pm_w *0x40011004 = 0x300000, remains CR
+[80005f0, 800061e]  44-th(total  46-th) 	pm_r *0x40011014 gets 0x0, remains CR use_oth=0
+[80005f0, 800061e]  51-th(total  51-th) 	pm_w *0x40011014 = 0x2000, remains CR
+[8000718, 8000730]  45-th(total  47-th) 	pm_r *0x40013800 gets 0x40, remains SR use_oth=0
+[8000730, 8000740]  52-th(total  52-th) 	pm_w *0x40013804 = 0x46, remains DR
+[8000718, 8000730]  46-th(total  48-th) 	pm_r *0x40013800 gets 0x40, remains SR use_oth=0
+[8000730, 8000740]  53-th(total  53-th) 	pm_w *0x40013804 = 0xd, remains DR
+[8000718, 8000730]  47-th(total  49-th) 	pm_r *0x40013800 gets 0x40, remains SR use_oth=0
+[8000730, 8000740]  54-th(total  54-th) 	pm_w *0x40013804 = 0xa, remains DR
+[800069a, 80006ba]  55-th(total  55-th) 	pm_w *0x40011014 = 0x2000, remains CR
+bbl_cnt 2717: Trying to disable a never enabled IRQ 0
+bbl_cnt 2717: Trying to disable a never enabled IRQ 1
+bbl_cnt 2717: Trying to disable a never enabled IRQ 2
+bbl_cnt 2717: Trying to disable a never enabled IRQ 3
+bbl_cnt 2717: Trying to disable a never enabled IRQ 4
+bbl_cnt 2717: Trying to disable a never enabled IRQ 5
+bbl_cnt 2717: Trying to disable a never enabled IRQ 6
+bbl_cnt 2717: Trying to disable a never enabled IRQ 7
+bbl_cnt 2717: Trying to disable a never enabled IRQ 8
+bbl_cnt 2717: Trying to disable a never enabled IRQ 9
+bbl_cnt 2717: Trying to disable a never enabled IRQ 10
+bbl_cnt 2717: Trying to disable a never enabled IRQ 11
+bbl_cnt 2717: Trying to disable a never enabled IRQ 12
+bbl_cnt 2717: Trying to disable a never enabled IRQ 13
+bbl_cnt 2717: Trying to disable a never enabled IRQ 14
+bbl_cnt 2717: Trying to disable a never enabled IRQ 15
+bbl_cnt 2717: Trying to disable a never enabled IRQ 16
+bbl_cnt 2717: Trying to disable a never enabled IRQ 17
+bbl_cnt 2717: Trying to disable a never enabled IRQ 18
+bbl_cnt 2717: Trying to disable a never enabled IRQ 19
+bbl_cnt 2717: Trying to disable a never enabled IRQ 20
+bbl_cnt 2717: Trying to disable a never enabled IRQ 21
+bbl_cnt 2717: Trying to disable a never enabled IRQ 22
+bbl_cnt 2717: Trying to disable a never enabled IRQ 23
+bbl_cnt 2717: Trying to disable a never enabled IRQ 24
+bbl_cnt 2717: Trying to disable a never enabled IRQ 25
+bbl_cnt 2717: Trying to disable a never enabled IRQ 26
+bbl_cnt 2717: Trying to disable a never enabled IRQ 27
+bbl_cnt 2717: Trying to disable a never enabled IRQ 28
+bbl_cnt 2717: Trying to disable a never enabled IRQ 29
+bbl_cnt 2717: Trying to disable a never enabled IRQ 30
+bbl_cnt 2717: Trying to disable a never enabled IRQ 31
+bbl_cnt 2718: Trying to disable a never enabled IRQ 32
+bbl_cnt 2718: Trying to disable a never enabled IRQ 33
+bbl_cnt 2718: Trying to disable a never enabled IRQ 34
+bbl_cnt 2718: Trying to disable a never enabled IRQ 35
+bbl_cnt 2718: Trying to disable a never enabled IRQ 36
+bbl_cnt 2718: Disabled IRQ 37
+bbl_cnt 2718: Trying to disable a never enabled IRQ 38
+bbl_cnt 2718: Trying to disable a never enabled IRQ 39
+bbl_cnt 2718: Trying to disable a never enabled IRQ 40
+bbl_cnt 2718: Trying to disable a never enabled IRQ 41
+bbl_cnt 2718: Trying to disable a never enabled IRQ 42
+bbl_cnt 2718: Trying to disable a never enabled IRQ 43
+bbl_cnt 2718: Trying to disable a never enabled IRQ 44
+bbl_cnt 2718: Trying to disable a never enabled IRQ 45
+bbl_cnt 2718: Trying to disable a never enabled IRQ 46
+bbl_cnt 2718: Trying to disable a never enabled IRQ 47
+bbl_cnt 2718: Trying to disable a never enabled IRQ 48
+bbl_cnt 2718: Trying to disable a never enabled IRQ 49
+bbl_cnt 2718: Trying to disable a never enabled IRQ 50
+bbl_cnt 2718: Trying to disable a never enabled IRQ 51
+bbl_cnt 2718: Trying to disable a never enabled IRQ 52
+bbl_cnt 2718: Trying to disable a never enabled IRQ 53
+bbl_cnt 2718: Trying to disable a never enabled IRQ 54
+bbl_cnt 2718: Trying to disable a never enabled IRQ 55
+bbl_cnt 2718: Trying to disable a never enabled IRQ 56
+bbl_cnt 2718: Trying to disable a never enabled IRQ 57
+bbl_cnt 2718: Trying to disable a never enabled IRQ 58
+bbl_cnt 2718: Trying to disable a never enabled IRQ 59
+bbl_cnt 2718: Trying to disable a never enabled IRQ 60
+bbl_cnt 2718: Trying to disable a never enabled IRQ 61
+bbl_cnt 2718: Trying to disable a never enabled IRQ 62
+bbl_cnt 2718: Trying to disable a never enabled IRQ 63
+[8000800, 800081a]  48-th(total  50-th) 	pm_r *0x4001380c gets 0x200c, remains CR use_oth=0
+[800081a, 800083e]  56-th(total  56-th) 	pm_w *0x4001380c = 0x202c, remains CR
+[8000800, 800081a]  49-th(total  51-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  57-th(total  57-th) 	pm_w *0x40013814 = 0x0, remains CR
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 8829: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 8937: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 8995: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 9103: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 11577: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 11685: EXCP/ISR exits
+[8001152, 8001182]  50-th(total  52-th) 	pm_r *0x4002101c gets 0x0, remains CR use_oth=0
+[8001152, 8001182]  58-th(total  58-th) 	pm_w *0x4002101c = 0x2, remains CR
+[80004e2, 80004f6]  51-th(total  53-th) 	pm_r *0x40010c00 gets 0x0, remains CR use_oth=0
+[80004fc, 8000548]  59-th(total  59-th) 	pm_w *0x40010c00 = 0xb, remains CR
+[8000800, 800081a]  52-th(total  54-th) 	pm_r *0x4001380c gets 0x202c, remains CR use_oth=0
+[800081a, 800083e]  60-th(total  60-th) 	pm_w *0x4001380c = 0x202c, remains CR
+[8000800, 800081a]  53-th(total  55-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  61-th(total  61-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  54-th(total  56-th) 	pm_r *0x4001380c gets 0x202c, remains CR use_oth=0
+[800081a, 800083e]  62-th(total  62-th) 	pm_w *0x4001380c = 0x20ac, remains CR
+[8000800, 800081a]  55-th(total  57-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  63-th(total  63-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  56-th(total  58-th) 	pm_r *0x40013800 gets 0x0, remains SR use_oth=0
+[800a89c, 800a8bc]  57-th(total  59-th) 	pm_r *0x40000400 gets 0x0, remains CR use_oth=0
+[800a906, 800a920]  64-th(total  64-th) 	pm_w *0x40000400 = 0x0, remains CR
+[800a906, 800a920]  65-th(total  65-th) 	pm_w *0x4000042c = 0xffad, remains DR
+[800a906, 800a920]  66-th(total  66-th) 	pm_w *0x40000428 = 0xa, remains DR
+[800a906, 800a920]  67-th(total  67-th) 	pm_w *0x40000414 = 0x1, remains DR
+[800a906, 800a920]  68-th(total  68-th) 	pm_w *0x4000043c = 0x7fd7, remains DR
+[800a89c, 800a8bc]  58-th(total  60-th) 	pm_r *0x40000420 gets 0x0, remains CR use_oth=0
+[800a906, 800a920]  69-th(total  69-th) 	pm_w *0x40000420 = 0x0, remains CR
+[800a89c, 800a8bc]  59-th(total  61-th) 	pm_r *0x40000404 gets 0x0, remains DR use_oth=0
+[800a89c, 800a8bc]  60-th(total  62-th) 	pm_r *0x40000418 gets 0x0, remains DR use_oth=0
+[800a89c, 800a8bc]  61-th(total  63-th) 	pm_r *0x4000041c gets 0x0, remains DR use_oth=0
+[800a906, 800a920]  70-th(total  70-th) 	pm_w *0x40000404 = 0x0, remains DR
+[800a906, 800a920]  71-th(total  71-th) 	pm_w *0x40000418 = 0x0, remains DR
+[800a906, 800a920]  72-th(total  72-th) 	pm_w *0x4000041c = 0x68, remains DR
+[800a906, 800a920]  73-th(total  73-th) 	pm_w *0x40000420 = 0x100, remains CR
+[800a89c, 800a8bc]  62-th(total  64-th) 	pm_r *0x40000400 gets 0x0, remains CR use_oth=0
+[800a906, 800a920]  74-th(total  74-th) 	pm_w *0x40000400 = 0x80, remains CR
+[800a906, 800a920]  75-th(total  75-th) 	pm_w *0x40000400 = 0x81, remains CR
+[8000800, 800081a]  63-th(total  65-th) 	pm_r *0x4001380c gets 0x20ac, remains CR use_oth=0
+[800081a, 800083e]  76-th(total  76-th) 	pm_w *0x4001380c = 0x202c, remains CR
+[8000800, 800081a]  64-th(total  66-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  77-th(total  77-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  65-th(total  67-th) 	pm_r *0x4001380c gets 0x202c, remains CR use_oth=0
+[800081a, 800083e]  78-th(total  78-th) 	pm_w *0x4001380c = 0x20ac, remains CR
+[8000800, 800081a]  66-th(total  68-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  79-th(total  79-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  67-th(total  69-th) 	pm_r *0x40013800 gets 0x0, remains SR use_oth=0
+[800a906, 800a920]  80-th(total  80-th) 	pm_w *0x4000040c = 0x0, remains DR
+[800a906, 800a920]  81-th(total  81-th) 	pm_w *0x40000410 = 0x0, remains DR
+[800ae9a, 800aeca]  68-th(total  70-th) 	pm_r *0x40021010 gets 0x0, remains CR use_oth=0
+[800ae9a, 800aeca]  82-th(total  82-th) 	pm_w *0x40021010 = 0x2, remains CR
+[800ae9a, 800aeca]  83-th(total  83-th) 	pm_w *0x40021010 = 0x0, remains CR
+[800a906, 800a920]  84-th(total  84-th) 	pm_w *0x4000040c = 0x0, remains DR
+[800a906, 800a920]  85-th(total  85-th) 	pm_w *0x40000410 = 0x0, remains DR
+[800ae9a, 800aeca]  69-th(total  71-th) 	pm_r *0x40021010 gets 0x0, remains CR use_oth=0
+[800ae9a, 800aeca]  86-th(total  86-th) 	pm_w *0x40021010 = 0x2, remains CR
+[800ae9a, 800aeca]  87-th(total  87-th) 	pm_w *0x40021010 = 0x0, remains CR
+[8001152, 8001182]  70-th(total  72-th) 	pm_r *0x4002101c gets 0x2, remains CR use_oth=0
+[8001152, 8001182]  88-th(total  88-th) 	pm_w *0x4002101c = 0x0, remains CR
+[80004e2, 80004f6]  71-th(total  73-th) 	pm_r *0x40010c00 gets 0xb, remains CR use_oth=0
+[8000506, 8000548]  89-th(total  89-th) 	pm_w *0x40010c00 = 0x4, remains CR
+[8000800, 800081a]  72-th(total  74-th) 	pm_r *0x4001380c gets 0x20ac, remains CR use_oth=0
+[800081a, 800083e]  90-th(total  90-th) 	pm_w *0x4001380c = 0x202c, remains CR
+[8000800, 800081a]  73-th(total  75-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  91-th(total  91-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  74-th(total  76-th) 	pm_r *0x4001380c gets 0x202c, remains CR use_oth=0
+[800081a, 800083e]  92-th(total  92-th) 	pm_w *0x4001380c = 0x20ac, remains CR
+[8000800, 800081a]  75-th(total  77-th) 	pm_r *0x40013814 gets 0x0, remains CR use_oth=0
+[800081a, 800083e]  93-th(total  93-th) 	pm_w *0x40013814 = 0x0, remains CR
+[8000800, 800081a]  76-th(total  78-th) 	pm_r *0x40013800 gets 0x0, remains SR use_oth=0
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 22161: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 22192: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 30000: Acknowledged IRQ -1
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 30038: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 60000: Acknowledged IRQ 37
+[8000800, 800081a]  77-th(total  79-th) 	pm_r *0x40013800 gets 0x0, remains SR use_oth=0
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 60036: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 90000: Acknowledged IRQ -1
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 90038: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 120000: Acknowledged IRQ 37
+[8000800, 800081a]  78-th(total  80-th) 	pm_r *0x40013800 gets 0x0, remains SR use_oth=0
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 120036: EXCP/ISR exits
+stage_termination
+

@@ -1,0 +1,395 @@
+
+(process:1222162): GLib-WARNING **: 01:58:08.134: ../../../../glib/gmem.c:489: custom memory allocation vtable not supported
+
+GNU ARM Eclipse 64-bits QEMU v2.3.50 (qemu-system-gnuarmeclipse).
+Board: 'LISA_F105RC' (Lisa/M v2.0).
+Device: 'STM32F105RC' (Cortex-M3 r0p1, MPU), Flash: 256 kB, RAM: 64 kB.
+Image: '/projects/VeRa/Evaluation/ARM/Unit-Test/Firmware/Binaries-DICE/L1521_ChibiOS_UART.elf'.
+Command line: (none).
+[0, 0]   1-th(total   1-th) 	unassigned mem_r *0x0
+[0, 0]   2-th(total   2-th) 	unassigned mem_r *0x4
+Load   9640 bytes at 0x08000000-0x080025A7.
+Load     32 bytes at 0x080025A8-0x080025C7.
+Load      0 bytes at 0x20000000-0x1FFFFFFF.
+Cortex-M3 r0p1 core initialised.
+QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) Cortex-M3 r0p1 core reset.
+[8001970, 8001a6c]   1-th(total   3-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8001970, 8001a6c]   1-th(total   1-th) 	pm_w *0x40023810 = 0x3f, remains CR
+[8001970, 8001a6c]   2-th(total   4-th) 	pm_r *0x40023810 gets 0x3f, remains CR
+[8001970, 8001a6c]   2-th(total   2-th) 	pm_w *0x40023810 = 0x0, remains CR
+[8001970, 8001a6c]   3-th(total   5-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8001970, 8001a6c]   4-th(total   6-th) 	pm_r *0x4002381c gets 0x0, remains CR
+[8001970, 8001a6c]   3-th(total   3-th) 	pm_w *0x4002381c = 0x3f, remains CR
+[8001970, 8001a6c]   5-th(total   7-th) 	pm_r *0x40023828 gets 0x0, remains CR
+[8001970, 8001a6c]   4-th(total   4-th) 	pm_w *0x40023828 = 0x3f, remains CR
+[8001970, 8001a6c]   6-th(total   8-th) 	pm_r *0x40023828 gets 0x3f, remains CR
+[8001970, 8001a6c]   5-th(total   5-th) 	pm_w *0x40020004 = 0x0, remains CR
+[8001970, 8001a6c]   6-th(total   6-th) 	pm_w *0x40020008 = 0xfc000000, remains CR
+[8001970, 8001a6c]   7-th(total   7-th) 	pm_w *0x4002000c = 0x65555554, remains CR
+[8001970, 8001a6c]   8-th(total   8-th) 	pm_w *0x40020014 = 0xffff, remains DR
+[8001970, 8001a6c]   9-th(total   9-th) 	pm_w *0x40020020 = 0x0, remains DR
+[8001970, 8001a6c]  10-th(total  10-th) 	pm_w *0x40020024 = 0x0, remains CR
+[8001970, 8001a6c]  11-th(total  11-th) 	pm_w *0x40020000 = 0xa8000000, remains CR
+[8001970, 8001a6c]  12-th(total  12-th) 	pm_w *0x40020404 = 0x0, remains DR
+[8001970, 8001a6c]  13-th(total  13-th) 	pm_w *0x40020408 = 0xf3f0, remains DR
+[8001970, 8001a6c]  14-th(total  14-th) 	pm_w *0x4002040c = 0x55550505, remains DR
+[8001970, 8001a6c]  15-th(total  15-th) 	pm_w *0x40020414 = 0xff3f, remains DR
+[8001970, 8001a6c]  16-th(total  16-th) 	pm_w *0x40020420 = 0x0, remains DR
+[8001970, 8001a6c]  17-th(total  17-th) 	pm_w *0x40020424 = 0x0, remains DR
+[8001970, 8001a6c]  18-th(total  18-th) 	pm_w *0x40020400 = 0x5280, remains DR
+[8001970, 8001a6c]  19-th(total  19-th) 	pm_w *0x40020804 = 0x0, remains DR
+[8001970, 8001a6c]  20-th(total  20-th) 	pm_w *0x40020808 = 0xf0000000, remains DR
+[8001970, 8001a6c]  21-th(total  21-th) 	pm_w *0x4002080c = 0x5555555, remains DR
+[8001970, 8001a6c]  22-th(total  22-th) 	pm_w *0x40020814 = 0xffff, remains DR
+[8001970, 8001a6c]  23-th(total  23-th) 	pm_w *0x40020820 = 0x0, remains DR
+[8001970, 8001a6c]  24-th(total  24-th) 	pm_w *0x40020824 = 0x0, remains DR
+[8001970, 8001a6c]  25-th(total  25-th) 	pm_w *0x40020800 = 0x0, remains DR
+[8001970, 8001a6c]  26-th(total  26-th) 	pm_w *0x40020c04 = 0x0, remains DR
+[8001970, 8001a6c]  27-th(total  27-th) 	pm_w *0x40020c08 = 0x0, remains DR
+[8001970, 8001a6c]  28-th(total  28-th) 	pm_w *0x40020c0c = 0x55555555, remains DR
+[8001970, 8001a6c]  29-th(total  29-th) 	pm_w *0x40020c14 = 0xffff, remains DR
+[8001970, 8001a6c]  30-th(total  30-th) 	pm_w *0x40020c20 = 0x0, remains DR
+[8001970, 8001a6c]  31-th(total  31-th) 	pm_w *0x40020c24 = 0x0, remains DR
+[8001970, 8001a6c]  32-th(total  32-th) 	pm_w *0x40020c00 = 0x0, remains DR
+[8001970, 8001a6c]  33-th(total  33-th) 	pm_w *0x40021004 = 0x0, remains DR
+[8001970, 8001a6c]  34-th(total  34-th) 	pm_w *0x40021008 = 0x0, remains DR
+[8001970, 8001a6c]  35-th(total  35-th) 	pm_w *0x4002100c = 0x55555555, remains DR
+[8001970, 8001a6c]  36-th(total  36-th) 	pm_w *0x40021014 = 0xffff, remains DR
+[8001970, 8001a6c]  37-th(total  37-th) 	pm_w *0x40021020 = 0x0, remains DR
+[8001970, 8001a6c]  38-th(total  38-th) 	pm_w *0x40021024 = 0x0, remains DR
+[8001970, 8001a6c]  39-th(total  39-th) 	pm_w *0x40021000 = 0x0, remains DR
+[8001970, 8001a6c]  40-th(total  40-th) 	pm_w *0x40021404 = 0x0, remains DR
+[8001970, 8001a6c]  41-th(total  41-th) 	pm_w *0x40021408 = 0xf, remains DR
+[8001970, 8001a6c]  42-th(total  42-th) 	pm_w *0x4002140c = 0x55555550, remains DR
+[8001970, 8001a6c]  43-th(total  43-th) 	pm_w *0x40021414 = 0xffff, remains DR
+[8001970, 8001a6c]  44-th(total  44-th) 	pm_w *0x40021420 = 0x0, remains DR
+[8001a6c, 8001a7c]  45-th(total  45-th) 	pm_w *0x40021424 = 0x0, remains DR
+[8001a6c, 8001a7c]  46-th(total  46-th) 	pm_w *0x40021400 = 0x0, remains DR
+[8001a6c, 8001a7c]  47-th(total  47-th) 	pm_w *0x40023824 = 0x10000000, remains CR
+[8001a6c, 8001a7c]   7-th(total   9-th) 	pm_r *0x40007004 gets 0x0, remains SR
+[8001a7c, 8001a8c]  48-th(total  48-th) 	pm_w *0x40007000 = 0x800, remains CR
+[8001a7c, 8001a8c]   8-th(total  10-th) 	pm_r *0x40007004 gets 0x0, remains SR
+[8001a8c, 8001aaa]  49-th(total  49-th) 	pm_w *0x40023808 = 0x0, remains CR+SR
+[8001a8c, 8001aaa]   9-th(total  11-th) 	pm_r *0x40023804 gets 0x0, remains CR
+[8001a8c, 8001aaa]  50-th(total  50-th) 	pm_w *0x40023804 = 0xa000, remains CR
+[8001a8c, 8001aaa]  51-th(total  51-th) 	pm_w *0x40023800 = 0x100, remains SR
+[8001a8c, 8001aaa]  10-th(total  12-th) 	pm_r *0x40023800 gets 0x200, remains SR
+[8001aaa, 8001aba]  11-th(total  13-th) 	pm_r *0x40023800 gets 0x2, remains SR
+[8001aaa, 8001aba]  52-th(total  52-th) 	pm_w *0x40023800 = 0x3, remains SR
+[8001aaa, 8001aba]  12-th(total  14-th) 	pm_r *0x40023800 gets 0x2, remains SR
+[8001aba, 8001aca]  13-th(total  15-th) 	pm_r *0x40023834 gets 0x2, remains SR
+[8001aba, 8001aca]  53-th(total  53-th) 	pm_w *0x40023834 = 0x3, remains SR
+[8001aba, 8001aca]  14-th(total  16-th) 	pm_r *0x40023834 gets 0x2, remains SR
+[8001aca, 8001ad0]  15-th(total  17-th) 	pm_r *0x40023834 gets 0x100, remains SR
+[8001aea, 8001af2]  16-th(total  18-th) 	pm_r *0x40023834 gets 0x200, remains SR
+[8001af2, 8001b0a]  17-th(total  19-th) 	pm_r *0x40023808 gets 0x0, remains CR+SR
+[8001af2, 8001b0a]  54-th(total  54-th) 	pm_w *0x40023808 = 0x880000, remains CR+SR
+[8001af2, 8001b0a]  18-th(total  20-th) 	pm_r *0x40023800 gets 0x2000000, remains SR
+[8001af2, 8001b0a]  55-th(total  55-th) 	pm_w *0x40023800 = 0x3000000, remains SR
+[8001af2, 8001b0a]  19-th(total  21-th) 	pm_r *0x40023800 gets 0x2000000, remains SR
+[8001b0a, 8001b38]  20-th(total  22-th) 	pm_r *0x40023800 gets 0x0, remains SR
+[8001b0a, 8001b38]  56-th(total  56-th) 	pm_w *0x40023800 = 0x0, remains SR
+[8001b0a, 8001b38]  21-th(total  23-th) 	pm_r *0x40023808 gets 0x880000, remains CR+SR
+[8001b0a, 8001b38]  57-th(total  57-th) 	pm_w *0x40023808 = 0x880000, remains CR+SR
+[8001b0a, 8001b38]  22-th(total  24-th) 	pm_r *0x40023834 gets 0x0, remains SR
+[8001b0a, 8001b38]  58-th(total  58-th) 	pm_w *0x40023834 = 0x10000, remains SR
+[8001b0a, 8001b38]  59-th(total  59-th) 	pm_w *0x40023c00 = 0x4, remains DR
+[8001b0a, 8001b38]  60-th(total  60-th) 	pm_w *0x40023c00 = 0x7, remains DR
+[8001b0a, 8001b38]  23-th(total  25-th) 	pm_r *0x40023808 gets 0x880000, remains CR+SR
+[8001b0a, 8001b38]  61-th(total  61-th) 	pm_w *0x40023808 = 0x880003, remains CR+SR
+[8001b0a, 8001b38]  24-th(total  26-th) 	pm_r *0x40023808 gets 0x880003, remains CR+SR
+[8001b2e, 8001b38]  25-th(total  27-th) 	pm_r *0x40023808 gets 0xc, remains CR+SR
+[8001b38, 8001b4e]  26-th(total  28-th) 	pm_r *0x40023820 gets 0x0, remains CR
+[8001b38, 8001b4e]  62-th(total  62-th) 	pm_w *0x40023820 = 0x1, remains CR
+[8001b38, 8001b4e]  27-th(total  29-th) 	pm_r *0x4002382c gets 0x0, remains CR
+[8001b38, 8001b4e]  63-th(total  63-th) 	pm_w *0x4002382c = 0x1, remains CR
+[8001b38, 8001b4e]  28-th(total  30-th) 	pm_r *0x4002382c gets 0x1, remains CR
+[8000db0, 8000e1a]  29-th(total  31-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8000db0, 8000e1a]  64-th(total  64-th) 	pm_w *0x40023810 = 0xffff7fc0, remains CR
+[8000db0, 8000e1a]  30-th(total  32-th) 	pm_r *0x40023810 gets 0xffff7fc0, remains CR
+[8000db0, 8000e1a]  65-th(total  65-th) 	pm_w *0x40023810 = 0x0, remains CR
+[8000db0, 8000e1a]  31-th(total  33-th) 	pm_r *0x40023810 gets 0x0, remains CR
+[8000db0, 8000e1a]  32-th(total  34-th) 	pm_r *0x40023818 gets 0x0, remains CR
+[8000db0, 8000e1a]  66-th(total  66-th) 	pm_w *0x40023818 = 0xefffffff, remains CR
+[8000db0, 8000e1a]  33-th(total  35-th) 	pm_r *0x40023818 gets 0xefffffff, remains CR
+[8000db0, 8000e1a]  67-th(total  67-th) 	pm_w *0x40023818 = 0x0, remains CR
+[8000db0, 8000e1a]  34-th(total  36-th) 	pm_r *0x40023818 gets 0x0, remains CR
+[8000db0, 8000e1a]  35-th(total  37-th) 	pm_r *0x40023814 gets 0x0, remains CR
+[8000db0, 8000e1a]  68-th(total  68-th) 	pm_w *0x40023814 = 0xffffffff, remains CR
+[8000db0, 8000e1a]  36-th(total  38-th) 	pm_r *0x40023814 gets 0xffffffff, remains CR
+[8000db0, 8000e1a]  69-th(total  69-th) 	pm_w *0x40023814 = 0x0, remains CR
+[8000db0, 8000e1a]  37-th(total  39-th) 	pm_r *0x40023814 gets 0x0, remains CR
+[8000db0, 8000e1a]  38-th(total  40-th) 	pm_r *0x40023824 gets 0x10000000, remains CR
+[8000db0, 8000e1a]  70-th(total  70-th) 	pm_w *0x40023824 = 0x10000000, remains CR
+[8000db0, 8000e1a]  39-th(total  41-th) 	pm_r *0x40023830 gets 0x0, remains CR
+[8000db0, 8000e1a]  71-th(total  71-th) 	pm_w *0x40023830 = 0x10000000, remains CR
+[8000db0, 8000e1a]  40-th(total  42-th) 	pm_r *0x40023830 gets 0x10000000, remains CR
+[8000db0, 8000e1a]  41-th(total  43-th) 	pm_r *0x40007000 gets 0x800, remains CR
+[8000db0, 8000e1a]  72-th(total  72-th) 	pm_w *0x40007000 = 0x900, remains CR
+[8000db0, 8000e1a]  42-th(total  44-th) 	pm_r *0x40023834 gets 0x200, remains SR
+[8000db0, 8000e1a]  73-th(total  73-th) 	pm_w *0x40023834 = 0x300, remains SR
+[8000db0, 8000e1a]  43-th(total  45-th) 	pm_r *0x40023834 gets 0x200, remains SR
+[8000e1a, 8000e20]  44-th(total  46-th) 	pm_r *0x40023834 gets 0x0, remains SR
+[8000e20, 8000e42]  45-th(total  47-th) 	pm_r *0x40023834 gets 0x0, remains SR
+[8000e20, 8000e42]  74-th(total  74-th) 	pm_w *0x40023834 = 0x10000, remains SR
+[8000e20, 8000e42]  46-th(total  48-th) 	pm_r *0x40023834 gets 0x0, remains SR
+[8000e20, 8000e42]  75-th(total  75-th) 	pm_w *0x40023834 = 0x400000, remains SR
+[8000e62, 8000e6e]  76-th(total  76-th) 	pm_w *0x40026008 = 0x0, remains DR
+[8000e5c, 8000e6e]  77-th(total  77-th) 	pm_w *0x4002601c = 0x0, remains DR
+[8000e5c, 8000e6e]  78-th(total  78-th) 	pm_w *0x40026030 = 0x0, remains DR
+[8000e5c, 8000e6e]  79-th(total  79-th) 	pm_w *0x40026044 = 0x0, remains CR
+[8000e5c, 8000e6e]  80-th(total  80-th) 	pm_w *0x40026058 = 0x0, remains CR
+[8000e5c, 8000e6e]  81-th(total  81-th) 	pm_w *0x4002606c = 0x0, remains DR
+[8000e5c, 8000e6e]  82-th(total  82-th) 	pm_w *0x40026080 = 0x0, remains DR
+[8000e6e, 8000eea]  83-th(total  83-th) 	pm_w *0x40026004 = 0xffffffff, remains DR
+[8000eea, 8000fca]  47-th(total  49-th) 	pm_r *0x40023824 gets 0x10000000, remains CR
+[8000eea, 8000fca]  84-th(total  84-th) 	pm_w *0x40023824 = 0x10000001, remains CR
+[8000eea, 8000fca]  48-th(total  50-th) 	pm_r *0x40023830 gets 0x10000000, remains CR
+[8000eea, 8000fca]  85-th(total  85-th) 	pm_w *0x40023830 = 0x10000001, remains CR
+[8000eea, 8000fca]  49-th(total  51-th) 	pm_r *0x40023830 gets 0x10000001, remains CR
+[8000eea, 8000fca]   3-th(total  52-th) 	unassigned mem_r *0xe0042008
+[8000eea, 8000fca]   1-th(total  86-th) 	unassigned mem_w *0xe0042008 = 0x1
+[8000eea, 8000fca]  86-th(total  87-th) 	pm_w *0x40000028 = 0x7cff, remains DR
+[8000eea, 8000fca]  87-th(total  88-th) 	pm_w *0x4000002c = 0xffff, remains DR
+[8000eea, 8000fca]  88-th(total  89-th) 	pm_w *0x40000018 = 0x0, remains DR
+[8000eea, 8000fca]  89-th(total  90-th) 	pm_w *0x40000034 = 0x0, remains DR
+[8000eea, 8000fca]  90-th(total  91-th) 	pm_w *0x4000000c = 0x0, remains DR
+[8000eea, 8000fca]  91-th(total  92-th) 	pm_w *0x40000004 = 0x0, remains DR
+[8000eea, 8000fca]  92-th(total  93-th) 	pm_w *0x40000014 = 0x1, remains DR
+[8000eea, 8000fca]  93-th(total  94-th) 	pm_w *0x40000000 = 0x1, remains DR
+[8000330, 8000338]   4-th(total  53-th) 	unassigned mem_r *0xe0001004
+[80003e0, 8000402]   5-th(total  54-th) 	unassigned mem_r *0xe0001004
+PRIGROUP unimplemented
+NVIC: debug register 00000DFC unimplemented
+NVIC: debug register 00000DFC unimplemented
+[8001002, 80010f0]   6-th(total  55-th) 	unassigned mem_r *0xe0001000
+[8001002, 80010f0]   2-th(total  95-th) 	unassigned mem_w *0xe0001000 = 0x1
+[80005d2, 8000612]  50-th(total  56-th) 	pm_r *0x4002381c gets 0x3f, remains CR
+[80005d2, 8000612]  94-th(total  96-th) 	pm_w *0x4002381c = 0x100003f, remains CR
+[80005d2, 8000612]  51-th(total  57-th) 	pm_r *0x40023828 gets 0x3f, remains CR
+[80005d2, 8000612]  95-th(total  97-th) 	pm_w *0x40023828 = 0x100003f, remains CR
+[80005d2, 8000612]  52-th(total  58-th) 	pm_r *0x40023828 gets 0x100003f, remains CR
+[8000612, 800063a]  53-th(total  59-th) 	pm_r *0x40026058 gets 0x0, remains CR
+[8000612, 800063a]  96-th(total  98-th) 	pm_w *0x40026058 = 0x0, remains CR
+[8000612, 800063a]  97-th(total  99-th) 	pm_w *0x40026004 = 0xe0000, remains DR
+[8000612, 800063a]  98-th(total 100-th) 	pm_w *0x40026058 = 0x0, remains CR
+[80005d2, 8000612]  54-th(total  60-th) 	pm_r *0x4002381c gets 0x100003f, remains CR
+[80005d2, 8000612]  99-th(total 101-th) 	pm_w *0x4002381c = 0x100003f, remains CR
+[80005d2, 8000612]  55-th(total  61-th) 	pm_r *0x40023828 gets 0x100003f, remains CR
+[80005d2, 8000612] 100-th(total 102-th) 	pm_w *0x40023828 = 0x100003f, remains CR
+[80005d2, 8000612]  56-th(total  62-th) 	pm_r *0x40023828 gets 0x100003f, remains CR
+[8000612, 800063a]  57-th(total  63-th) 	pm_r *0x40026044 gets 0x0, remains CR
+[8000612, 800063a] 101-th(total 103-th) 	pm_w *0x40026044 = 0x0, remains CR
+[8000612, 800063a] 102-th(total 104-th) 	pm_w *0x40026004 = 0xe000, remains DR
+[8000612, 800063a] 103-th(total 105-th) 	pm_w *0x40026044 = 0x0, remains CR
+[80015e4, 8001614]  58-th(total  64-th) 	pm_r *0x40023820 gets 0x1, remains CR
+[80015e4, 8001614] 104-th(total 106-th) 	pm_w *0x40023820 = 0x4001, remains CR
+[80015e4, 8001614]  59-th(total  65-th) 	pm_r *0x4002382c gets 0x1, remains CR
+[80015e4, 8001614] 105-th(total 107-th) 	pm_w *0x4002382c = 0x4001, remains CR
+[80015e4, 8001614]  60-th(total  66-th) 	pm_r *0x4002382c gets 0x4001, remains CR
+[8001614, 8001628] 106-th(total 108-th) 	pm_w *0x40026060 = 0x40013804, remains DR
+[8001614, 8001628] 107-th(total 109-th) 	pm_w *0x4002604c = 0x40013804, remains DR
+[800143a, 800149e]  61-th(total  67-th) 	pm_r *0x40026058 gets 0x0, remains CR
+[800143a, 800149e] 108-th(total 110-th) 	pm_w *0x40026058 = 0x0, remains CR
+[800143a, 800149e] 109-th(total 111-th) 	pm_w *0x40026004 = 0xe0000, remains DR
+[800143a, 800149e]  62-th(total  68-th) 	pm_r *0x40026044 gets 0x0, remains CR
+[800143a, 800149e] 110-th(total 112-th) 	pm_w *0x40026044 = 0x0, remains CR
+[800143a, 800149e] 111-th(total 113-th) 	pm_w *0x40026004 = 0xe000, remains DR
+[800143a, 800149e] 112-th(total 114-th) 	pm_w *0x4001380c = 0x0, remains CR
+[800143a, 800149e] 113-th(total 115-th) 	pm_w *0x40013810 = 0x0, remains DR
+[800143a, 800149e] 114-th(total 116-th) 	pm_w *0x40013814 = 0x0, remains DR
+[80014aa, 8001506] 115-th(total 117-th) 	pm_w *0x40013808 = 0x341, remains DR
+[80014aa, 8001506]  63-th(total  69-th) 	pm_r *0x40013800 gets 0x0, remains CR
+[80014aa, 8001506]  64-th(total  70-th) 	pm_r *0x40013804 gets 0x0, remains DR
+[80014aa, 8001506] 116-th(total 118-th) 	pm_w *0x40013800 = 0x0, remains CR
+[80014aa, 8001506] 117-th(total 119-th) 	pm_w *0x40013810 = 0x4040, remains DR
+[80014aa, 8001506] 118-th(total 120-th) 	pm_w *0x40013814 = 0xc1, remains DR
+[80014aa, 8001506] 119-th(total 121-th) 	pm_w *0x4001380c = 0x210c, remains CR
+Potential DMA Descriptor V1: base *0x40026000 p_A:*0x40026064->*0x20000838 
+DMA Descriptor pair V2: *0x40026000 p_A:*0x40026060->*0x40013804 p_B:*0x40026064->*0x20000838 
+[80014aa, 8001506] 120-th(total 122-th) 	pm_w *0x40026064 = 0x20000838, remains DR
+[80014aa, 8001506] 121-th(total 123-th) 	pm_w *0x4002605c = 0x1, remains DR
+[80014aa, 8001506] 122-th(total 124-th) 	pm_w *0x40026058 = 0x2a, remains CR
+[80014aa, 8001506]  65-th(total  71-th) 	pm_r *0x40026058 gets 0x2a, remains CR
+[80014aa, 8001506] 123-th(total 125-th) 	pm_w *0x40026058 = 0x2b, remains CR
+[80002f8, 800031a]  66-th(total  72-th) 	pm_r *0x40020004 gets 0x0, remains CR
+[80002f8, 800031a] 124-th(total 126-th) 	pm_w *0x40020004 = 0x0, remains CR
+[80002f8, 800031a]  67-th(total  73-th) 	pm_r *0x40020008 gets 0xfc000000, remains CR
+[80002f8, 800031a] 125-th(total 127-th) 	pm_w *0x40020008 = 0xfc000000, remains CR
+[80002f8, 800031a]  68-th(total  74-th) 	pm_r *0x4002000c gets 0x65555554, remains CR
+[80002f8, 800031a] 126-th(total 128-th) 	pm_w *0x4002000c = 0x65515554, remains CR
+[800031a, 8000328]  69-th(total  75-th) 	pm_r *0x40020024 gets 0x0, remains CR
+[800031a, 8000328] 127-th(total 129-th) 	pm_w *0x40020024 = 0x70, remains CR
+[80002c6, 80002d6]  70-th(total  76-th) 	pm_r *0x40020000 gets 0xa8000000, remains CR
+[80002c6, 80002d6] 128-th(total 130-th) 	pm_w *0x40020000 = 0xa8080000, remains CR
+[80002f8, 800031a]  71-th(total  77-th) 	pm_r *0x40020004 gets 0x0, remains CR
+[80002f8, 800031a] 129-th(total 131-th) 	pm_w *0x40020004 = 0x0, remains CR
+[80002f8, 800031a]  72-th(total  78-th) 	pm_r *0x40020008 gets 0xfc000000, remains CR
+[80002f8, 800031a] 130-th(total 132-th) 	pm_w *0x40020008 = 0xfc000000, remains CR
+[80002f8, 800031a]  73-th(total  79-th) 	pm_r *0x4002000c gets 0x65515554, remains CR
+[80002f8, 800031a] 131-th(total 133-th) 	pm_w *0x4002000c = 0x65415554, remains CR
+[800031a, 8000328]  74-th(total  80-th) 	pm_r *0x40020024 gets 0x70, remains CR
+[800031a, 8000328] 132-th(total 134-th) 	pm_w *0x40020024 = 0x770, remains CR
+[80002c6, 80002d6]  75-th(total  81-th) 	pm_r *0x40020000 gets 0xa8080000, remains CR
+[80002c6, 80002d6] 133-th(total 135-th) 	pm_w *0x40020000 = 0xa8280000, remains CR
+[8000260, 800027a] 134-th(total 136-th) 	pm_w *0x40026050 = 0x8002220, remains DR
+[8000260, 800027a] 135-th(total 137-th) 	pm_w *0x40026048 = 0xd, remains DR
+[8000260, 800027a] 136-th(total 138-th) 	pm_w *0x40026044 = 0x9a, remains CR
+[800027a, 8000296] 137-th(total 139-th) 	pm_w *0x40013800 = 0xffffffbf, remains CR
+[800027a, 8000296]  76-th(total  82-th) 	pm_r *0x4001380c gets 0x210c, remains CR
+[800027a, 8000296] 138-th(total 140-th) 	pm_w *0x4001380c = 0x214c, remains CR
+[800027a, 8000296]  77-th(total  83-th) 	pm_r *0x40026044 gets 0x9a, remains CR
+[800027a, 8000296] 139-th(total 141-th) 	pm_w *0x40026044 = 0x9b, remains CR
+[8000a94, 8000aac]  78-th(total  84-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000b0a, 8000b20]  79-th(total  85-th) 	pm_r *0x4000000c gets 0x0, remains DR
+[8000b20, 8000b2e] 140-th(total 142-th) 	pm_w *0x40000034 = 0x1f4, remains DR
+[8000b20, 8000b2e] 141-th(total 143-th) 	pm_w *0x40000010 = 0x0, remains DR
+[8000b20, 8000b2e] 142-th(total 144-th) 	pm_w *0x4000000c = 0x2, remains DR
+[8000430, 8000460]  80-th(total  86-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]   7-th(total  87-th) 	unassigned mem_r *0xe0001004
+Taking exception 5 [IRQ]
+	bbl_cnt 30000: Acknowledged IRQ 6
+[8000430, 8000460]  81-th(total  88-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]   8-th(total  89-th) 	unassigned mem_r *0xe0001004
+[80020cc, 80020dc]  82-th(total  90-th) 	pm_r *0x40010414 gets 0x0, remains DR
+[80020cc, 80020dc]  83-th(total  91-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[80020cc, 80020dc] 143-th(total 145-th) 	pm_w *0x40010414 = 0x0, remains DR
+[8000430, 8000460]  84-th(total  92-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]   9-th(total  93-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 30032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 30032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 30035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 60000: Acknowledged IRQ 7
+[8000430, 8000460]  85-th(total  94-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  10-th(total  95-th) 	unassigned mem_r *0xe0001004
+[800207c, 800208c]  86-th(total  96-th) 	pm_r *0x40010414 gets 0x0, remains DR
+[800207c, 800208c]  87-th(total  97-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[800207c, 800208c] 144-th(total 146-th) 	pm_w *0x40010414 = 0x0, remains DR
+[8000430, 8000460]  88-th(total  98-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  11-th(total  99-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 60032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 60032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 60035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 90000: Acknowledged IRQ 8
+[8000430, 8000460]  89-th(total 100-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  12-th(total 101-th) 	unassigned mem_r *0xe0001004
+[800202c, 800203c]  90-th(total 102-th) 	pm_r *0x40010414 gets 0x0, remains DR
+[800202c, 800203c]  91-th(total 103-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[800202c, 800203c] 145-th(total 147-th) 	pm_w *0x40010414 = 0x0, remains DR
+[8000430, 8000460]  92-th(total 104-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  13-th(total 105-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 90032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 90032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 90035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 120000: Acknowledged IRQ 9
+[8000430, 8000460]  93-th(total 106-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  14-th(total 107-th) 	unassigned mem_r *0xe0001004
+[8001fdc, 8001fec]  94-th(total 108-th) 	pm_r *0x40010414 gets 0x0, remains DR
+[8001fdc, 8001fec]  95-th(total 109-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[8001fdc, 8001fec] 146-th(total 148-th) 	pm_w *0x40010414 = 0x0, remains DR
+[8000430, 8000460]  96-th(total 110-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  15-th(total 111-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 120032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 120032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 120035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 150000: Acknowledged IRQ 10
+[8000430, 8000460]  97-th(total 112-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  16-th(total 113-th) 	unassigned mem_r *0xe0001004
+[8001f8c, 8001f9c]  98-th(total 114-th) 	pm_r *0x40010414 gets 0x0, remains DR
+[8001f8c, 8001f9c]  99-th(total 115-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[8001f8c, 8001f9c] 147-th(total 149-th) 	pm_w *0x40010414 = 0x0, remains DR
+[8000430, 8000460] 100-th(total 116-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  17-th(total 117-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 150032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 150032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 150035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 180000: Acknowledged IRQ 23
+[8000430, 8000460] 101-th(total 118-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  18-th(total 119-th) 	unassigned mem_r *0xe0001004
+[8001f0c, 8001f1e] 102-th(total 120-th) 	pm_r *0x40010414 gets 0x0, remains DR
+[8001f0c, 8001f1e] 103-th(total 121-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[8001f0c, 8001f1e] 148-th(total 150-th) 	pm_w *0x40010414 = 0x0, remains DR
+[8000430, 8000460] 104-th(total 122-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  19-th(total 123-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 180036: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 180036: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 180039: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 210000: Acknowledged IRQ 40
+[8000430, 8000460] 105-th(total 124-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  20-th(total 125-th) 	unassigned mem_r *0xe0001004
+[8001e7c, 8001e8e] 106-th(total 126-th) 	pm_r *0x40010414 gets 0x0, remains DR
+[8001e7c, 8001e8e] 107-th(total 127-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[8001e7c, 8001e8e] 149-th(total 151-th) 	pm_w *0x40010414 = 0x0, remains DR
+[8000430, 8000460] 108-th(total 128-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  21-th(total 129-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 210037: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 210037: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 210040: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 240000: Acknowledged IRQ 28
+[8000430, 8000460] 109-th(total 130-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  22-th(total 131-th) 	unassigned mem_r *0xe0001004
+[8001c12, 8001c18] 110-th(total 132-th) 	pm_r *0x40000010 gets 0x0, remains DR
+[8000430, 8000460] 111-th(total 133-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  23-th(total 134-th) 	unassigned mem_r *0xe0001004
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 240032: EXCP/ISR exits
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 240032: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 240035: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 270000: Acknowledged IRQ 15
+[8000430, 8000460] 112-th(total 135-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  24-th(total 136-th) 	unassigned mem_r *0xe0001004
+[8000970, 8000986] 113-th(total 137-th) 	pm_r *0x40026000 gets 0x20000, remains SR
+[8000970, 8000986] 114-th(total 138-th) 	pm_r *0x40026058 gets 0x2b, remains CR
+[8000986, 8000998] 150-th(total 152-th) 	pm_w *0x40026004 = 0x20000, remains DR
+
+Access to DMA buffer base address: 0x20000838 beatsize: 2 number beats: 1 address: 0x20000838 
+
+Accessing and serving DMA buffer. address: 0x20000838
+[8000b40, 8000b4e] 151-th(total 153-th) 	pm_w *0x40020418 = 0x40, turns UC into DR
+[8000a94, 8000aac] 115-th(total 139-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[80009b0, 80009bc] 116-th(total 140-th) 	pm_r *0x4000000c gets 0x0, remains DR
+[8000430, 8000460] 117-th(total 141-th) 	pm_r *0x40000024 gets 0x0, remains DR
+[8000430, 8000460]  25-th(total 142-th) 	unassigned mem_r *0xe0001004
+stage_termination
+

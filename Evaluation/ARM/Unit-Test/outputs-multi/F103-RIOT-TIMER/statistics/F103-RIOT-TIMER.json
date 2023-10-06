@@ -1,0 +1,69 @@
+{
+    "TRA": 31,
+    "CP": 10,
+    "ACC": 32.25806451612903,
+    "TRR": 11,
+    "TRRC": 8,
+    "TRRW": 3,
+    "ACCRR": 72.72727272727273,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40000000",
+            "0x40000010",
+            "TIM1 and TIM8 status register (TIMx_SR)   ",
+            "SR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40004400",
+            "0x4000440c",
+            "Control register 1 (USART_CR1) ",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40010800",
+            "0x4001080c",
+            "Port output data register (GPIOx_ODR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 9,
+    "NUMSRSITES": 4,
+    "SRSITES": [
+        "0x8000b3a",
+        "0x8000b0a",
+        "0x8000b28",
+        "0x8000b60"
+    ],
+    "INTERRUPTS": [
+        44
+    ],
+    "NUMINTERRUPTS": 1
+}

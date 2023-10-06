@@ -1,0 +1,112 @@
+{
+    "TRA": 61,
+    "CP": 28,
+    "ACC": 45.90163934426229,
+    "TRR": 23,
+    "TRRC": 18,
+    "TRRW": 5,
+    "ACCRR": 78.26086956521739,
+    "MISSREGS": [],
+    "MISSCATS": [
+        "0x4002001c",
+        "0x40020020",
+        "0x40020024",
+        "0x40020028",
+        "0x40020030",
+        "0x40020034",
+        "0x40020038",
+        "0x4002003c",
+        "0x40020044",
+        "0x40020058"
+    ],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40000000",
+            "0x4000000c",
+            "14.4.4TIM1 and TIM8 DMA/interrupt enable register (TIMx_DIER)   ",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40000000",
+            "0x40000010",
+            "TIM1 and TIM8 status register (TIMx_SR)   ",
+            "SR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40010400",
+            "0x40010414",
+            "Pending register (EXTI_PR)   ",
+            "SR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40020000",
+            "0x4002001c",
+            "",
+            "",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40020000",
+            "0x40020030",
+            "",
+            "",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 13,
+    "NUMSRSITES": 5,
+    "SRSITES": [
+        "0x8001ba8",
+        "0x8001bde",
+        "0x8000896",
+        "0x8001bc0",
+        "0x8001b82"
+    ],
+    "INTERRUPTS": [
+        56,
+        39,
+        44,
+        22,
+        23,
+        24,
+        25,
+        26,
+        28,
+        29
+    ],
+    "NUMINTERRUPTS": 10
+}

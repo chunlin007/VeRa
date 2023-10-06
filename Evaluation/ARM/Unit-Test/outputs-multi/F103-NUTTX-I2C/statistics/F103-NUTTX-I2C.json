@@ -1,0 +1,73 @@
+{
+    "TRA": 28,
+    "CP": 18,
+    "ACC": 64.28571428571429,
+    "TRR": 21,
+    "TRRC": 18,
+    "TRRW": 3,
+    "ACCRR": 85.71428571428571,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40005400",
+            "0x40005414",
+            "26.6.5I2C Status register 1 (I2C_SR1)   ",
+            "SR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40005400",
+            "0x40005418",
+            "26.6.6I2C Status register 2 (I2C_SR2)   ",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ],
+        [
+            "0x40011000",
+            "0x40011014",
+            "9.2.6Port bit reset register (GPIOx_BRR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 8,
+    "NUMSRSITES": 5,
+    "SRSITES": [
+        "0x800032c",
+        "0x8000730",
+        "0x80003e0",
+        "0x800081a",
+        "0x800040a"
+    ],
+    "INTERRUPTS": [
+        48,
+        47,
+        53,
+        15
+    ],
+    "NUMINTERRUPTS": 4
+}

@@ -1,0 +1,78 @@
+{
+    "TRA": 59,
+    "CP": 18,
+    "ACC": 30.508474576271187,
+    "TRR": 19,
+    "TRRC": 16,
+    "TRRW": 3,
+    "ACCRR": 84.21052631578947,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x400e0c00",
+            "0x400e0e18",
+            "PIO Controller Output Status Register (PIOA)",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ],
+        [
+            "0x400e1000",
+            "0x400e1018",
+            "PIO Controller Output Status Register",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            "checks if pin is configured as input or output"
+        ],
+        [
+            "0x400e1400",
+            "0x400e1418",
+            "PIO Controller Output Status Register (PIOD)",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 7,
+    "NUMSRSITES": 12,
+    "SRSITES": [
+        "0x805d4",
+        "0x80510",
+        "0x805b8",
+        "0x80504",
+        "0x8052c",
+        "0x805c2",
+        "0x80e20",
+        "0x80cfc",
+        "0x80542",
+        "0x805e0",
+        "0x805ec",
+        "0x805f8"
+    ],
+    "INTERRUPTS": [
+        24,
+        15
+    ],
+    "NUMINTERRUPTS": 2
+}

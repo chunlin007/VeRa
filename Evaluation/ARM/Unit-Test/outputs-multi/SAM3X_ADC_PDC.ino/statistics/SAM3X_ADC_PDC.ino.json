@@ -1,0 +1,122 @@
+{
+    "TRA": 91,
+    "CP": 22,
+    "ACC": 24.175824175824175,
+    "TRR": 25,
+    "TRRC": 20,
+    "TRRW": 5,
+    "ACCRR": 80.0,
+    "MISSREGS": [
+        "0x40088040",
+        "0x40088044",
+        "0x40088054",
+        "0x4008805c",
+        "0x40088060",
+        "0x40088068",
+        "0x40098000",
+        "0x40098004",
+        "0x40098008",
+        "0x4009800c",
+        "0x40098014",
+        "0x4009801c",
+        "0x40098020",
+        "0x40098120",
+        "0x400c0040",
+        "0x400c004c",
+        "0x400c0094",
+        "0x400c0100"
+    ],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x400ac000",
+            "0x400ac130",
+            "Device Endpoint x Status Register",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ],
+        [
+            "0x400e0c00",
+            "0x400e0e18",
+            "PIO Controller Output Status Register (PIOA)",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ],
+        [
+            "0x400e1000",
+            "0x400e1018",
+            "PIO Controller Output Status Register",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            "checks if pin is configured as input or output"
+        ],
+        [
+            "0x400e1000",
+            "0x400e1218",
+            "PIO Controller Output Status Register (PIOC)",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ],
+        [
+            "0x400e1400",
+            "0x400e1418",
+            "PIO Controller Output Status Register (PIOD)",
+            "SR",
+            "DR",
+            1,
+            0,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 11,
+    "NUMSRSITES": 14,
+    "SRSITES": [
+        "0x80734",
+        "0x80618",
+        "0x80740",
+        "0x81f2c",
+        "0x8070a",
+        "0x814fe",
+        "0x80728",
+        "0x80654",
+        "0x8066a",
+        "0x8071c",
+        "0x80700",
+        "0x80918",
+        "0x81024",
+        "0x80632"
+    ],
+    "INTERRUPTS": [
+        56,
+        33,
+        15
+    ],
+    "NUMINTERRUPTS": 3
+}

@@ -1,0 +1,349 @@
+
+(process:1125719): GLib-WARNING **: 01:21:31.641: ../../../../glib/gmem.c:489: custom memory allocation vtable not supported
+
+GNU ARM Eclipse 64-bits QEMU v2.3.50 (qemu-system-gnuarmeclipse).
+Board: 'NUCLEO-F103RB' (ST Nucleo Development Board for STM32 F1 series).
+Device: 'STM32F103RB' (Cortex-M3 r0p1, MPU), Flash: 128 kB, RAM: 20 kB.
+Image: '/projects/VeRa/Evaluation/ARM/Unit-Test/Firmware/Binaries-DICE/F103_ADC_SingleConversion_TriggerTimer_DMA.elf'.
+Command line: (none).
+[0, 0]   1-th(total   1-th) 	unassigned mem_r *0x0
+[0, 0]   2-th(total   2-th) 	unassigned mem_r *0x4
+Load   1988 bytes at 0x08000000-0x080007C3.
+Load      8 bytes at 0x080007C4-0x080007CB.
+Load      0 bytes at 0x080007CC-0x080007CB.
+Cortex-M3 r0p1 core initialised.
+QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) Cortex-M3 r0p1 core reset.
+[800014c, 800018a]   1-th(total   3-th) 	pm_r *0x40021000 gets 0x0, remains CR+SR
+[800014c, 800018a]   1-th(total   1-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[800014c, 800018a]   2-th(total   4-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR
+[800014c, 800018a]   2-th(total   2-th) 	pm_w *0x40021004 = 0x0, remains CR+SR
+[800014c, 800018a]   3-th(total   5-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR
+[800014c, 800018a]   3-th(total   3-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[800014c, 800018a]   4-th(total   6-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR
+[800014c, 800018a]   4-th(total   4-th) 	pm_w *0x40021000 = 0x1, remains CR+SR
+[800014c, 800018a]   5-th(total   7-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR
+[800014c, 800018a]   5-th(total   5-th) 	pm_w *0x40021004 = 0x0, remains CR+SR
+[800014c, 800018a]   6-th(total   6-th) 	pm_w *0x40021008 = 0x9f0000, remains DR
+[8000550, 8000578]   6-th(total   8-th) 	pm_r *0x40022000 gets 0x0, remains CR
+[8000550, 8000578]   7-th(total   7-th) 	pm_w *0x40022000 = 0x2, remains CR
+[8000550, 8000578]   7-th(total   9-th) 	pm_r *0x40021000 gets 0x1, remains CR+SR
+[8000550, 8000578]   8-th(total   8-th) 	pm_w *0x40021000 = 0x40001, remains CR+SR
+[8000550, 8000578]   8-th(total  10-th) 	pm_r *0x40021000 gets 0x40001, remains CR+SR
+[8000550, 8000578]   9-th(total   9-th) 	pm_w *0x40021000 = 0x50001, remains CR+SR
+[8000550, 8000578]   9-th(total  11-th) 	pm_r *0x40021000 gets 0x50001, remains CR+SR
+[8000572, 8000578]  10-th(total  12-th) 	pm_r *0x40021000 gets 0x20000, remains CR+SR
+[8000578, 8000592]  11-th(total  13-th) 	pm_r *0x40021004 gets 0x0, remains CR+SR
+[8000578, 8000592]  10-th(total  10-th) 	pm_w *0x40021004 = 0x1d0000, remains CR+SR
+[8000578, 8000592]  12-th(total  14-th) 	pm_r *0x40021000 gets 0x50001, remains CR+SR
+[8000578, 8000592]  11-th(total  11-th) 	pm_w *0x40021000 = 0x1050001, remains CR+SR
+[8000578, 8000592]  13-th(total  15-th) 	pm_r *0x40021000 gets 0x1050001, remains CR+SR
+[800058c, 8000592]  14-th(total  16-th) 	pm_r *0x40021000 gets 0x2000000, remains CR+SR
+[8000592, 80005b0]  15-th(total  17-th) 	pm_r *0x40021004 gets 0x1d0000, remains CR+SR
+[8000592, 80005b0]  12-th(total  12-th) 	pm_w *0x40021004 = 0x1d0000, remains CR+SR
+[8000592, 80005b0]  16-th(total  18-th) 	pm_r *0x40021004 gets 0x1d0000, remains CR+SR
+[8000592, 80005b0]  13-th(total  13-th) 	pm_w *0x40021004 = 0x1d0002, remains CR+SR
+[8000592, 80005b0]  17-th(total  19-th) 	pm_r *0x40021004 gets 0x1d0002, remains CR+SR
+[80005a6, 80005b0]  18-th(total  20-th) 	pm_r *0x40021004 gets 0x8, remains CR+SR
+[80005b0, 80005ca]  19-th(total  21-th) 	pm_r *0x40021004 gets 0x1d0002, remains CR+SR
+[80005b0, 80005ca]  14-th(total  14-th) 	pm_w *0x40021004 = 0x1d0402, remains CR+SR
+[80005b0, 80005ca]  20-th(total  22-th) 	pm_r *0x40021004 gets 0x1d0402, remains CR+SR
+[80005b0, 80005ca]  15-th(total  15-th) 	pm_w *0x40021004 = 0x1d0402, remains CR+SR
+[8000220, 8000236]  21-th(total  23-th) 	pm_r *0x40021018 gets 0x0, remains CR
+[8000220, 8000236]  16-th(total  16-th) 	pm_w *0x40021018 = 0x4, remains CR
+[8000220, 8000236]  22-th(total  24-th) 	pm_r *0x40021018 gets 0x4, remains CR
+[800023c, 800026a]  23-th(total  25-th) 	pm_r *0x40010800 gets 0x0, remains CR
+[800023c, 800026a]  17-th(total  17-th) 	pm_w *0x40010800 = 0x100000, remains CR
+[8000220, 8000236]  24-th(total  26-th) 	pm_r *0x40021018 gets 0x4, remains CR
+[8000220, 8000236]  18-th(total  18-th) 	pm_w *0x40021018 = 0x14, remains CR
+[8000220, 8000236]  25-th(total  27-th) 	pm_r *0x40021018 gets 0x14, remains CR
+[800023c, 800026a]  26-th(total  28-th) 	pm_r *0x40011004 gets 0x0, remains CR
+[800023c, 800026a]  19-th(total  19-th) 	pm_w *0x40011004 = 0x800000, remains CR
+[80004e8, 80004fe]  27-th(total  29-th) 	pm_r *0x4001100c gets 0x0, remains CR
+[80004e8, 80004fe]  20-th(total  20-th) 	pm_w *0x4001100c = 0x0, remains CR
+[8000220, 8000236]  28-th(total  30-th) 	pm_r *0x40021018 gets 0x14, remains CR
+[8000220, 8000236]  21-th(total  21-th) 	pm_w *0x40021018 = 0x15, remains CR
+[8000220, 8000236]  29-th(total  31-th) 	pm_r *0x40021018 gets 0x15, remains CR
+[80004fe, 800053c]  30-th(total  32-th) 	pm_r *0x40010014 gets 0x0, remains CR
+[80004fe, 800053c]  22-th(total  22-th) 	pm_w *0x40010014 = 0x20, remains CR
+[80004fe, 800053c]  31-th(total  33-th) 	pm_r *0x40010400 gets 0x0, remains CR
+[80004fe, 800053c]  23-th(total  23-th) 	pm_w *0x40010400 = 0x2000, remains CR
+[80004fe, 800053c]  32-th(total  34-th) 	pm_r *0x4001040c gets 0x0, remains CR
+[80004fe, 800053c]  24-th(total  24-th) 	pm_w *0x4001040c = 0x2000, remains CR
+[800026c, 80002de]  33-th(total  35-th) 	pm_r *0x40021014 gets 0x0, remains CR
+[800026c, 80002de]  25-th(total  25-th) 	pm_w *0x40021014 = 0x1, remains CR
+[800026c, 80002de]  34-th(total  36-th) 	pm_r *0x40021014 gets 0x1, remains CR
+[800026c, 80002de]  35-th(total  37-th) 	pm_r *0x40020008 gets 0x0, remains CR
+[800026c, 80002de]  26-th(total  26-th) 	pm_w *0x40020008 = 0x25a0, remains CR
+[800026c, 80002de]  27-th(total  27-th) 	pm_w *0x40020010 = 0x4001244c, remains DR
+Potential DMA Descriptor V1: base *0x40020000 p_A:*0x40020014->*0x200000a4 
+DMA Descriptor pair V2: *0x40020000 p_A:*0x40020010->*0x4001244c p_B:*0x40020014->*0x200000a4 
+[800026c, 80002de]  28-th(total  28-th) 	pm_w *0x40020014 = 0x200000a4, remains DR
+[800026c, 80002de]  36-th(total  38-th) 	pm_r *0x4002000c gets 0x0, remains CR
+[800026c, 80002de]  29-th(total  29-th) 	pm_w *0x4002000c = 0x40, remains CR
+[800026c, 80002de]  37-th(total  39-th) 	pm_r *0x40020008 gets 0x25a0, remains CR
+[800026c, 80002de]  30-th(total  30-th) 	pm_w *0x40020008 = 0x25a2, remains CR
+[800026c, 80002de]  38-th(total  40-th) 	pm_r *0x40020008 gets 0x25a2, remains CR
+[800026c, 80002de]  31-th(total  31-th) 	pm_w *0x40020008 = 0x25a6, remains CR
+[800026c, 80002de]  39-th(total  41-th) 	pm_r *0x40020008 gets 0x25a6, remains CR
+[800026c, 80002de]  32-th(total  32-th) 	pm_w *0x40020008 = 0x25ae, remains CR
+[800026c, 80002de]  40-th(total  42-th) 	pm_r *0x40020008 gets 0x25ae, remains CR
+[800026c, 80002de]  33-th(total  33-th) 	pm_w *0x40020008 = 0x25af, remains CR
+[80002f4, 8000366]  41-th(total  43-th) 	pm_r *0x40021004 gets 0x1d0402, remains CR+SR
+[80002f4, 8000366]  42-th(total  44-th) 	pm_r *0x40021004 gets 0x1d0402, remains CR+SR
+[80002f4, 8000366]  43-th(total  45-th) 	pm_r *0x4002101c gets 0x0, remains CR
+[80002f4, 8000366]  34-th(total  34-th) 	pm_w *0x4002101c = 0x2, remains CR
+[80002f4, 8000366]  44-th(total  46-th) 	pm_r *0x4002101c gets 0x2, remains CR
+[80002f4, 8000366]  35-th(total  35-th) 	pm_w *0x40000428 = 0x44a, remains DR
+[80002f4, 8000366]  36-th(total  36-th) 	pm_w *0x4000042c = 0x40, remains DR
+[80002f4, 8000366]  45-th(total  47-th) 	pm_r *0x40000400 gets 0x0, remains CR
+[80002f4, 8000366]  37-th(total  37-th) 	pm_w *0x40000400 = 0x0, remains CR
+[80002f4, 8000366]  38-th(total  38-th) 	pm_w *0x40000430 = 0x0, remains DR
+[80002f4, 8000366]  46-th(total  48-th) 	pm_r *0x40000404 gets 0x0, remains CR
+[80002f4, 8000366]  39-th(total  39-th) 	pm_w *0x40000404 = 0x20, remains CR
+[80002f4, 8000366]  47-th(total  49-th) 	pm_r *0x40000400 gets 0x0, remains CR
+[80002f4, 8000366]  40-th(total  40-th) 	pm_w *0x40000400 = 0x1, remains CR
+[8000220, 8000236]  48-th(total  50-th) 	pm_r *0x40021018 gets 0x15, remains CR
+[8000220, 8000236]  41-th(total  41-th) 	pm_w *0x40021018 = 0x15, remains CR
+[8000220, 8000236]  49-th(total  51-th) 	pm_r *0x40021018 gets 0x15, remains CR
+[800023c, 800026a]  50-th(total  52-th) 	pm_r *0x40010800 gets 0x100000, remains CR
+[800023c, 800026a]  42-th(total  42-th) 	pm_w *0x40010800 = 0x100000, remains CR
+[8000220, 8000236]  51-th(total  53-th) 	pm_r *0x40021018 gets 0x15, remains CR
+[8000220, 8000236]  43-th(total  43-th) 	pm_w *0x40021018 = 0x215, remains CR
+[8000220, 8000236]  52-th(total  54-th) 	pm_r *0x40021018 gets 0x215, remains CR
+[80003a2, 80003aa]  53-th(total  55-th) 	pm_r *0x40012408 gets 0x0, remains CR+SR
+[80003aa, 80003fa]  54-th(total  56-th) 	pm_r *0x40012408 gets 0x0, remains CR+SR
+[80003aa, 80003fa]  44-th(total  44-th) 	pm_w *0x40012408 = 0x80000, remains CR+SR
+[80003aa, 80003fa]  55-th(total  57-th) 	pm_r *0x40012408 gets 0x80000, remains CR+SR
+[80003aa, 80003fa]  45-th(total  45-th) 	pm_w *0x40012408 = 0x80000, remains CR+SR
+[80003aa, 80003fa]  56-th(total  58-th) 	pm_r *0x40012408 gets 0x80000, remains CR+SR
+[80003aa, 80003fa]  46-th(total  46-th) 	pm_w *0x40012408 = 0x80100, remains CR+SR
+[80003aa, 80003fa]  57-th(total  59-th) 	pm_r *0x4001242c gets 0x0, remains CR
+[80003aa, 80003fa]  47-th(total  47-th) 	pm_w *0x4001242c = 0x0, remains CR
+[80003aa, 80003fa]  58-th(total  60-th) 	pm_r *0x40012434 gets 0x0, remains CR
+[80003aa, 80003fa]  48-th(total  48-th) 	pm_w *0x40012434 = 0x4, remains CR
+[80003aa, 80003fa]  59-th(total  61-th) 	pm_r *0x40012408 gets 0x80100, remains CR+SR
+[8000402, 8000446]  60-th(total  62-th) 	pm_r *0x40012410 gets 0x0, remains CR
+[8000402, 8000446]  49-th(total  49-th) 	pm_w *0x40012410 = 0x4000, remains CR
+[800045c, 800046a]  61-th(total  63-th) 	pm_r *0x40012408 gets 0x80100, remains CR+SR
+[800046a, 800047a]  62-th(total  64-th) 	pm_r *0x40012408 gets 0x80100, remains CR+SR
+[800046a, 800047a]  50-th(total  50-th) 	pm_w *0x40012408 = 0x80101, remains CR+SR
+[800047a, 800048a]  63-th(total  65-th) 	pm_r *0x40012408 gets 0x80101, remains CR+SR
+[800047a, 800048a]  51-th(total  51-th) 	pm_w *0x40012408 = 0x80105, remains CR+SR
+[800047a, 800048a]  64-th(total  66-th) 	pm_r *0x40012408 gets 0x80105, remains CR+SR
+[8000484, 800048a]  65-th(total  67-th) 	pm_r *0x40012408 gets 0x0, remains CR+SR
+Taking exception 5 [IRQ]
+	bbl_cnt 30000: Acknowledged IRQ -1
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 30001: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 60000: Acknowledged IRQ 40
+[80006ec, 80006f6]  66-th(total  68-th) 	pm_r *0x40010414 gets 0x1, remains SR
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 60002: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 90000: Acknowledged IRQ 11
+[8000708, 8000712]  67-th(total  69-th) 	pm_r *0x40020000 gets 0x2, remains SR
+[8000712, 800071a]  52-th(total  52-th) 	pm_w *0x40020004 = 0x2, remains DR
+[800066e, 800067c]  53-th(total  53-th) 	pm_w *0x40010810 = 0x20, remains DR
+[800071a, 8000720]  68-th(total  70-th) 	pm_r *0x40020000 gets 0x4, remains SR
+[8000720, 8000728]  54-th(total  54-th) 	pm_w *0x40020004 = 0x4, remains DR
+
+Access to DMA buffer base address: 0x200000a4 beatsize: 2 number beats: 1 address: 0x200000a4 
+
+Accessing and serving DMA buffer. address: 0x200000a4
+
+Access to nearby area of DMA peri: 0x4001244c mem: 0x200000a4 address: 0x200000a6 beatsize: 2 number beats: 1 
+
+New size of DMA buffer identified!! beats: 2 
+
+Accessing and serving DMA buffer. address: 0x200000a6
+
+Access to DMA buffer base address: 0x200000a8 beatsize: 2 number beats: 2 address: 0x200000a8 
+
+New size of DMA buffer identified!! beats: 3 
+
+Accessing and serving DMA buffer. address: 0x200000a8
+
+Access to DMA buffer base address: 0x200000aa beatsize: 2 number beats: 3 address: 0x200000aa 
+
+New size of DMA buffer identified!! beats: 4 
+
+Accessing and serving DMA buffer. address: 0x200000aa
+
+Access to DMA buffer base address: 0x200000ac beatsize: 2 number beats: 4 address: 0x200000ac 
+
+New size of DMA buffer identified!! beats: 5 
+
+Accessing and serving DMA buffer. address: 0x200000ac
+
+Access to DMA buffer base address: 0x200000ae beatsize: 2 number beats: 5 address: 0x200000ae 
+
+New size of DMA buffer identified!! beats: 6 
+
+Accessing and serving DMA buffer. address: 0x200000ae
+
+Access to DMA buffer base address: 0x200000b0 beatsize: 2 number beats: 6 address: 0x200000b0 
+
+New size of DMA buffer identified!! beats: 7 
+
+Accessing and serving DMA buffer. address: 0x200000b0
+
+Access to DMA buffer base address: 0x200000b2 beatsize: 2 number beats: 7 address: 0x200000b2 
+
+New size of DMA buffer identified!! beats: 8 
+
+Accessing and serving DMA buffer. address: 0x200000b2
+
+Access to DMA buffer base address: 0x200000b4 beatsize: 2 number beats: 8 address: 0x200000b4 
+
+New size of DMA buffer identified!! beats: 9 
+
+Accessing and serving DMA buffer. address: 0x200000b4
+
+Access to DMA buffer base address: 0x200000b6 beatsize: 2 number beats: 9 address: 0x200000b6 
+
+New size of DMA buffer identified!! beats: 10 
+
+Accessing and serving DMA buffer. address: 0x200000b6
+
+Access to DMA buffer base address: 0x200000b8 beatsize: 2 number beats: 10 address: 0x200000b8 
+
+New size of DMA buffer identified!! beats: 11 
+
+Accessing and serving DMA buffer. address: 0x200000b8
+
+Access to DMA buffer base address: 0x200000ba beatsize: 2 number beats: 11 address: 0x200000ba 
+
+New size of DMA buffer identified!! beats: 12 
+
+Accessing and serving DMA buffer. address: 0x200000ba
+
+Access to DMA buffer base address: 0x200000bc beatsize: 2 number beats: 12 address: 0x200000bc 
+
+New size of DMA buffer identified!! beats: 13 
+
+Accessing and serving DMA buffer. address: 0x200000bc
+
+Access to DMA buffer base address: 0x200000be beatsize: 2 number beats: 13 address: 0x200000be 
+
+New size of DMA buffer identified!! beats: 14 
+
+Accessing and serving DMA buffer. address: 0x200000be
+
+Access to DMA buffer base address: 0x200000c0 beatsize: 2 number beats: 14 address: 0x200000c0 
+
+New size of DMA buffer identified!! beats: 15 
+
+Accessing and serving DMA buffer. address: 0x200000c0
+
+Access to DMA buffer base address: 0x200000c2 beatsize: 2 number beats: 15 address: 0x200000c2 
+
+New size of DMA buffer identified!! beats: 16 
+
+Accessing and serving DMA buffer. address: 0x200000c2
+
+Access to DMA buffer base address: 0x200000c4 beatsize: 2 number beats: 16 address: 0x200000c4 
+
+New size of DMA buffer identified!! beats: 17 
+
+Accessing and serving DMA buffer. address: 0x200000c4
+
+Access to DMA buffer base address: 0x200000c6 beatsize: 2 number beats: 17 address: 0x200000c6 
+
+New size of DMA buffer identified!! beats: 18 
+
+Accessing and serving DMA buffer. address: 0x200000c6
+
+Access to DMA buffer base address: 0x200000c8 beatsize: 2 number beats: 18 address: 0x200000c8 
+
+New size of DMA buffer identified!! beats: 19 
+
+Accessing and serving DMA buffer. address: 0x200000c8
+
+Access to DMA buffer base address: 0x200000ca beatsize: 2 number beats: 19 address: 0x200000ca 
+
+New size of DMA buffer identified!! beats: 20 
+
+Accessing and serving DMA buffer. address: 0x200000ca
+
+Access to DMA buffer base address: 0x200000cc beatsize: 2 number beats: 20 address: 0x200000cc 
+
+New size of DMA buffer identified!! beats: 21 
+
+Accessing and serving DMA buffer. address: 0x200000cc
+
+Access to DMA buffer base address: 0x200000ce beatsize: 2 number beats: 21 address: 0x200000ce 
+
+New size of DMA buffer identified!! beats: 22 
+
+Accessing and serving DMA buffer. address: 0x200000ce
+
+Access to DMA buffer base address: 0x200000d0 beatsize: 2 number beats: 22 address: 0x200000d0 
+
+New size of DMA buffer identified!! beats: 23 
+
+Accessing and serving DMA buffer. address: 0x200000d0
+
+Access to DMA buffer base address: 0x200000d2 beatsize: 2 number beats: 23 address: 0x200000d2 
+
+New size of DMA buffer identified!! beats: 24 
+
+Accessing and serving DMA buffer. address: 0x200000d2
+
+Access to DMA buffer base address: 0x200000d4 beatsize: 2 number beats: 24 address: 0x200000d4 
+
+New size of DMA buffer identified!! beats: 25 
+
+Accessing and serving DMA buffer. address: 0x200000d4
+
+Access to DMA buffer base address: 0x200000d6 beatsize: 2 number beats: 25 address: 0x200000d6 
+
+New size of DMA buffer identified!! beats: 26 
+
+Accessing and serving DMA buffer. address: 0x200000d6
+
+Access to DMA buffer base address: 0x200000d8 beatsize: 2 number beats: 26 address: 0x200000d8 
+
+New size of DMA buffer identified!! beats: 27 
+
+Accessing and serving DMA buffer. address: 0x200000d8
+
+Access to DMA buffer base address: 0x200000da beatsize: 2 number beats: 27 address: 0x200000da 
+
+New size of DMA buffer identified!! beats: 28 
+
+Accessing and serving DMA buffer. address: 0x200000da
+
+Access to DMA buffer base address: 0x200000dc beatsize: 2 number beats: 28 address: 0x200000dc 
+
+New size of DMA buffer identified!! beats: 29 
+
+Accessing and serving DMA buffer. address: 0x200000dc
+
+Access to DMA buffer base address: 0x200000de beatsize: 2 number beats: 29 address: 0x200000de 
+
+New size of DMA buffer identified!! beats: 30 
+
+Accessing and serving DMA buffer. address: 0x200000de
+
+Access to DMA buffer base address: 0x200000e0 beatsize: 2 number beats: 30 address: 0x200000e0 
+
+New size of DMA buffer identified!! beats: 31 
+
+Accessing and serving DMA buffer. address: 0x200000e0
+
+Access to DMA buffer base address: 0x200000e2 beatsize: 2 number beats: 31 address: 0x200000e2 
+
+New size of DMA buffer identified!! beats: 32 
+
+Accessing and serving DMA buffer. address: 0x200000e2
+[80006b2, 80006be]  55-th(total  55-th) 	pm_w *0x40010814 = 0x20, remains DR
+[8000728, 8000730]  69-th(total  71-th) 	pm_r *0x40020000 gets 0x1, remains SR
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 90072: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 120000: Acknowledged IRQ 18
+stage_termination
+

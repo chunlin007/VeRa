@@ -1,0 +1,624 @@
+{
+    "interrupts": [
+        {
+            "enabled": 1,
+            "excp_num": 15,
+            "result_hang": 0
+        },
+        {
+            "enabled": 1,
+            "excp_num": 56,
+            "result_hang": 0
+        },
+        {
+            "enabled": 1,
+            "excp_num": 27,
+            "result_hang": 0
+        },
+        {
+            "enabled": 1,
+            "excp_num": 34,
+            "result_hang": 0
+        }
+    ],
+    "model": {
+        "0x40000400": {
+            "DR_bytes_num": 2,
+            "events": {},
+            "reg_size": 4,
+            "regs": [
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40010000": {
+            "DR_bytes_num": 2,
+            "events": {},
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40010400": {
+            "DR_bytes_num": 2,
+            "events": {
+                "0:0x2000,3:0x2000": {
+                    "0x80006f6": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    13
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            5
+                        ],
+                        "sr_num": 1
+                    }
+                }
+            },
+            "reg_size": 4,
+            "regs": [
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 0,
+                    "type": 2,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40010800": {
+            "DR_bytes_num": 2,
+            "events": {},
+            "reg_size": 4,
+            "regs": [
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40011000": {
+            "DR_bytes_num": 2,
+            "events": {},
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40012400": {
+            "DR_bytes_num": 2,
+            "events": {
+                "2:0x80105,4:0x4000,11:0x0,13:0x4": {
+                    "0x800048a": {
+                        "CR_SR_r_idx": 1,
+                        "never_satisfy": [],
+                        "other": [
+                            [
+                                [
+                                    2
+                                ],
+                                1
+                            ]
+                        ],
+                        "satisfy": [
+                            [
+                                [
+                                    2
+                                ],
+                                0
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            2
+                        ],
+                        "sr_num": 1
+                    }
+                }
+            },
+            "reg_size": 4,
+            "regs": [
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 2,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 4,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40020000": {
+            "DR_bytes_num": 2,
+            "events": {
+                "2:0x25af,3:0x40": {
+                    "0x8000712": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    1
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            0
+                        ],
+                        "sr_num": 1
+                    },
+                    "0x8000720": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    2
+                                ],
+                                1
+                            ],
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            0
+                        ],
+                        "sr_num": 1
+                    },
+                    "0x8000730": {
+                        "never_satisfy": [],
+                        "other": [],
+                        "satisfy": [
+                            [
+                                [
+                                    0
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            0
+                        ],
+                        "sr_num": 1
+                    }
+                }
+            },
+            "reg_size": 4,
+            "regs": [
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 0,
+                    "type": 2,
+                    "write": 0
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40021000": {
+            "DR_bytes_num": 2,
+            "events": {
+                "0:0x1050001,1:0x1d0000,5:0x0,6:0x0,7:0x0": {
+                    "0x8000592": {
+                        "CR_SR_r_idx": 1,
+                        "never_satisfy": [],
+                        "other": [
+                            [
+                                [
+                                    25
+                                ],
+                                0
+                            ]
+                        ],
+                        "satisfy": [
+                            [
+                                [
+                                    25
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            0
+                        ],
+                        "sr_num": 1
+                    }
+                },
+                "0:0x1050001,1:0x1d0002,5:0x0,6:0x0,7:0x0": {
+                    "0x80005b0": {
+                        "CR_SR_r_idx": 1,
+                        "never_satisfy": [],
+                        "other": [
+                            [
+                                [
+                                    3
+                                ],
+                                0
+                            ]
+                        ],
+                        "satisfy": [
+                            [
+                                [
+                                    3
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            1
+                        ],
+                        "sr_num": 1
+                    }
+                },
+                "0:0x50001,1:0x0,5:0x0,6:0x0,7:0x0": {
+                    "0x8000578": {
+                        "CR_SR_r_idx": 1,
+                        "never_satisfy": [],
+                        "other": [
+                            [
+                                [
+                                    17
+                                ],
+                                0
+                            ]
+                        ],
+                        "satisfy": [
+                            [
+                                [
+                                    17
+                                ],
+                                1
+                            ]
+                        ],
+                        "set_bits": 1,
+                        "sr_idx": [
+                            0
+                        ],
+                        "sr_num": 1
+                    }
+                }
+            },
+            "reg_size": 4,
+            "regs": [
+                {
+                    "hang_r_idx_in_bbl": 2,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 4,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 2,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "sr_locked": 1,
+                    "type": 4,
+                    "write": 1
+                },
+                {
+                    "dr_locked": 0,
+                    "read": 0,
+                    "type": 3,
+                    "write": 1
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "type": 0
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                },
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                }
+            ]
+        },
+        "0x40022000": {
+            "DR_bytes_num": 2,
+            "events": {},
+            "reg_size": 4,
+            "regs": [
+                {
+                    "hang_r_idx_in_bbl": 0,
+                    "read": 1,
+                    "result_hang_in_while": 0,
+                    "type": 1,
+                    "write": 1
+                }
+            ]
+        }
+    },
+    "statistics": {
+        "peri_list": [
+            "0x40000400",
+            "0x40010000",
+            "0x40010400",
+            "0x40010800",
+            "0x40011000",
+            "0x40012400",
+            "0x40020000",
+            "0x40021000",
+            "0x40022000"
+        ],
+        "peri_num": 9,
+        "peri_with_event_list": [
+            "0x40010400",
+            "0x40012400",
+            "0x40020000",
+            "0x40021000"
+        ],
+        "peri_with_event_num": 4
+    }
+}

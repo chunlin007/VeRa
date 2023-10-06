@@ -1,0 +1,34 @@
+{
+    "TRA": 9,
+    "CP": 8,
+    "ACC": 88.88888888888889,
+    "TRR": 7,
+    "TRRC": 7,
+    "TRRW": 0,
+    "ACCRR": 100.0,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ]
+    ],
+    "NUMPER": 4,
+    "NUMSRSITES": 2,
+    "SRSITES": [
+        "0x8001906",
+        "0x8001a84"
+    ],
+    "INTERRUPTS": [
+        15
+    ],
+    "NUMINTERRUPTS": 1
+}

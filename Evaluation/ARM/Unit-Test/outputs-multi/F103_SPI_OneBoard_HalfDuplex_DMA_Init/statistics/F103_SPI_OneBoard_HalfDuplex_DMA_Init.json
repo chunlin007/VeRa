@@ -1,0 +1,80 @@
+{
+    "TRA": 12,
+    "CP": 7,
+    "ACC": 58.333333333333336,
+    "TRR": 11,
+    "TRRC": 7,
+    "TRRW": 4,
+    "ACCRR": 63.63636363636363,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40010800",
+            "0x4001080c",
+            "Port output data register (GPIOx_ODR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40010c00",
+            "0x40010c0c",
+            "Port output data register (GPIOx_ODR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40013000",
+            "0x40013000",
+            "SPI control register 1 (SPI_CR1) (not used in I2S mode)  ",
+            "CR",
+            "SR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40013000",
+            "0x40013004",
+            "SPI control register 2 (SPI_CR2) ",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 6,
+    "NUMSRSITES": 4,
+    "SRSITES": [
+        "0x8000714",
+        "0x800072e",
+        "0x800074c",
+        "0x80001a0"
+    ],
+    "INTERRUPTS": [
+        15
+    ],
+    "NUMINTERRUPTS": 1
+}

@@ -1,0 +1,61 @@
+{
+    "TRA": 28,
+    "CP": 20,
+    "ACC": 71.42857142857143,
+    "TRR": 20,
+    "TRRC": 18,
+    "TRRW": 2,
+    "ACCRR": 90.0,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40010800",
+            "0x40010810",
+            "9.2.4Port bit set/reset register (GPIOx_BSRR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40011000",
+            "0x40011014",
+            "9.2.6Port bit reset register (GPIOx_BRR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 7,
+    "NUMSRSITES": 5,
+    "SRSITES": [
+        "0x8000730",
+        "0x800032c",
+        "0x80003e0",
+        "0x800040a",
+        "0x800081a"
+    ],
+    "INTERRUPTS": [
+        24,
+        53,
+        15
+    ],
+    "NUMINTERRUPTS": 3
+}

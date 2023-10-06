@@ -1,0 +1,343 @@
+
+(process:964946): GLib-WARNING **: 12:58:45.846: ../../../../glib/gmem.c:489: custom memory allocation vtable not supported
+
+GNU ARM Eclipse 64-bits QEMU v2.3.50 (qemu-system-gnuarmeclipse).
+Board: 'FRDM-K64F' (FRDM-K64F board with MK64FN1M0VLL12 MCU).
+Device: 'MK64FN1M0VLL12' (Cortex-M4 r0p0, MPU), Flash: 1024 kB, RAM: 256 kB.
+Image: '/projects/VeRa/Evaluation/ARM/Unit-Test/Firmware/Binaries-P2IM/K64F-RIOT-SPI.elf'.
+Command line: (none).
+[0, 0]   1-th(total   1-th) 	unassigned mem_r *0x0
+[0, 0]   2-th(total   2-th) 	unassigned mem_r *0x4
+Load   1024 bytes at 0x00000000-0x000003FF.
+Load     16 bytes at 0x00000400-0x0000040F.
+Load   9192 bytes at 0x00000410-0x000027F7.
+Load    116 bytes at 0x000027F8-0x0000286B.
+Load      0 bytes at 0x1FFF0000-0x1FFEFFFF.
+Cortex-M4 r0p0 core initialised.
+QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) QEMU 2.3.50 monitor - type 'help' for more information
+(qemu) Cortex-M4 r0p0 core reset.
+[96c, 980]   1-th(total   1-th) 	pm_w *0x4005200e = 0xc520, remains DR
+[96c, 980]   2-th(total   2-th) 	pm_w *0x4005200e = 0xd928, remains DR
+[96c, 980]   3-th(total   3-th) 	pm_w *0x40052000 = 0xd2, remains DR
+[95a, 962]   1-th(total   3-th) 	pm_r *0x40048040 gets 0x0, remains CR use_oth=0
+[95a, 962]   4-th(total   4-th) 	pm_w *0x40048040 = 0x0, remains CR
+[9b4, 9d6]   2-th(total   4-th) 	pm_r *0x40048038 gets 0x0, remains CR use_oth=0
+[9b4, 9d6]   5-th(total   5-th) 	pm_w *0x40048038 = 0x200, remains CR
+[9b4, 9d6]   3-th(total   5-th) 	pm_r *0x40049048 gets 0x0, remains CR use_oth=0
+[9b4, 9d6]   6-th(total   6-th) 	pm_w *0x40049048 = 0x0, remains CR
+gic_dist_writeb: Bad offset 460
+gic_dist_writeb: Bad offset 461
+gic_dist_writeb: Bad offset 462
+gic_dist_writeb: Bad offset 463
+gic_dist_writeb: Bad offset 464
+gic_dist_writeb: Bad offset 465
+NVIC: SCR and CCR unimplemented
+NVIC: SCR and CCR unimplemented
+[c06, c14]   4-th(total   6-th) 	pm_r *0x4007e000 gets 0x0, remains CR use_oth=0
+[c06, c14]   7-th(total   7-th) 	pm_w *0x4007e000 = 0x28, remains CR
+[f0e, f18]   5-th(total   7-th) 	pm_r *0x40064001 gets 0x0, remains CR use_oth=0
+[f20, f26]   6-th(total   8-th) 	pm_r *0x40064005 gets 0x0, remains CR use_oth=0
+[d54, d62]   7-th(total   9-th) 	pm_r *0x40064003 gets 0x0, remains CR use_oth=0
+[d54, d62]   8-th(total   8-th) 	pm_w *0x40064003 = 0x0, remains CR
+[f5c, f70]   8-th(total  10-th) 	pm_r *0x40064000 gets 0x0, remains CR use_oth=0
+[f5c, f70]   9-th(total   9-th) 	pm_w *0x40064000 = 0x4, remains CR
+[f5c, f70]   9-th(total  11-th) 	pm_r *0x40064006 gets 0x10, remains SR use_oth=0
+[f70, f78]  10-th(total  12-th) 	pm_r *0x40064006 gets 0x0, remains SR use_oth=0
+[f78, fb2]  10-th(total  10-th) 	pm_w *0x40048044 = 0x220000, remains DR
+[f78, fb2]  11-th(total  11-th) 	pm_w *0x4006400c = 0x0, remains DR
+[f78, fb2]  11-th(total  13-th) 	pm_r *0x40064000 gets 0x4, remains CR use_oth=0
+[f78, fb2]  12-th(total  12-th) 	pm_w *0x40064000 = 0x3c, remains CR
+[f78, fb2]  13-th(total  13-th) 	pm_w *0x40064004 = 0x13, remains DR
+[f78, fb2]  14-th(total  14-th) 	pm_w *0x40064005 = 0x0, remains CR
+[f78, fb2]  12-th(total  14-th) 	pm_r *0x40064008 gets 0x0, remains CR use_oth=0
+[f78, fb2]  15-th(total  15-th) 	pm_w *0x40064008 = 0x0, remains CR
+[f78, fb2]  13-th(total  15-th) 	pm_r *0x40064001 gets 0x0, remains CR use_oth=0
+[f78, fb2]  16-th(total  16-th) 	pm_w *0x40064001 = 0x1, remains CR
+[d34, d4e]  14-th(total  16-th) 	pm_r *0x40064000 gets 0x3c, remains CR use_oth=0
+[d34, d4e]  17-th(total  17-th) 	pm_w *0x40064000 = 0x3c, remains CR
+[d34, d4e]  15-th(total  17-th) 	pm_r *0x40064000 gets 0x3c, remains CR use_oth=0
+[d34, d4e]  18-th(total  18-th) 	pm_w *0x40064000 = 0x3c, remains CR
+[fba, fe0]  16-th(total  18-th) 	pm_r *0x4004803c gets 0x0, remains CR use_oth=0
+Potential DMA Descriptor V1: base *0x40048000 p_A:*0x4004803c->*0x20000000 
+[fba, fe0]  19-th(total  19-th) 	pm_w *0x4004803c = 0x20000000, remains CR
+[fba, fe0]  17-th(total  19-th) 	pm_r *0x4003d010 gets 0x0, remains CR use_oth=0
+[fba, fe0]  20-th(total  20-th) 	pm_w *0x4003d010 = 0x104, remains CR
+[fba, fe0]  18-th(total  20-th) 	pm_r *0x40047000 gets 0x0, remains CR use_oth=0
+[fba, fe0]  21-th(total  21-th) 	pm_w *0x40047000 = 0x80000, remains CR
+[d68, d7e]  19-th(total  21-th) 	pm_r *0x40064001 gets 0x1, remains CR use_oth=0
+[d68, d7e]  22-th(total  22-th) 	pm_w *0x40064001 = 0x21, remains CR
+[d34, d4e]  20-th(total  22-th) 	pm_r *0x40064001 gets 0x21, remains CR use_oth=0
+[d34, d4e]  23-th(total  23-th) 	pm_w *0x40064001 = 0x21, remains CR
+[d54, d62]  21-th(total  23-th) 	pm_r *0x40064003 gets 0x0, remains CR use_oth=0
+[d54, d62]  24-th(total  24-th) 	pm_w *0x40064003 = 0x40, remains CR
+[d34, d4e]  22-th(total  24-th) 	pm_r *0x40064001 gets 0x21, remains CR use_oth=0
+[d34, d4e]  25-th(total  25-th) 	pm_w *0x40064001 = 0x21, remains CR
+[e4c, e64]  23-th(total  25-th) 	pm_r *0x40064000 gets 0x3c, remains CR use_oth=0
+[e4c, e64]  26-th(total  26-th) 	pm_w *0x40064000 = 0xb8, remains CR
+[e4c, e64]  24-th(total  26-th) 	pm_r *0x40064006 gets 0x8, remains SR use_oth=0
+[d34, d4e]  25-th(total  27-th) 	pm_r *0x40064005 gets 0x0, remains CR use_oth=0
+[d34, d4e]  27-th(total  27-th) 	pm_w *0x40064005 = 0x0, remains CR
+[d34, d4e]  26-th(total  28-th) 	pm_r *0x40064001 gets 0x21, remains CR use_oth=0
+[d34, d4e]  28-th(total  28-th) 	pm_w *0x40064001 = 0x21, remains CR
+[eb4, ecc]  27-th(total  29-th) 	pm_r *0x40064000 gets 0xb8, remains CR use_oth=0
+[eb4, ecc]  29-th(total  29-th) 	pm_w *0x40064000 = 0xb8, remains CR
+[eb4, ecc]  28-th(total  30-th) 	pm_r *0x40064006 gets 0x8, remains SR use_oth=0
+[ecc, edc]  29-th(total  31-th) 	pm_r *0x40064005 gets 0x0, remains CR use_oth=0
+[ecc, edc]  30-th(total  30-th) 	pm_w *0x40064005 = 0x40, remains CR
+[ecc, edc]  30-th(total  32-th) 	pm_r *0x40064006 gets 0x20, remains SR use_oth=0
+[edc, ee2]  31-th(total  33-th) 	pm_r *0x40064006 gets 0x40, remains SR use_oth=0
+[e94, ea8]  32-th(total  34-th) 	pm_r *0x40064000 gets 0xb8, remains CR use_oth=0
+[e94, ea8]  31-th(total  31-th) 	pm_w *0x40064000 = 0x38, remains CR
+[e94, ea8]  33-th(total  35-th) 	pm_r *0x40064006 gets 0xc, remains SR use_oth=0
+[100c, 1032]  34-th(total  36-th) 	pm_r *0x40048038 gets 0x200, remains CR use_oth=0
+[100c, 1032]  32-th(total  32-th) 	pm_w *0x40048038 = 0x600, remains CR
+[100c, 1032]  33-th(total  33-th) 	pm_w *0x4004a040 = 0x300, remains DR
+[100c, 1032]  35-th(total  37-th) 	pm_r *0x40048038 gets 0x600, remains CR use_oth=0
+[100c, 1032]  34-th(total  34-th) 	pm_w *0x40048038 = 0x600, remains CR
+[100c, 1032]  35-th(total  35-th) 	pm_w *0x4004a044 = 0x300, remains DR
+[c52, c94]  36-th(total  38-th) 	pm_r *0x40048034 gets 0x0, remains CR use_oth=0
+[c52, c94]  36-th(total  36-th) 	pm_w *0x40048034 = 0x400, remains CR
+[c52, c94]  37-th(total  39-th) 	pm_r *0x4006a003 gets 0x0, remains CR use_oth=0
+[c52, c94]  37-th(total  37-th) 	pm_w *0x4006a003 = 0x0, remains CR
+[c52, c94]  38-th(total  38-th) 	pm_w *0x4006a002 = 0x0, remains DR
+[c52, c94]  39-th(total  39-th) 	pm_w *0x4006a000 = 0x0, remains DR
+[c52, c94]  40-th(total  40-th) 	pm_w *0x4006a001 = 0x20, remains DR
+[c52, c94]  41-th(total  41-th) 	pm_w *0x4006a00a = 0x12, remains DR
+[c52, c94]  38-th(total  40-th) 	pm_r *0x4006a010 gets 0x0, remains CR use_oth=0
+[c52, c94]  42-th(total  42-th) 	pm_w *0x4006a010 = 0x88, remains CR
+[c52, c94]  39-th(total  41-th) 	pm_r *0x4006a010 gets 0x88, remains CR use_oth=0
+[ca2, cc2]  43-th(total  43-th) 	pm_w *0x4006a013 = 0x0, remains DR
+[ca2, cc2]  44-th(total  44-th) 	pm_w *0x4006a015 = 0x1, remains DR
+[ca2, cc2]  45-th(total  45-th) 	pm_w *0x4006a011 = 0xc0, remains DR
+[ca2, cc2]  40-th(total  42-th) 	pm_r *0x4006a003 gets 0x0, remains CR use_oth=0
+[ca2, cc2]  46-th(total  46-th) 	pm_w *0x4006a003 = 0x2c, remains CR
+[100c, 1032]  41-th(total  43-th) 	pm_r *0x40048038 gets 0x600, remains CR use_oth=0
+[100c, 1032]  47-th(total  47-th) 	pm_w *0x40048038 = 0x1600, remains CR
+[100c, 1032]  48-th(total  48-th) 	pm_w *0x4004c00c = 0x200, remains DR
+[100c, 1032]  42-th(total  44-th) 	pm_r *0x40048038 gets 0x1600, remains CR use_oth=0
+[100c, 1032]  49-th(total  49-th) 	pm_w *0x40048038 = 0x1600, remains CR
+[100c, 1032]  50-th(total  50-th) 	pm_w *0x4004c008 = 0x200, remains DR
+[100c, 1032]  43-th(total  45-th) 	pm_r *0x40048038 gets 0x1600, remains CR use_oth=0
+[100c, 1032]  51-th(total  51-th) 	pm_w *0x40048038 = 0x1600, remains CR
+[100c, 1032]  52-th(total  52-th) 	pm_w *0x4004c004 = 0x200, remains DR
+[1162, 117a]  44-th(total  46-th) 	pm_r *0x4004803c gets 0x20000000, remains CR use_oth=0
+Potential DMA Descriptor V1: base *0x40048000 p_A:*0x4004803c->*0x20001000 
+Pointer updated: address: 0x4004803c preval: 0x20000000 val: 0x20001000 
+[1162, 117a]  53-th(total  53-th) 	pm_w *0x4004803c = 0x20001000, remains CR
+[1162, 117a]  45-th(total  47-th) 	pm_r *0x4002c000 gets 0x0, remains CR use_oth=0
+[1162, 117a]  54-th(total  54-th) 	pm_w *0x4002c000 = 0x0, remains CR
+[1224, 1234]  55-th(total  55-th) 	pm_w *0x4002c000 = 0x803fbc01, remains CR
+[1224, 1234]  56-th(total  56-th) 	pm_w *0x4002c030 = 0x0, remains DR
+[1224, 1234]  46-th(total  48-th) 	pm_r *0x4002c02c gets 0x0, remains SR use_oth=0
+[1190, 11a6]  47-th(total  49-th) 	pm_r *0x4002c000 gets 0x803fbc01, remains CR use_oth=0
+[1190, 11a6]  57-th(total  57-th) 	pm_w *0x4002c000 = 0x803ffc01, remains CR
+[11b6, 11c6]  48-th(total  50-th) 	pm_r *0x4004803c gets 0x20001000, remains CR use_oth=0
+Potential DMA Descriptor V1: base *0x40048000 p_A:*0x4004803c->*0x20000000 
+Pointer updated: address: 0x4004803c preval: 0x20001000 val: 0x20000000 
+[11b6, 11c6]  58-th(total  58-th) 	pm_w *0x4004803c = 0x20000000, remains CR
+[100c, 1032]  49-th(total  51-th) 	pm_r *0x40048038 gets 0x1600, remains CR use_oth=0
+[100c, 1032]  59-th(total  59-th) 	pm_w *0x40048038 = 0x1600, remains CR
+[100c, 1032]  60-th(total  60-th) 	pm_w *0x4004a058 = 0x0, remains DR
+[1044, 1084]  50-th(total  52-th) 	pm_r *0x400ff054 gets 0x0, remains CR use_oth=0
+[1044, 1084]  61-th(total  61-th) 	pm_w *0x400ff054 = 0x400000, remains CR
+[1044, 1084]  62-th(total  62-th) 	pm_w *0x4004a058 = 0x100, remains DR
+[100c, 1032]  51-th(total  53-th) 	pm_r *0x40048038 gets 0x1600, remains CR use_oth=0
+[100c, 1032]  63-th(total  63-th) 	pm_w *0x40048038 = 0x3600, remains CR
+[100c, 1032]  64-th(total  64-th) 	pm_w *0x4004d068 = 0x0, remains DR
+[1044, 1084]  52-th(total  54-th) 	pm_r *0x400ff114 gets 0x0, remains CR use_oth=0
+[1044, 1084]  65-th(total  65-th) 	pm_w *0x400ff114 = 0x4000000, remains CR
+[1044, 1084]  66-th(total  66-th) 	pm_w *0x4004d068 = 0x100, remains DR
+[100c, 1032]  53-th(total  55-th) 	pm_r *0x40048038 gets 0x3600, remains CR use_oth=0
+[100c, 1032]  67-th(total  67-th) 	pm_w *0x40048038 = 0x3600, remains CR
+[100c, 1032]  68-th(total  68-th) 	pm_w *0x4004a054 = 0x0, remains DR
+[1044, 1084]  54-th(total  56-th) 	pm_r *0x400ff054 gets 0x400000, remains CR use_oth=0
+[1044, 1084]  69-th(total  69-th) 	pm_w *0x400ff054 = 0x600000, remains CR
+[1044, 1084]  70-th(total  70-th) 	pm_w *0x4004a054 = 0x100, remains DR
+[1084, 109e]  71-th(total  71-th) 	pm_w *0x400ff044 = 0x400000, remains DR
+[1084, 109e]  72-th(total  72-th) 	pm_w *0x400ff104 = 0x4000000, remains DR
+[1084, 109e]  73-th(total  73-th) 	pm_w *0x400ff044 = 0x200000, remains DR
+Taking exception 2 [SVC]
+Taking exception 5 [IRQ]
+	bbl_cnt 2049: Acknowledged IRQ -5
+Taking exception 8 [QEMU v7M exception exit]
+M profile return from interrupt with misaligned PC is UNPREDICTABLE
+	bbl_cnt 2055: EXCP/ISR exits
+[cee, cf4]  55-th(total  57-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  74-th(total  74-th) 	pm_w *0x4006a007 = 0x6d, remains DR
+[cee, cf4]  56-th(total  58-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  75-th(total  75-th) 	pm_w *0x4006a007 = 0x61, remains DR
+[cee, cf4]  57-th(total  59-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  76-th(total  76-th) 	pm_w *0x4006a007 = 0x69, remains DR
+[cee, cf4]  58-th(total  60-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  77-th(total  77-th) 	pm_w *0x4006a007 = 0x6e, remains DR
+[cee, cf4]  59-th(total  61-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  78-th(total  78-th) 	pm_w *0x4006a007 = 0x28, remains DR
+[cee, cf4]  60-th(total  62-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  79-th(total  79-th) 	pm_w *0x4006a007 = 0x29, remains DR
+[cee, cf4]  61-th(total  63-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  80-th(total  80-th) 	pm_w *0x4006a007 = 0x3a, remains DR
+[cee, cf4]  62-th(total  64-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  81-th(total  81-th) 	pm_w *0x4006a007 = 0x20, remains DR
+[cee, cf4]  63-th(total  65-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  82-th(total  82-th) 	pm_w *0x4006a007 = 0x54, remains DR
+[cee, cf4]  64-th(total  66-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  83-th(total  83-th) 	pm_w *0x4006a007 = 0x68, remains DR
+[cee, cf4]  65-th(total  67-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  84-th(total  84-th) 	pm_w *0x4006a007 = 0x69, remains DR
+[cee, cf4]  66-th(total  68-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  85-th(total  85-th) 	pm_w *0x4006a007 = 0x73, remains DR
+[cee, cf4]  67-th(total  69-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  86-th(total  86-th) 	pm_w *0x4006a007 = 0x20, remains DR
+[cee, cf4]  68-th(total  70-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  87-th(total  87-th) 	pm_w *0x4006a007 = 0x69, remains DR
+[cee, cf4]  69-th(total  71-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  88-th(total  88-th) 	pm_w *0x4006a007 = 0x73, remains DR
+[cee, cf4]  70-th(total  72-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  89-th(total  89-th) 	pm_w *0x4006a007 = 0x20, remains DR
+[cee, cf4]  71-th(total  73-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  90-th(total  90-th) 	pm_w *0x4006a007 = 0x52, remains DR
+[cee, cf4]  72-th(total  74-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  91-th(total  91-th) 	pm_w *0x4006a007 = 0x49, remains DR
+[cee, cf4]  73-th(total  75-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  92-th(total  92-th) 	pm_w *0x4006a007 = 0x4f, remains DR
+[cee, cf4]  74-th(total  76-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  93-th(total  93-th) 	pm_w *0x4006a007 = 0x54, remains DR
+[cee, cf4]  75-th(total  77-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  94-th(total  94-th) 	pm_w *0x4006a007 = 0x21, remains DR
+[cee, cf4]  76-th(total  78-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  95-th(total  95-th) 	pm_w *0x4006a007 = 0x20, remains DR
+[cee, cf4]  77-th(total  79-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  96-th(total  96-th) 	pm_w *0x4006a007 = 0x28, remains DR
+[cee, cf4]  78-th(total  80-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  97-th(total  97-th) 	pm_w *0x4006a007 = 0x56, remains DR
+[cee, cf4]  79-th(total  81-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  98-th(total  98-th) 	pm_w *0x4006a007 = 0x65, remains DR
+[cee, cf4]  80-th(total  82-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc]  99-th(total  99-th) 	pm_w *0x4006a007 = 0x72, remains DR
+[cee, cf4]  81-th(total  83-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 100-th(total 100-th) 	pm_w *0x4006a007 = 0x73, remains DR
+[cee, cf4]  82-th(total  84-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 101-th(total 101-th) 	pm_w *0x4006a007 = 0x69, remains DR
+[cee, cf4]  83-th(total  85-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 102-th(total 102-th) 	pm_w *0x4006a007 = 0x6f, remains DR
+[cee, cf4]  84-th(total  86-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 103-th(total 103-th) 	pm_w *0x4006a007 = 0x6e, remains DR
+[cee, cf4]  85-th(total  87-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 104-th(total 104-th) 	pm_w *0x4006a007 = 0x3a, remains DR
+[cee, cf4]  86-th(total  88-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 105-th(total 105-th) 	pm_w *0x4006a007 = 0x20, remains DR
+[cee, cf4]  87-th(total  89-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 106-th(total 106-th) 	pm_w *0x4006a007 = 0x32, remains DR
+[cee, cf4]  88-th(total  90-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 107-th(total 107-th) 	pm_w *0x4006a007 = 0x30, remains DR
+[cee, cf4]  89-th(total  91-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 108-th(total 108-th) 	pm_w *0x4006a007 = 0x32, remains DR
+[cee, cf4]  90-th(total  92-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 109-th(total 109-th) 	pm_w *0x4006a007 = 0x30, remains DR
+[cee, cf4]  91-th(total  93-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 110-th(total 110-th) 	pm_w *0x4006a007 = 0x2e, remains DR
+[cee, cf4]  92-th(total  94-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 111-th(total 111-th) 	pm_w *0x4006a007 = 0x30, remains DR
+[cee, cf4]  93-th(total  95-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 112-th(total 112-th) 	pm_w *0x4006a007 = 0x31, remains DR
+[cee, cf4]  94-th(total  96-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 113-th(total 113-th) 	pm_w *0x4006a007 = 0x2d, remains DR
+[cee, cf4]  95-th(total  97-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 114-th(total 114-th) 	pm_w *0x4006a007 = 0x64, remains DR
+[cee, cf4]  96-th(total  98-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 115-th(total 115-th) 	pm_w *0x4006a007 = 0x65, remains DR
+[cee, cf4]  97-th(total  99-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 116-th(total 116-th) 	pm_w *0x4006a007 = 0x76, remains DR
+[cee, cf4]  98-th(total 100-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 117-th(total 117-th) 	pm_w *0x4006a007 = 0x65, remains DR
+[cee, cf4]  99-th(total 101-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 118-th(total 118-th) 	pm_w *0x4006a007 = 0x6c, remains DR
+[cee, cf4] 100-th(total 102-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 119-th(total 119-th) 	pm_w *0x4006a007 = 0x2d, remains DR
+[cee, cf4] 101-th(total 103-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 120-th(total 120-th) 	pm_w *0x4006a007 = 0x31, remains DR
+[cee, cf4] 102-th(total 104-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 121-th(total 121-th) 	pm_w *0x4006a007 = 0x35, remains DR
+[cee, cf4] 103-th(total 105-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 122-th(total 122-th) 	pm_w *0x4006a007 = 0x31, remains DR
+[cee, cf4] 104-th(total 106-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 123-th(total 123-th) 	pm_w *0x4006a007 = 0x36, remains DR
+[cee, cf4] 105-th(total 107-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 124-th(total 124-th) 	pm_w *0x4006a007 = 0x2d, remains DR
+[cee, cf4] 106-th(total 108-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 125-th(total 125-th) 	pm_w *0x4006a007 = 0x67, remains DR
+[cee, cf4] 107-th(total 109-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 126-th(total 126-th) 	pm_w *0x4006a007 = 0x33, remains DR
+[cee, cf4] 108-th(total 110-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 127-th(total 127-th) 	pm_w *0x4006a007 = 0x61, remains DR
+[cee, cf4] 109-th(total 111-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 128-th(total 128-th) 	pm_w *0x4006a007 = 0x32, remains DR
+[cee, cf4] 110-th(total 112-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 129-th(total 129-th) 	pm_w *0x4006a007 = 0x39, remains DR
+[cee, cf4] 111-th(total 113-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 130-th(total 130-th) 	pm_w *0x4006a007 = 0x64, remains DR
+[cee, cf4] 112-th(total 114-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 131-th(total 131-th) 	pm_w *0x4006a007 = 0x29, remains DR
+[cee, cf4] 113-th(total 115-th) 	pm_r *0x4006a004 gets 0x80, remains SR use_oth=0
+[cf4, cfc] 132-th(total 132-th) 	pm_w *0x4006a007 = 0xa, remains DR
+[100c, 1032] 114-th(total 116-th) 	pm_r *0x40048038 gets 0x3600, remains CR use_oth=0
+[100c, 1032] 133-th(total 133-th) 	pm_w *0x40048038 = 0x3600, remains CR
+[100c, 1032] 134-th(total 134-th) 	pm_w *0x4004c00c = 0x200, remains DR
+[100c, 1032] 115-th(total 117-th) 	pm_r *0x40048038 gets 0x3600, remains CR use_oth=0
+[100c, 1032] 135-th(total 135-th) 	pm_w *0x40048038 = 0x3600, remains CR
+[100c, 1032] 136-th(total 136-th) 	pm_w *0x4004c008 = 0x200, remains DR
+[100c, 1032] 116-th(total 118-th) 	pm_r *0x40048038 gets 0x3600, remains CR use_oth=0
+[100c, 1032] 137-th(total 137-th) 	pm_w *0x40048038 = 0x3600, remains CR
+[100c, 1032] 138-th(total 138-th) 	pm_w *0x4004c004 = 0x200, remains DR
+[1162, 117a] 117-th(total 119-th) 	pm_r *0x4004803c gets 0x20000000, remains CR use_oth=0
+Potential DMA Descriptor V1: base *0x40048000 p_A:*0x4004803c->*0x20001000 
+Pointer updated: address: 0x4004803c preval: 0x20000000 val: 0x20001000 
+[1162, 117a] 139-th(total 139-th) 	pm_w *0x4004803c = 0x20001000, remains CR
+[1162, 117a] 118-th(total 120-th) 	pm_r *0x4002c000 gets 0x803ffc01, remains CR use_oth=0
+[1162, 117a] 140-th(total 140-th) 	pm_w *0x4002c000 = 0x803fbc01, remains CR
+[1224, 1234] 141-th(total 141-th) 	pm_w *0x4002c000 = 0x803fbc01, remains CR
+[1224, 1234] 142-th(total 142-th) 	pm_w *0x4002c030 = 0x0, remains DR
+[1224, 1234] 119-th(total 121-th) 	pm_r *0x4002c02c gets 0x0, remains SR use_oth=0
+[1190, 11a6] 120-th(total 122-th) 	pm_r *0x4002c000 gets 0x803fbc01, remains CR use_oth=0
+[1190, 11a6] 143-th(total 143-th) 	pm_w *0x4002c000 = 0x803ffc01, remains CR
+[11b6, 11c6] 121-th(total 123-th) 	pm_r *0x4004803c gets 0x20001000, remains CR use_oth=0
+Potential DMA Descriptor V1: base *0x40048000 p_A:*0x4004803c->*0x20000000 
+Pointer updated: address: 0x4004803c preval: 0x20001000 val: 0x20000000 
+[11b6, 11c6] 144-th(total 144-th) 	pm_w *0x4004803c = 0x20000000, remains CR
+[1162, 117a] 122-th(total 124-th) 	pm_r *0x4004803c gets 0x20000000, remains CR use_oth=0
+Potential DMA Descriptor V1: base *0x40048000 p_A:*0x4004803c->*0x20001000 
+Pointer updated: address: 0x4004803c preval: 0x20000000 val: 0x20001000 
+[1162, 117a] 145-th(total 145-th) 	pm_w *0x4004803c = 0x20001000, remains CR
+[1162, 117a] 123-th(total 125-th) 	pm_r *0x4002c000 gets 0x803ffc01, remains CR use_oth=0
+[1162, 117a] 146-th(total 146-th) 	pm_w *0x4002c000 = 0x803fbc01, remains CR
+[1266, 128c] 124-th(total 126-th) 	pm_r *0x4002c000 gets 0x803fbc01, remains CR use_oth=0
+[1266, 128c] 147-th(total 147-th) 	pm_w *0x4002c000 = 0x803fbc00, remains CR
+[1266, 128c] 148-th(total 148-th) 	pm_w *0x4002c00c = 0x38024442, remains DR
+[1348, 1358] 125-th(total 127-th) 	pm_r *0x4002c02c gets 0x2000000, remains SR use_oth=0
+[1358, 1364] 149-th(total 149-th) 	pm_w *0x4002c034 = 0x61, remains DR
+[1358, 1364] 126-th(total 128-th) 	pm_r *0x4002c02c gets 0x10, remains SR use_oth=0
+[1364, 136c] 127-th(total 129-th) 	pm_r *0x4002c038 gets 0x0, remains DR use_oth=0
+[1298, 12b0] 128-th(total 130-th) 	pm_r *0x4002c000 gets 0x803fbc00, remains CR use_oth=0
+[1298, 12b0] 150-th(total 150-th) 	pm_w *0x4002c000 = 0x803fbc01, remains CR
+[1298, 12b0] 129-th(total 131-th) 	pm_r *0x4002c02c gets 0x0, remains SR use_oth=0
+[1190, 11a6] 130-th(total 132-th) 	pm_r *0x4002c000 gets 0x803fbc01, remains CR use_oth=0
+[1190, 11a6] 151-th(total 151-th) 	pm_w *0x4002c000 = 0x803ffc01, remains CR
+[11b6, 11c6] 131-th(total 133-th) 	pm_r *0x4004803c gets 0x20001000, remains CR use_oth=0
+Potential DMA Descriptor V1: base *0x40048000 p_A:*0x4004803c->*0x20000000 
+Pointer updated: address: 0x4004803c preval: 0x20001000 val: 0x20000000 
+[11b6, 11c6] 152-th(total 152-th) 	pm_w *0x4004803c = 0x20000000, remains CR
+Taking exception 5 [IRQ]
+	bbl_cnt 30000: Acknowledged IRQ 31
+[d00, d0a] 132-th(total 134-th) 	pm_r *0x4006a004 gets 0x20, remains SR use_oth=0
+[d0a, d14] 133-th(total 135-th) 	pm_r *0x4006a007 gets 0x0, remains DR use_oth=0
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 30004: EXCP/ISR exits
+Taking exception 5 [IRQ]
+	bbl_cnt 60000: Acknowledged IRQ 31
+[d00, d0a] 134-th(total 136-th) 	pm_r *0x4006a004 gets 0x20, remains SR use_oth=0
+[d0a, d14] 135-th(total 137-th) 	pm_r *0x4006a007 gets 0x0, remains DR use_oth=0
+Taking exception 8 [QEMU v7M exception exit]
+	bbl_cnt 60004: EXCP/ISR exits
+stage_termination
+

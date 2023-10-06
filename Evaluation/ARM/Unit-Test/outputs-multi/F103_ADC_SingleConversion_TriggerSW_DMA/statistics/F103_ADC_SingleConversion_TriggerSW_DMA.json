@@ -1,0 +1,65 @@
+{
+    "TRA": 25,
+    "CP": 19,
+    "ACC": 76.0,
+    "TRR": 19,
+    "TRRC": 17,
+    "TRRW": 2,
+    "ACCRR": 89.47368421052632,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40011000",
+            "0x4001100c",
+            "Port output data register (GPIOx_ODR) (x=A..G)  ",
+            "DR",
+            "CR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40012400",
+            "0x40012408",
+            "11.12.3 ADC control register 2 (ADC_CR2)  ",
+            "CR",
+            "C&SR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 8,
+    "NUMSRSITES": 8,
+    "SRSITES": [
+        "0x80004f0",
+        "0x8000682",
+        "0x800050a",
+        "0x8000666",
+        "0x8000690",
+        "0x80006a0",
+        "0x8000400",
+        "0x8000528"
+    ],
+    "INTERRUPTS": [
+        56,
+        34,
+        27,
+        15
+    ],
+    "NUMINTERRUPTS": 4
+}

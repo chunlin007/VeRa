@@ -1,0 +1,59 @@
+{
+    "TRA": 34,
+    "CP": 28,
+    "ACC": 82.35294117647058,
+    "TRR": 29,
+    "TRRC": 27,
+    "TRRW": 2,
+    "ACCRR": 93.10344827586206,
+    "MISSREGS": [],
+    "MISSCATS": [],
+    "MISCAT_READ": [
+        [
+            "Base address",
+            "Reg address",
+            "Reg name",
+            "Reg cat",
+            "Model Cat",
+            "Read",
+            "Write",
+            "Correct cat",
+            "Comments GT"
+        ],
+        [
+            "0x40000400",
+            "0x40000404",
+            "TIM1 and TIM8 control register 2 (TIMx_CR2)   ",
+            "CR",
+            "DR",
+            1,
+            1,
+            "NO",
+            ""
+        ],
+        [
+            "0x40012400",
+            "0x40012408",
+            "11.12.3 ADC control register 2 (ADC_CR2)  ",
+            "CR",
+            "C&SR",
+            1,
+            1,
+            "NO",
+            ""
+        ]
+    ],
+    "NUMPER": 7,
+    "NUMSRSITES": 5,
+    "SRSITES": [
+        "0x80020a2",
+        "0x8002220",
+        "0x80003d8",
+        "0x8000ac4",
+        "0x8000a8c"
+    ],
+    "INTERRUPTS": [
+        15
+    ],
+    "NUMINTERRUPTS": 1
+}
