@@ -68,6 +68,10 @@ if __name__ == "__main__":
 
     os.chdir(os.getenv("HOME"))
 
+    if os.path.exists(base) is True:
+        print(base + "is exists")
+        exit(0)
+
     for d in dirs:
         os.makedirs(base + "/" + d + "/" + run_num + "/inputs")
         os.makedirs(base + "/" + d + "/" + run_num + "/outputs")
