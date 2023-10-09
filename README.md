@@ -22,4 +22,23 @@ This is the repo for VeRa：Value Peripheral Register Values for  Fuzzing MCU Fi
 └── requirement.txt  # required libs
 
 # If you want to run test, just following the tips bellow:
-cd 
+
+# Build qemu
+cd p2im/qemu/src/qemu.git/  
+./quick-configure.sh
+
+# Unit Test
+## Test one of the firmware
+cd Evaluation/ARM/Units/
+./run.py <mcu_model> <firmware_elf> <output_path>
+For example, ./run.py f103 Firmware/Binaries-P2IM/ARDUINO-F103-ADC.elf outputs
+
+## Test all firmware 
+./runbatch.py
+
+# Test Realworld firmware
+cd Evaluation/ARM/Fuzzing/
+./CreateBaseDir.py -B /root/FuzzBase
+FIRMNAME=XXX make clean && FIRMNAME=XXX make run
+For example, FIRMNAME=Modbus make clean && FIRMNAME=Modbus make run
+
