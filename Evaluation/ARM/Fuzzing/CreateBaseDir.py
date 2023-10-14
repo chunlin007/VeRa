@@ -48,7 +48,10 @@ dirs =[
 	"Stepper-Motor-origin",
 	"Heat-Gun",
 	"Spectrometer",
-	"WinUSB"
+	"WinUSB",
+        "NRF52832-I2S",
+        "NRF52832-SPI-Master",
+        "NRF52832-Uart"
 ]
 
 
