@@ -25,9 +25,17 @@ This is the repo for VeRa：Value Peripheral Register Values for  Fuzzing MCU Fi
 
 # If you want to run test, just following the tips bellow:
 # Experiment settings
-Ubuntu 18.04 or Docker 
+Ubuntu 18.04
+# Docker 
+docker pull chunlin007/vera:1.0
+docker run --privileged=true -it -e LOCAL_USER_ID=`id -u $USER` -v "$PWD/projects":/projects --name vera f8c5f01e87bd /bin/bash
+exit
+docker start vera
+docker exec -it vera /bin/bash
 
-# Upadate submodule 
+# get vera
+cd /projects
+git clone https://github.com/chunlin007/VeRa.git
 git submodule init && git submodule update --recursive
 
 # Arm gcc toolchain
