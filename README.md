@@ -24,8 +24,8 @@ This is the repo for VeRa：Value Peripheral Register Values for  Fuzzing MCU Fi
 ```
 
 If you want to run test, just following the tips bellow:
-# Experiment settings
-Ubuntu 18.04
+# Experiment Environment
+Ubuntu 18.04 
 
 # Get vera
 ```
@@ -33,16 +33,12 @@ git clone https://github.com/chunlin007/VeRa.git
 git submodule init && git submodule update --recursive
 ```
 
-# Docker Version
+# Download arm gcc from Google disk
 ```
-docker pull chunlin007/vera:1.0
-docker run --privileged=true -it -e LOCAL_USER_ID=`id -u $USER` -v "./":/VeRa --name vera image_id /bin/bash
-exit
-docker exec -it vera /bin/bash /VeRa
-```
-# Install dependency packets
-Download arm gcc from Google disk
 https://drive.google.com/file/d/1TsgGBWBsb4kz6RxHKQnawTzmQ74URD8t/view?usp=drive_link
+```
+
+# Install dependency packets
 ```
 ./install-requirement.sh
 ```
@@ -62,10 +58,11 @@ cd p2im/afl && make
 ```
 cd Evaluation/ARM/Units && ./run.py <mcu_model> <firmware_elf> <output_path>
 For example, 
-`cd Evaluation/ARM/Units/ && ./run.py f103 Firmware/Binaries-P2IM/ARDUINO-F103-ADC.elf outputs
+cd Evaluation/ARM/Units/ && ./run.py f103 Firmware/Binaries-P2IM/ARDUINO-F103-ADC.elf outputs
 ```
 
-``## Test all firmware 
+## Test all firmware 
+```
 cd Evaluation/ARM/Units && ./runbatch.py
 ```
 
