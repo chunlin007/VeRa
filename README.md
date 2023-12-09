@@ -57,7 +57,9 @@ cd p2im/afl && make
 ## Test one of the firmware
 ```
 cd Evaluation/ARM/Units && ./run.py <mcu_model> <firmware_elf> <output_path>
+```
 For example, 
+```
 cd Evaluation/ARM/Units/ && ./run.py f103 Firmware/Binaries-P2IM/ARDUINO-F103-ADC.elf outputs
 ```
 
@@ -69,5 +71,8 @@ cd Evaluation/ARM/Units && ./runbatch.py
 # Test Realworld firmware
 ```
 cd Evaluation/ARM/Fuzzing && ./CreateBaseDir.py -B FuzzBase && FIRMNAME=XXX make clean && FIRMNAME=XXX make run
-For example, FIRMNAME=Modbus make clean && FIRMNAME=Modbus make run
+```
+For example, 
+```
+FIRMNAME=Modbus make clean && FIRMNAME=Modbus make run
 ```
