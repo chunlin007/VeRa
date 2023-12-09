@@ -1,0 +1,32 @@
+--- qemu-6.2.0/linux-user/elfload.c   2021-12-14 20:42:02.000000000 +0000
++++ qemu-6.2.0/linux-user/elfload.c 2022-05-27 02:00:02.070488570 +0000
+@@ -32,6 +32,8 @@
+
+ #define ELF_OSABI   ELFOSABI_SYSV
+
++extern abi_ulong afl_entry_point, afl_start_code, afl_end_code;
++
+ /* from personality.h */
+
+ /*
+@@ -2811,6 +2813,8 @@
+     info->brk = 0;
+     info->elf_flags = ehdr->e_flags;
+
++    if (!afl_entry_point) afl_entry_point = info->entry;
++
+     prot_exec = PROT_EXEC;
+ #ifdef TARGET_AARCH64
+     /*
+@@ -2889,9 +2893,11 @@
+             if (elf_prot & PROT_EXEC) {
+                 if (vaddr < info->start_code) {
+                     info->start_code = vaddr;
++                    if (!afl_start_code) afl_start_code = vaddr;
+                 }
+                 if (vaddr_ef > info->end_code) {
+                     info->end_code = vaddr_ef;
++                    if (!afl_end_code) afl_end_code = vaddr_ef;
+                 }
+             }
+             if (elf_prot & PROT_WRITE) {
