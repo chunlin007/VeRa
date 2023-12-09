@@ -29,8 +29,7 @@ Ubuntu 18.04
 
 # Get vera
 ```
-git clone https://github.com/chunlin007/VeRa.git
-git submodule init && git submodule update --recursive
+git clone https://github.com/chunlin007/VeRa.git && cd VeRa
 ```
 
 # Download arm gcc from Google disk
