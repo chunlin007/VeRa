@@ -69,7 +69,8 @@ cd Evaluation/ARM/Units && ./runbatch.py
 
 # Test Realworld firmware
 ```
-cd Evaluation/ARM/Fuzzing && ./CreateBaseDir.py -B FuzzBase && FIRMNAME=XXX make clean && FIRMNAME=XXX make run
+cd Evaluation/ARM/Fuzzing && ./CreateBaseDir.py -B FuzzBase
+FIRMNAME=XXX make clean && FIRMNAME=XXX make run
 ```
 For example, 
 ```
