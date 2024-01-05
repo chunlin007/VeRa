@@ -26,7 +26,7 @@ Ubuntu Linux 18.04
 git clone https://github.com/chunlin007/VeRa.git && cd VeRa
 ```
 
-# Install Dependency Package
+# Install Dependency Packages
 ```shell
 ./install-requirements.sh
 ```
