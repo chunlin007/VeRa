@@ -43,7 +43,7 @@ cd p2im/afl && make
 
 # Unit Test
 ## Test one of the Firmware
-```
+```shell
 cd Evaluation/ARM/Units && ./run.py <mcu_model> <firmware_elf> <output_path>
 ```
 For example
