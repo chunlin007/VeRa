@@ -23,11 +23,6 @@ import argparse
 from argparse import Namespace
 from random import *
 
-def print_log(msg):
-    print("\n\n")
-    print(msg)
-    print("\n\n")
-
 # get the end addr of main function
 def get_main_end_addr():
     nm = os.path.dirname(cfg.objdump) + "/arm-none-eabi-nm"
@@ -47,7 +42,7 @@ def get_main_end_addr():
             return l.split(':')[0].strip(' ')
     print('')
 
-# firmware hang in while(1)
+# detect firmware hang in while(1)
 def detect_hang_mode1(lines, func1):
 
     line = ""
@@ -69,7 +64,7 @@ def detect_hang_mode1(lines, func1):
             return True
     return False
 
-# firmware hang in handle same operations in loop, such as blk led
+# detect: firmware hang in handle same operations in loop, such as blk led
 def detect_hang_mode2(lines, func1):
 
     list1 = []
@@ -155,50 +150,6 @@ def read_config(cfg_f):
     )
 
 
-#---------------------------DICE-Pro---------------------------
-
-def one_sr_input_gen1(sr_bits, one_cnt, one_name, prev_set_bit, set_bits):
-
-    one_sr = []
-    _base = 0
-    for _b in range(set_bits):
-        _base = _base | 1 << _b
-    for _off in range(0, sr_bits - set_bits + 1):
-        _val = _base << _off
-        _fname = "bit:%02d"%_off
-        for _bit in range(_off + 1, _off + set_bits):
-            _fname = _fname + "+%02d"%_bit
-        _fname = _fname + ","
-        one_sr.append((struct.pack(">I", _val), _fname.encode()))
-    return one_sr # [('\xXX\xXX\xXX\xXX', "bit:01+02,")]
-
-################### [ single use without one_ser ] #################
-# @sr_bits: the length of register
-# @set_bits: number of bits set in each input
-def input_f_writer1(sr_bits, sr_num, sr_dir, content, fname, set_bits):
-
-    arr = []
-    _base = 0
-    for _b in range(set_bits):
-        _base = _base | 1 << _b
-    for _off in range(0, sr_bits - set_bits + 1):
-        _val = _base << _off
-        _fname = "bit:%02d"%_off
-        for _bit in range(_off + 1, _off + set_bits):
-            _fname = _fname + "+%02d"%_bit
-        with open("%s/%s" % (sr_dir, _fname), "wb") as f:
-            #print("fname=%s,_val=%d"%(_fname, _val))
-            #print(struct.pack(">I", _val))
-            f.write(struct.pack(">I", _val))
-        arr.append(_fname)
-
-    return arr # flat array of filenames
-
-
-#---------------------------DICE-Pro---------------------------
-
-#---------------------------DICE-origin---------------------------
-
 def one_sr_input_gen(sr_bits, one_cnt, one_name, prev_set_bit, set_bits):
     # generate input for one sr
     # @set_bits: number of bits set in each input
@@ -213,16 +164,11 @@ def one_sr_input_gen(sr_bits, one_cnt, one_name, prev_set_bit, set_bits):
       one_sr.append((struct.pack(">I",one_cnt), ("bit:%s," % one_name.decode()[:-1]).encode()))
     return one_sr # [('\xXX\xXX\xXX\xXX', "bit:01+02,")]
 
-#---------------------------DICE-origin---------------------------
-
 def input_f_writer(sr_bits, sr_num, sr_dir, content, fname, set_bits):
     arr = []
     if sr_num >= 1:
         # gen input for 1 SR setting @set_bits bits, and add a baseline
-        if open_multi_status == 2:
-            one_sr = one_sr_input_gen1(sr_bits, 0, b"", sr_bits, set_bits)
-        else:
-            one_sr = one_sr_input_gen(sr_bits, 0, b"", sr_bits, set_bits)
+        one_sr = one_sr_input_gen(sr_bits, 0, b"", sr_bits, set_bits)
         one_sr.append((struct.pack(">I",0), ("bit:%s," % ("-1+"*set_bits)[:-1]).encode()))
 
         for (one_cnt, one_name) in one_sr:
@@ -240,10 +186,7 @@ def exec_trace_sig(sr_bits, sr_num, trace_dir, fname, set_bits):
     dic = {}
     if sr_num >= 1:
         # gen input for 1 SR setting @set_bits bits, and add a baseline
-        if open_multi_status == 2:
-            one_sr = one_sr_input_gen1(sr_bits, 0, b"", sr_bits, set_bits)
-        else:
-            one_sr = one_sr_input_gen(sr_bits, 0, b"", sr_bits, set_bits)
+        one_sr = one_sr_input_gen(sr_bits, 0, b"", sr_bits, set_bits)
         one_sr.append((struct.pack(">I", 0), ("bit:%s," % ("-1+" * set_bits)[:-1]).encode()))
 
         for (one_cnt, one_name) in one_sr:
@@ -276,7 +219,6 @@ def exec_trace_sig(sr_bits, sr_num, trace_dir, fname, set_bits):
     # dic = {"AB+CD":{nested dic}, "sig":sig, "summary":{sig:[[bits],]}}
     return dic
 
-#(srr_info.sr_num, trace_sig, set_bits)
 def driver_checked_bits(sr_num, trace_sig, set_bits, is_asyn_func, sr_result_hang, bit_s = "", check_mode = False):
     arr = []
     if sr_num >= 1:
@@ -315,9 +257,6 @@ def driver_checked_bits(sr_num, trace_sig, set_bits, is_asyn_func, sr_result_han
                             exist_hang = False
                             break
                             
-                    #if sr_result_hang[iname] is True:
-                    #    del cnt[cnt_del]
-                    #    break
                     if exist_hang is True:
                         del cnt[cnt_del]
                         break
@@ -430,11 +369,6 @@ def model_stat(model):
 
 def exit_callback():
     # for running P2IM test cases for DICE
-    '''
-    print("exit_callback\n\n")
-    model1=json.load(open(last_peri_model))
-    json.dump(model1, sys.stdout, sort_keys=True, indent=4)
-    '''
     color_print(last_cmd, "red")
     with open("dma_trace", "w") as f:
          subprocess.call(last_cmd, stdout=f, stderr=f)
@@ -540,12 +474,6 @@ def handle_sr_cr_del(prereq, rca):
       # XXX may not complete because the new path may not exists
       v_upd = {}
       for srr_site, v1 in list(v.items()):
-        ''' 
-        if v1["sr_num"] == 1:
-          # TODO multi-SR
-          if v1["sr_idx"][0] not in rca["sr_del"]:
-            v_upd[srr_site] = v1
-        '''
         v2 = {
               "never_satisfy" : [],
               "other" : [],
@@ -653,20 +581,12 @@ def stage1_4():
         for i in range(0, len(new)):
           # don't consider cr_value when cmp two reg cat
           old[i].pop("cr_value", None)
-          if open_multi_status:
-            #old[i].pop("evals", None)
-            #old[i].pop("addr", None)
-            #old[i].pop("num_eval", None)
-            old[i].pop("result_hang_in_while", None)
-            old[i].pop("hang_r_idx_in_bbl", None)
+          old[i].pop("result_hang_in_while", None)
+          old[i].pop("hang_r_idx_in_bbl", None)
           new_i = dict(new[i]) # copy new[i] to avoid del cr_val in orig copy
           new_i.pop("cr_value", None)
-          if open_multi_status:
-            #new_i.pop("evals", None)
-            #new_i.pop("addr", None)
-            #new_i.pop("num_eval", None)
-            new_i.pop("result_hang_in_while", None)
-            new_i.pop("hang_r_idx_in_bbl", None)
+          new_i.pop("result_hang_in_while", None)
+          new_i.pop("hang_r_idx_in_bbl", None)
           if cmp(old[i], new_i) != 0: # not equal
             rc_diff[i] = {"old": old[i], "new": [new_i]}
 
@@ -918,10 +838,6 @@ def stage2(srr_info, sr_dir, fname_l, inv_num=1, two_ret=0):
         if srr_info.is_asyn_func:
         	sr_result_hang[fname] = sr_result_hang_func(trace_f, srr_info.srr_func)
     print(' ')
-    '''
-    print("sr_result_hang:")
-    print(sr_result_hang)
-    '''
     if srr_info.is_asyn_func:
         print("sr_result_hang:")
         print(sr_result_hang)
@@ -975,17 +891,10 @@ def stage2_2(srr_info, s2_dir, fname_l, inv_num=1):
                 # don't consider cr_value when cmp two reg cat
                 old[i].pop("cr_value", None)
                 new[i].pop("cr_value", None)
-                if open_multi_status:
-                    #old[i].pop("evals", None)
-                    #old[i].pop("addr", None)
-                    #old[i].pop("num_eval", None)
-                    old[i].pop("result_hang_in_while", None)
-                    old[i].pop("hang_r_idx_in_bbl", None)
-                    #new[i].pop("evals", None)
-                    #new[i].pop("addr", None)
-                    #new[i].pop("num_eval", None)
-                    new[i].pop("result_hang_in_while", None)
-                    new[i].pop("hang_r_idx_in_bbl", None)
+                old[i].pop("result_hang_in_while", None)
+                old[i].pop("hang_r_idx_in_bbl", None)
+                new[i].pop("result_hang_in_while", None)
+                new[i].pop("hang_r_idx_in_bbl", None)
                 if cmp(old[i], new[i]) != 0: # not equal
                     if i not in rc_diff:
                         new[i]["fname"] = [fname]
@@ -1077,9 +986,6 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
     global model_if, model_of
     # global depth, stage_str
 
-    #stage = 2.5
-    #model_if = model_of
-    #model_of = "model-depth:%s,stage:%.1f.json" % (depth,stage)
     #color_print("depth %d, stage: %s" % (depth, stage_str[stage]), "blue")
     print("stage2_5 inv_num = %d" % inv_num)
 
@@ -1132,15 +1038,6 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
             open(reg_acc_f).read())
 
         reg_acc_dic[fname] = reg_acc_l
-        '''
-        if [reg_acc_l] not in reg_trace_dic:
-            reg_trace_dic.append([reg_acc_l])
-            reg_acc_dic[fname] = reg_acc_l
-        else:
-            fname_l2.remove(fname)
-            continue
-        '''
-        #reg_acc_dic[fname] = reg_acc_l
         
         # bbl_cov_dic = {fname: bbl_cov}
         trace_f = "%s/trace-%s" % (s2_dir,fname)
@@ -1160,7 +1057,6 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
     color_print("check_bcs")
     print(checked_bcs)
 
-#---------------------------------Situation 1----------------------
     # 0x23: explore value is invalid under limit try times  
     # 0x21: explore value is valid and passed the bbl which consumes it
     # infer bit functionality per term_cond
@@ -1181,7 +1077,6 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
             prereq["satisfy"] += term_cond[0x21]
 
 
-#---------------------------------Situation 2----------------------
     if set(term_cond.keys()) == set([0x23]):
           color_print("hang only")
           '''
@@ -1228,38 +1123,7 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
               print(prereq)
 
           elif len(term_srr_site) == 1:
-              '''
-              # case 2,decided to set/clear the checked bit by its functionality
-              # figure out the input that covers more new bbl
-              # cov = []
-              most_new_bbl_f = ""
-              most_len = 0
-              for fname in fname_l2:
-                # summarize new bbl covered
-                new_cov = []
-                for k in bbl_cov_dic[fname]:
-                    if k not in bbl_cov:
-                        new_cov.append(k)
-                if len(new_cov) > most_len:
-                    most_len = len(new_cov)
-                    most_new_bbl_f = fname
-              #  cov.append(new_cov)
-              #color_print("new bbl covered:")
-              #print(cov)
-              #fname_idx = cov.index(max(cov))
-              #most_new_bbl_f = fname_l2[fname_idx]
-              #color_print("most_new_bbl_f:")
-              #print(most_new_bbl_f)
-              
-              reg_acc_l = [(ra[1], ra[2]) for ra in reg_acc_dic[most_new_bbl_f]]
-              if ('2', 'w') in reg_acc_l:
-                # it is error bits since we see SR write
-                # TODO other patterns to identify error bits
-                prereq["never_satisfy"].append(fname)
-              else:
-                prereq["satisfy"].append(fname)
-              '''
-		      # Chunlin: Try to cover all fnames
+	      # Chunlin: Try to cover all fnames
               for fname in fname_l2:
                   reg_acc_l = [(ra[1], ra[2]) for ra in reg_acc_dic[fname]]
                   if ('2', 'w') in reg_acc_l:
@@ -1269,10 +1133,8 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
                       prereq["satisfy"].append(fname)
           else:
               color_print("Unhandled cases for hang + func_ret!", "red")
-              # TODO Handle multi-bits:
 
 
-#---------------------------------Situation 3----------------------
     if set(term_cond.keys()) == set([0x21]):
         color_print("func_ret only")
         sr_num_i = 0
@@ -1348,7 +1210,6 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
                 prereq["satisfy"].extend(bit_func["unknown"])
             prereq["never_satisfy"].extend(bit_func["error"])
 
-#---------------------------------Common----------------------
     # add all useful sr value to satisfy
     if srr_info.is_asyn_func:
         for fname in fname_l2:
@@ -1467,9 +1328,6 @@ def stage3(prereq_list, sig_list, srr_info, inv_num=1):
     oth_sig = []
 	# Merge prereq_list 
     for i in range(0, len(prereq_list)):
-        #prereq["never_satisfy"] += prereq_list[i]["never_satisfy"]
-        #prereq["other"] += prereq_list[i]["other"]
-        #prereq["satisfy"] += prereq_list[i]["satisfy"]
         sat = prereq_list[i]["satisfy"]
         nsat = prereq_list[i]["never_satisfy"]
         oth = prereq_list[i]["other"]
@@ -1502,7 +1360,7 @@ def stage3(prereq_list, sig_list, srr_info, inv_num=1):
         else:
             srr_site_sr_num[base] += 1
         srr_site_sr_idx[base].append(srr_info.sr_idx[t])
-		# modify hang_in_while flag
+	# modify hang_in_while flag
         model["model"][base]["regs"][srr_info.sr_idx[t]]["result_hang_in_while"] = 0
         t += 1
 
@@ -1580,8 +1438,6 @@ def stage3(prereq_list, sig_list, srr_info, inv_num=1):
 
 
 if __name__ == "__main__":
-    open_multi_status = 1
-    need_log = 1
     start_time = time.time()
     run_from_afl = "0"
     parser = argparse.ArgumentParser(description="Model Extraction Tool")
@@ -1647,10 +1503,6 @@ if __name__ == "__main__":
     #end addr of end
     eaddr = get_main_end_addr()
 
-    #print("cmd to launch this script: %s\n" % ' '.join(sys.argv))
-    #print("args after processing: %s\n" % args)
-    #print("configurations after processing: %s\n" % cfg)
-
     signal.signal(signal.SIGTERM, sig_handler)
     atexit.register(exit_callback)
 
@@ -1710,7 +1562,7 @@ if __name__ == "__main__":
         inv_num = 1
         prereq_list = []
         sig_list = []
-        # max_bit can set by user in cfg file
+        # Explore more than three bits will waste too time, just close it
         '''
         max_bit = 4
         for inv_num in range(1, max_bit):
@@ -1733,15 +1585,6 @@ if __name__ == "__main__":
         if set(term_cond0.values()) == set([0x21]):
             check_mode = True
         (checked_bcs, trace_sig) = stage2_4(srr_info, s2_dir, inv_num, sr_result_hang, check_mode)
-        '''
-        # when handle asynchronized func and there is 1/33 sr jump from while just chose it
-        cnt_true = 0
-        for item in sr_result_hang.values():
-            if item is False:
-                break
-            cnt_true += 1
-        !(srr_info.is_asyn_func and cnt_true == 32)
-        '''
         if checked_bcs == [[[-1]]]: # TODO support multi SR
           color_print("No bits are checked! Run stage 2 again with "
             "workers terminates after TWO func_ret or 'timeout'", "yellow")
@@ -1769,8 +1612,6 @@ if __name__ == "__main__":
               for base in srr_info.peri_ba:
                 model = json.load(open(model_of))
                 peri = model["model"][base]
-                #print("peri")
-                #json.dump(peri, sys.stdout, indent=4)
                 reg = peri["regs"][srr_info.sr_idx[indexi]] 
                 if "sr_locked" in reg and not reg["sr_locked"]:
                   sr_locked_flag = True
