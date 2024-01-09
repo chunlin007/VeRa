@@ -279,9 +279,6 @@ if __name__ == "__main__":
         ]
 
        
-    #if 'none' not in cfg.addrs_file:
-    #   cmd_afl += ["-address-file", cfg.addrs_file]
-
     print("cmd_afl: %s\n" % ' '.join(cmd_afl))
 
     if not args.no_fuzzing:
