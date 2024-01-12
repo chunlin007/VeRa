@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+
+'''
+   DICE - script to create a working base folder for fuzzing
+   ------------------------------------------------------
+
+   Copyright (C) 2019-2020 RiS3 Lab
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at:
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+'''
+
+import subprocess,sys,os,json,logging,shutil,signal,time
+
+import configparser
+import argparse
+from argparse import Namespace
+from CreateSeedInput import Create
+
+dirs =[
+        # P2IM
+        "Gateway",
+	"CNC",
+	"Console",
+	"Heat-Press",
+	"Reflow-Oven",
+	"Robot",
+	"Steering-Control",
+        "PLC",
+	"Drone",
+	"Soldering-Iron",
+        # DICE
+	"Soldering-Station",
+	"Oscilloscope",
+	"MIDI-Synthesizer",
+	"Stepper-Motor",
+        "GPS-Receiver",
+	"Guitar-Pedal",
+	"Modbus",
+	"Modbus-Redzones",
+        # VeRa
+	"MIDI-Synthesizer-origin",
+	"Soldering-Station-origin",
+	"Stepper-Motor-origin",
+	"Heat-Gun",
+	"Spectrometer",
+	"WinUSB",
+        "NRF52832-I2S",
+        "NRF52832-SPI-Master",
+        "NRF52832-Uart"
+]
+
+
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Helper script to launch fuzzer")
+    parser.add_argument("-R","--run-num", dest="run", default="1.0",
+        help="fuzzing run number")
+    parser.add_argument("-B", "--base", dest="base", default="FuzzBase",
+        help="base dir for fuzzing ")
+
+    args = parser.parse_args()
+
+    base = args.base
+    run_num = args.run
+
+    os.chdir(os.getenv("HOME"))
+
+    if os.path.exists(base) is True:
+        print(base + "is exists")
+        exit(0)
+
+    for d in dirs:
+        os.makedirs(base + "/" + d + "/" + run_num + "/inputs")
+        os.makedirs(base + "/" + d + "/" + run_num + "/outputs")
+        Create(base + "/" + d + "/" + run_num + "/inputs/input.data")

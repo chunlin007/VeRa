@@ -1,0 +1,35 @@
+--- qemu-6.2.0/accel/tcg/cpu-exec.c   2021-12-14 20:42:02.000000000 +0000
++++ qemu-6.2.0/accel/tcg/cpu-exec.c 2022-05-27 02:18:26.990821611 +0000
+@@ -46,6 +46,7 @@
+ #include "tb-hash.h"
+ #include "tb-context.h"
+ #include "internal.h"
++#include "../patches/afl-qemu-cpu-inl.h"
+
+ /* -icount align implementation. */
+
+@@ -351,6 +352,8 @@
+     TranslationBlock *last_tb;
+     const void *tb_ptr = itb->tc.ptr;
+
++    AFL_QEMU_CPU_SNIPPET2;
++
+     log_cpu_exec(itb->pc, cpu, itb);
+
+     qemu_thread_jit_execute();
+@@ -452,6 +455,7 @@
+         if (tb == NULL) {
+             mmap_lock();
+             tb = tb_gen_code(cpu, pc, cs_base, flags, cflags);
++            AFL_QEMU_CPU_SNIPPET1;
+             mmap_unlock();
+         }
+
+@@ -974,6 +978,7 @@
+             if (tb == NULL) {
+                 mmap_lock();
+                 tb = tb_gen_code(cpu, pc, cs_base, flags, cflags);
++                AFL_QEMU_CPU_SNIPPET1;
+                 mmap_unlock();
+                 /*
+                  * We add the TB in the virtual pc hash table
