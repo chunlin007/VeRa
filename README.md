@@ -20,7 +20,7 @@ This is the repo for our paper: [Value Peripheral Register Values for Fuzzing MC
 If you want to run test, just follow the tips below:
 
 # Experiment Environment
-Ubuntu Linux 18.04 (test) 
+Ubuntu Linux 18.04 (tested) 
 
 # Get VeRa
 ```shell
