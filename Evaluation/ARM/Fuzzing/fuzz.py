@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 '''
-   P2IM-DICE - script to orchestrate the fuzzing campaign
+   P2IM - script to orchestrate the fuzzing campaign
    ------------------------------------------------------
 
    Copyright (C) 2019-2020 RiS3 Lab

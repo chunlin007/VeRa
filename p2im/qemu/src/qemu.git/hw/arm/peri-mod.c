@@ -82,7 +82,7 @@ target_ulong get_status_val(pm_Event *e, bool is_satisfy) {
 }
 
 volatile bool using_other_status = false;
-// events manager
+// vera: events manager
 target_ulong pm_SR_read(pm_Event *e, pm_MMIORegister *reg) {
 	
     target_ulong ret_val = 0;
@@ -177,7 +177,7 @@ inline bool __attribute__((unused)) is_fac1_sat_func(void)
 	return ret;
 }
 
-// Provide right val for firmware
+// vera: Provide right val for firmware
 target_ulong pm_CR_read(pm_MMIORegister *reg) 
 {
 	target_ulong ret_val = 0;
@@ -639,7 +639,7 @@ no_evals_load:
 
 #ifdef __OPEN_MULTI_STATUS__
 #ifdef __USING_OTHER_STATUS__
-            // other
+            // vera: other
             if(!json_is_array(jother)) {
               fprintf(stderr, "error: other is not an array\n");
               json_decref(root);

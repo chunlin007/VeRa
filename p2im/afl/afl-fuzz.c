@@ -875,6 +875,8 @@ EXP_ST void write_bitmap(void) {
 
 }
 
+// vera: calculate the information of basic blocks executed 
+// during fuzzing
 EXP_ST void write_bitmap_bbl(void) {
 
   u8* fname;
@@ -903,6 +905,7 @@ char *get_date_time() {
 	return nowtime;
 }
 
+// vera: debug fuction
 EXP_ST void write_bblcnt_log(int cnt1) {
 
   u8* fname;
@@ -1013,6 +1016,7 @@ static inline u8 has_new_bits(u8* virgin_map) {
 
 }
 
+// vera: update bitmap of basic blocks
 static inline u32 update_bitmap_bbl() {
 
 #ifdef WORD_SIZE_64

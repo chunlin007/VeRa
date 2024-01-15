@@ -1,7 +1,19 @@
 #! /bin/bash
 
-# Chunlin:
-#	Locate the blocks which contain the illegal operation according to the crash seeds
+<<EOF
+   VeRa - script to locate the blocks which contain the illegal operation according to the crash seeds
+   ------------------------------------------------------
+
+   Copyright (C) 2022-2023 TSIS Lab
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at:
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+EOF
+# 
 #
 
 # Auto load configuration from the XXX.cfg

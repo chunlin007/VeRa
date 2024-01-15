@@ -23,7 +23,7 @@ import argparse
 from argparse import Namespace
 from random import *
 
-# get the end addr of main function
+# vera: get the end addr of main function
 def get_main_end_addr():
     nm = os.path.dirname(cfg.objdump) + "/arm-none-eabi-nm"
     cmd1 = nm + " -n " + cfg.img + " | grep -w '\w\smain' | " + "awk '{print $1}'"
@@ -42,7 +42,7 @@ def get_main_end_addr():
             return l.split(':')[0].strip(' ')
     print('')
 
-# detect firmware hang in while(1)
+# vera: detect firmware hang in while(1)
 def detect_hang_mode1(lines, func1):
 
     line = ""
@@ -64,7 +64,7 @@ def detect_hang_mode1(lines, func1):
             return True
     return False
 
-# detect: firmware hang in handle same operations in loop, such as blk led
+# vera: detect firmware hang in handle same operations in loop, such as blk led
 def detect_hang_mode2(lines, func1):
 
     list1 = []
@@ -96,7 +96,7 @@ def detect_hang_mode2(lines, func1):
                     break;
     return False
 
-# judge if the sr value cause the firmware hang in while according to trace file
+# vera: judge if the sr value cause the firmware hang in while according to trace file
 def sr_result_hang_func(filename, func1):
 
     if os.path.exists(filename):
@@ -110,7 +110,6 @@ def sr_result_hang_func(filename, func1):
         else:
             return False
     return False
-
 
 def cmp(a, b):
     r = 0 if a.__eq__(b) else 1
@@ -1308,9 +1307,8 @@ def stage2_5(srr_info, s2_dir, term_cond0, checked_bcs, trace_sig, inv_num=1):
     return prereq, prereq_sig
 
 
-
+# vera: erase duplicate prereq item and dump them into file
 def stage3(prereq_list, sig_list, srr_info, inv_num=1):
-    # erase duplicate prereq item and dump then into file
 
     global model_if, model_of
     print("stage3")
@@ -1521,6 +1519,7 @@ if __name__ == "__main__":
         2.2: "identify and handle register category changes during SR_R_EXPLORE",
         2.4: "identify bits checked by driver at this srr",
         2.5: "infer functionality of each checked bit",
+        3.0: "erase duplicate prereq item and dump them into file ",
     }
 
 	# add qemu.log just for test
@@ -1562,7 +1561,7 @@ if __name__ == "__main__":
         inv_num = 1
         prereq_list = []
         sig_list = []
-        # Explore more than three bits will waste too time, just close it
+        # vera: Explore more than three bits will waste too time, just close it
         '''
         max_bit = 4
         for inv_num in range(1, max_bit):

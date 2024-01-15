@@ -1,4 +1,4 @@
-
+# Script to easy the use of vera
 FUZZROOT ?= ~/FuzzBase
 FIRMNAME ?= Modbus
 RUNNUM ?= 1.0

@@ -1,6 +1,6 @@
 #! /bin/bash
 
-#修改configure:2339行，增加-ljansson
+# Build Qemu
 
 if [ -e build ]
 then

@@ -338,6 +338,7 @@ static inline target_ulong aflHash(target_ulong cur_loc)
   return h;
 }
 
+// vera:
 static inline target_ulong aflHash_bbl(target_ulong addr1, target_ulong addr2)
 {
   if(!aflStart)
