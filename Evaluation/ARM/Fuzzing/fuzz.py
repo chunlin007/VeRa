@@ -160,7 +160,7 @@ if __name__ == "__main__":
         f.write("retry_num   = 3\n")
         f.write("peri_addr_range = %d\n" % addr_range[cfg.mcu])
         f.write("objdump     = %s\n" % objdump_path)
-        f.write("log_file    = me-multi.log\n")
+        f.write("log_file    = me-vera.log\n")
 
     # try our best to extract model w/o input
     color_print("try our best to extract model w/o input", "blue")
