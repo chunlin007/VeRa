@@ -37,7 +37,7 @@ ground_truth_f = {"f103": "STM32F103-GroundTruth.csv", "f429": "STM32F429-Ground
 if len(sys.argv) == 4:
 
     runpath = getcwd()
-    mi_path = runpath + "/../Utilities/me.py"
+    mi_path = runpath + "/../Utilities/me-vera.py"
 
     try:
        objdump_path =  subprocess.check_output(['which','arm-none-eabi-objdump']).decode()[:-1]

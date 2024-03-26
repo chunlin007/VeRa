@@ -49,12 +49,12 @@ cd Evaluation/ARM/Units && ./run.py <mcu_model> <firmware_elf> <output_path>
 ```
 For example
 ```shell
-cd Evaluation/ARM/Units/ && ./run.py f103 Firmware/Binaries-P2IM/ARDUINO-F103-ADC.elf outputs
+cd Evaluation/ARM/Unit-Test && ./run.py f103 Firmware/Binaries-P2IM/ARDUINO-F103-ADC.elf outputs
 ```
 
 ## Test All Firmware 
 ```shell
-cd Evaluation/ARM/Units && ./runbatch.py
+cd Evaluation/ARM/Unit-Test && ./runbatch.py
 ```
 
 # Test Realworld Firmware
