@@ -3,9 +3,9 @@ This is the repo for our paper: [Value Peripheral Register Values for Fuzzing MC
 
 ```
 .
-├── DICE-Evaluation 
+├── Evaluation 
 │   └── ARM 
-│       ├── DICE-P2IM-Utilities           # Helper scripts written in python.
+│       ├── Utilities                     # Helper scripts written in python.
 │       ├── Fuzzing                       # Working directory for realworld firmware. 
 │       └── Unit-Test                     # Working directory for unit-test firmware.
 ├── p2im 
